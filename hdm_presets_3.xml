@@ -105,7 +105,7 @@
 			<combo key="camp_type" text="Type de camps" values="camp,location,settlement,urban_internally_displaced_persons" display_values="camp,emplacement,implantation,deplaces_internes_urbains"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-			<text key="operator id" text="Operator ID"/>
+			<text key="operator_id" text="Operator ID"/>
 			<text key="contact_person" text="contact person"/>
 			<text key="phonebusiness" text="Phone - Business"/>
 			<text key="phoneemergency" text="Phone - Emergency"/>
@@ -173,7 +173,7 @@
 			<combo key="school_ht_prescolaire" text="Cycle Prescolaire" values="yes"/>
 			<combo key="school_ht_fondamental_1er_et_2e_cycle" text="Fondamental 1er et 2e cycle" values="yes"/>
 			<combo key="school_ht_fondamental_3e_cycle_et_Secondaire" text="Fondamental 3e cycle et Secondaire" values="yes"/>			
-			<text key="operator id" text="Operator ID"/>
+			<text key="operator_id" text="Operator ID"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
 			<text key="phonebusiness" text="* Phone - Business"/>
@@ -357,7 +357,7 @@
        			<combo key="amenity" text="amenity" values="shelter" display_values="Abri"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-      			<text key="operator id" text="Operator ID"/>
+      			<text key="operator_id" text="Operator ID"/>
       			<text key="phonebusiness" text="* Phone - Business"/>
       			<text key="email" text="Email"/>
       			<text key="fax:" text="Fax"/>
@@ -425,7 +425,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-				<text key="operator id" text="Identifiant d'operateur"/>
+				<text key="operator_id" text="Identifiant d'operateur"/>
 				<text key="phonebusiness" text="* Telephone commercial"/>
 				<text key="email" text="Email"/>
   	        		<combo key="program_aquatab" text="* Integre au programme Aquatab : approvisionne en tablettes de purification d'eau" values="yes"/>
@@ -449,7 +449,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
   	        		<combo key="program_aquatab" text="* Integre au programme Aquatab : approvisionne en tablettes de purification d'eau" values="yes"/>
@@ -474,7 +474,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
   	        		<combo key="program_aquatab" text="* Integre au programme Aquatab : approvisionne en tablettes de purification d'eau" values="yes"/>
@@ -499,7 +499,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
   	        		<combo key="program_aquatab" text="* Integre au programme Aquatab : approvisionne en tablettes de purification d'eau" values="yes"/>
@@ -524,7 +524,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
   	        		<combo key="program_aquatab" text="* Integre au programme Aquatab : approvisionne en tablettes de purification d'eau" values="yes"/>
@@ -549,7 +549,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
   	        		<combo key="program_aquatab" text="* Integre au programme Aquatab : approvisionne en tablettes de purification d'eau" values="yes"/>
@@ -585,7 +585,7 @@
         			<combo key="shop_aquatab" text="* Point de vente d'aquatab (tablettes de purification d'eau)" values="yes" display_values="yes"/>
 				<combo key="operational_status" text="* Statut Operationnel" values="open,restricted,closed,unspecified" display_values="ouvert,restreint,ferme,non precise"/>
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
-				<text key="operator id" text="Identifiant de l'operateur"/>
+				<text key="operator_id" text="Identifiant de l'operateur"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
 				<text key="phonebusiness" text="* Telephone commercial"/>
@@ -609,17 +609,17 @@
 			<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-			<text key="operator id" text="Identifiant de l'operateur"/>
+			<text key="operator_id" text="Identifiant de l'operateur"/>
 			<text key="phonebusiness" text="* Telephone commercial"/>
 			<text key="email" text="Email"/>
       			<text key="operator_uninstallation" text="* Operateur responsable de la desinstallation"/>
       			<combo key="operator_type" text="Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-      			<text key="operator id" text="Identifiant de l'operateur"/>
+      			<text key="operator_id" text="Identifiant de l'operateur"/>
 			<text key="phonebusiness" text="* Telephone commercial"/>
 			<text key="email" text="Email"/>
 			<text key="operator_emptying" text="* Operateur responsable de la vidange"/>
       			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-      			<text key="operator id" text="Identifiant de l'operateur"/>
+      			<text key="operator_id" text="Identifiant de l'operateur"/>
 			<text key="phonebusiness" text="* Telephone commercial"/>
 			<text key="email" text="Email"/>
       			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -660,7 +660,7 @@
 			<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-      			<text key="operator id" text="Identifiant de l'operateur"/>
+      			<text key="operator_id" text="Identifiant de l'operateur"/>
       			<text key="phonebusiness" text="* Telephone commercial"/>
       			<text key="email" text="Email"/>
        			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -679,7 +679,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
 				<text key="phonebusiness" text="* Telephone commercial"/>
 				<text key="email" text="Email"/>
  	     			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -697,7 +697,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
  	     			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -715,7 +715,7 @@
 				<combo key="operational_status_quality" text="Qualite de l'Information sur le statut operationnel" values="reported,confirmed,unspecified" display_values="rapporte,confirmer,non precise"/>
 				<text key="operator" text="* Operateur"/>
 				<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        			<text key="operator id" text="Identifiant d'operateur"/>
+        			<text key="operator_id" text="Identifiant d'operateur"/>
         			<text key="phonebusiness" text="* Telephone commercial"/>
         			<text key="email" text="Email"/>
       				<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -973,7 +973,7 @@
         		<combo key="Operational_status" text="Statut operationnel" values="open,restricted,closed,unspecified" display_values="ouvert,restreint,ferme,non precise"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        		<text key="operator id" text="Identifiant d'operateur"/>
+        		<text key="operator_id" text="Identifiant d'operateur"/>
         		<text key="phonebusiness" text="* Telephone commercial"/>
         		<text key="email" text="Email"/>
       			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -990,7 +990,7 @@
         		<combo key="Operational_status" text="Statut operationnel" values="open,restricted,closed,unspecified" display_values="ouvert,restreint,ferme,non precise"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        		<text key="operator id" text="Identifiant d'operateur"/>
+        		<text key="operator_id" text="Identifiant d'operateur"/>
         		<text key="phonebusiness" text="* Telephone commercial"/>
         		<text key="email" text="Email"/>
       			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -1007,7 +1007,7 @@
         		<combo key="Operational_status" text="Statut operationnel" values="open,restricted,closed,unspecified" display_values="ouvert,restreint,ferme,non precise"/>
 			<text key="operator" text="* Operateur"/>
 			<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        		<text key="operator id" text="Identifiant d'operateur"/>
+        		<text key="operator_id" text="Identifiant d'operateur"/>
         		<text key="phonebusiness" text="* Telephone commercial"/>
         		<text key="email" text="Email"/>
       			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
@@ -1024,7 +1024,7 @@
         		<combo key="Operational_status" text="* Statut operationnel" values="open,restricted,closed,unspecified" display_values="ouvert,restreint,ferme,non precise"/>
         		<text key="operator" text="* Operateur"/>
         		<combo key="operator_type" text="* Type d'operateur" values="government_facility-public,government_facility-not_public,private_for_profit,private_non_profit" display_values="installation gouvernementale publique,installation gouvernementale non publique,privee a but lucratif,privee a but non lucratif"/>
-        		<text key="operator id" text="Identifiant d'operateur"/>
+        		<text key="operator_id" text="Identifiant d'operateur"/>
         		<text key="phonebusiness" text="* Telephone commercial"/>
         		<text key="email" text="Email"/>
       			<text key="geometry_source_name" text="* Nom de la source geometrique"/>
