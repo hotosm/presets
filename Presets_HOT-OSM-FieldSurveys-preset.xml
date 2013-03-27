@@ -25,8 +25,6 @@
 			<label text="** Edit/modify a building **" fr.text="** Creer/mettre a jour un batiment **" en.text="** Edit/modify a building **"/>
 			<label text="________________________________________"/>
 			<label text="ADDRESS DETAILS" fr.text="ADRESSE DETAILS" en.text="ADDRESS DETAILS"/>
-			<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 			<label text="BUILDING" fr.text="BATIMENT" en.text="BUILDING"/>
 			<label text=" "/>
 			<label text="If the building contains several kinds of activities, let the 'yes' default value" fr.text="Si le batiment comprend plusieurs activites, laisser la valeur par defaut 'yes'" en.text="If the building contains several kinds of activities, let the 'yes' default value"/>
@@ -155,7 +153,6 @@
 				<space/>
 				<key key="place" value="neighbourhood"/>
 				<text key="name" text="Name" default="" delete_if_empty="true"/>
-				<label text=" "/>
 				<label text=" "/>
 				<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
 				<text key="population" text="Population" default="" delete_if_empty="true"/>
@@ -453,9 +450,6 @@
 							<combo key="fee" text="Fee" values="yes,no" default="" delete_if_empty="true"/>
 							<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 							<label text=" "/>
-							<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-							<label text=" "/>
 							<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 							<combo key="capacity:disabled" text="Spaces for Disabled" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
 							<combo key="capacity:women" text="Spaces for Women" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
@@ -483,9 +477,6 @@
 							<text key="name" text="Name" default="" delete_if_empty="true"/>
 							<label text=" "/>
 							<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
-							<label text=" "/>
-							<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 							<label text=" "/>
 							<combo key="parking" text="Type" values="multi-storey,surface,underground,rooftop" delete_if_empty="true"/>
 							<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
@@ -1866,7 +1857,6 @@ default="" delete_if_empty="true" />
 					<key key="man_made" value="water_tower"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<label text=" "/>
 					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
 					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 					<label text=" "/>
@@ -1893,7 +1883,6 @@ default="" delete_if_empty="true" />
 					<!--<key key="project:xxx" value="yes" />-->
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<label text=" "/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<label text="________________________________________"/>
@@ -1918,7 +1907,6 @@ default="" delete_if_empty="true" />
 					<label text="TYPE" fr.text="TYPE" en.text="TYPE"/>
 					<key key="amenity" value="shower"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dshower" text="More info about showers" fr.text="Plus d'infos sur les douches" en.text="More info about showers"/>
-					<label text=" "/>
 					<label text=" "/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
@@ -1954,7 +1942,6 @@ default="" delete_if_empty="true" />
 					<key key="amenity" value="toilets"/>
 					<check key="pitlatrine" text="Pit latrine" fr.text="Latrines" en.text="Pit latrine" default="off"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:pitlatrine" text="More info about latrines" fr.text="Plus d'infos sur les latrines" en.text="More info about latrines"/>
-					<label text=" "/>
 					<label text=" "/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
@@ -2545,9 +2532,6 @@ default="" delete_if_empty="true" />
 					<key key="amenity" value="theatre"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2569,10 +2553,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2594,10 +2574,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="operator" text="Operator name" fr.text="Operateur" en.text="Operator name"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2853,8 +2829,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="ADDRESS DETAILS" fr.text="ADRESSE DETAILS" en.text="ADDRESS DETAILS"/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text="KINDERGARTEN" fr.text="KINDERGARTEN" en.text="KINDERGARTEN"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
@@ -2898,9 +2872,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2931,9 +2902,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -2963,9 +2931,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2990,8 +2955,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="ADDRESS DETAILS" fr.text="ADRESSE DETAILS" en.text="ADDRESS DETAILS"/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text="HEALTH FACILITY" fr.text="STRUCTURE DE SANTE" en.text="HEALTH FACILITY"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
@@ -3034,9 +2997,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3057,9 +3017,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3079,9 +3036,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -3105,9 +3059,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -3153,8 +3104,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
@@ -3217,8 +3166,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
@@ -3243,10 +3190,6 @@ default="" delete_if_empty="true" />
 					<key key="office" value="administrative"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3266,10 +3209,6 @@ default="" delete_if_empty="true" />
 					<key key="amenity" value="courthouse"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3287,9 +3226,6 @@ default="" delete_if_empty="true" />
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=prison" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=prison" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=prison"/>
 					<label text="Edit Prison"/>
 					<key key="amenity" value="prison"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -3313,10 +3249,6 @@ default="" delete_if_empty="true" />
 					<key key="amenity" value="police"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3336,10 +3268,6 @@ default="" delete_if_empty="true" />
 					<key key="amenity" value="fire_station"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3361,10 +3289,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3453,9 +3377,6 @@ default="" delete_if_empty="true" />
 				<text key="operator" text="Operator" fr.text="Operateur" default="" delete_if_empty="true"/>
 				<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 				<label text=" "/>
-				<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-				<label text=" "/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<label text=" "/>
@@ -3491,10 +3412,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3527,10 +3444,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3561,10 +3474,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3597,10 +3506,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3632,10 +3537,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3672,10 +3573,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3706,9 +3603,6 @@ default="" delete_if_empty="true" />
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -3748,10 +3642,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3785,10 +3675,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3820,10 +3706,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3857,10 +3739,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3894,10 +3772,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3927,9 +3801,6 @@ default="" delete_if_empty="true" />
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -3962,10 +3833,6 @@ default="" delete_if_empty="true" />
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3994,9 +3861,6 @@ default="" delete_if_empty="true" />
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -4162,9 +4026,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4187,9 +4048,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4214,9 +4072,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4237,9 +4092,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4263,9 +4115,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4291,9 +4140,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4318,9 +4164,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4343,9 +4186,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4372,9 +4212,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4400,9 +4237,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4424,9 +4258,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4452,9 +4283,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4476,9 +4304,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4505,9 +4330,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4532,9 +4354,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4556,9 +4375,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4583,9 +4399,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4607,9 +4420,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4635,9 +4445,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4661,9 +4468,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4685,9 +4489,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4738,9 +4539,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4770,9 +4568,6 @@ default="" delete_if_empty="true" />
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4794,9 +4589,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4822,9 +4614,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4849,9 +4638,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4874,9 +4660,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -4898,9 +4681,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4935,9 +4715,6 @@ default="" delete_if_empty="true" />
 							<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true"/>
 						</optional>
 						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-						<label text=" "/>
 						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4962,9 +4739,6 @@ default="" delete_if_empty="true" />
 						<text key="brand" text="Brand" default="" delete_if_empty="true"/>
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 						<label text=" "/>
 						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
@@ -4991,9 +4765,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-						<label text=" "/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<label text=" "/>
@@ -5017,9 +4788,6 @@ default="" delete_if_empty="true" />
 						<text key="brand" text="Brand" default="" delete_if_empty="true"/>
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 						<label text=" "/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5050,9 +4818,6 @@ default="" delete_if_empty="true" />
 						<text key="website" text="Website" default="" delete_if_empty="true"/>
 						<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-						<label text=" "/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<label text=" "/>
@@ -5078,9 +4843,6 @@ default="" delete_if_empty="true" />
 						<text key="brand" text="Brand" default="" delete_if_empty="true"/>
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 						<label text=" "/>
 						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
@@ -5108,9 +4870,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 						<text key="website" text="Website" default="" delete_if_empty="true"/>
-						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 						<label text=" "/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5153,9 +4912,6 @@ default="" delete_if_empty="true" />
 						<text key="website" text="Website" default="" delete_if_empty="true"/>
 						<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-						<label text=" "/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<label text=" "/>
@@ -5179,9 +4935,6 @@ default="" delete_if_empty="true" />
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="shop" value="bicycle"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
-						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 						<label text=" "/>
 						<!--<key key="project:xxx" value="yes" />-->
 						<check key="service:bicycle:retail" text="Bicycles are sold"/>
@@ -5211,9 +4964,6 @@ default="" delete_if_empty="true" />
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="bicycle_rental"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
-						<label text=" "/>
-						<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 						<label text=" "/>
 						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
@@ -5246,9 +4996,6 @@ default="" delete_if_empty="true" />
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<check key="atm" text="Automated Teller Machine" default="on" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -5270,9 +5017,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5297,9 +5041,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5320,9 +5061,6 @@ default="" delete_if_empty="true" />
 					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 					<key key="amenity" value="atm"/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5347,9 +5085,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5378,9 +5113,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5405,10 +5137,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5432,9 +5160,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5457,9 +5182,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5481,9 +5203,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5509,9 +5228,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5534,9 +5250,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5562,9 +5275,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5587,9 +5297,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5615,9 +5322,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5642,9 +5346,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5668,9 +5369,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5693,9 +5391,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5721,9 +5416,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5746,9 +5438,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5775,9 +5464,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5801,9 +5487,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5829,9 +5512,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5854,9 +5534,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5882,9 +5559,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5906,9 +5580,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5932,9 +5603,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -5962,9 +5630,6 @@ default="" delete_if_empty="true" />
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5987,9 +5652,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -6014,9 +5676,6 @@ default="" delete_if_empty="true" />
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -6037,9 +5696,6 @@ default="" delete_if_empty="true" />
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -6065,9 +5721,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
@@ -6100,9 +5753,6 @@ default="" delete_if_empty="true" />
 				<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 				<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 				<label text=" "/>
-				<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-				<label text=" "/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<label text=" "/>
@@ -6133,9 +5783,6 @@ default="" delete_if_empty="true" />
 					<space/>
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -6168,9 +5815,6 @@ default="" delete_if_empty="true" />
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -6201,9 +5845,6 @@ default="" delete_if_empty="true" />
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -6232,9 +5873,6 @@ default="" delete_if_empty="true" />
 					<space/>
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<label text=" "/>
-					<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 					<label text=" "/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -6268,9 +5906,6 @@ default="" delete_if_empty="true" />
 				<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 				<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 				<label text=" "/>
-				<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
-				<label text=" "/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<label text=" "/>
@@ -6294,9 +5929,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 				<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-				<label text=" "/>
-				<!--<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />-->
 				<label text=" "/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
