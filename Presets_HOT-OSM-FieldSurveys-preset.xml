@@ -7191,22 +7191,6 @@ default="" delete_if_empty="true" />
 			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 			<label text=" "/>
 		</item>
-		<!--<item name="Source" fr.name="Source" en.name="Source" >
-<label text=" " />
-<text key="addr:housenumber" teXt="building number" fr.teXt="numero du batiment " en.teXt="building number"/> 
-<text key="addr:street" teXt="street name" use_last_as_default="force" delete_if_empty="true" />
-<label text=" " />
-<label text=" " />
-<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-<label text=" " />
-<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name" />
-<label text=" " />
-<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>
-<label text="________________________________________" />
-<label text=" " />
-<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE" />
-<label text=" " />
-</item>-->
 		<item name="Add an address" fr.name="+ Adresse">
 			<label text=" "/>
 			<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/> 
