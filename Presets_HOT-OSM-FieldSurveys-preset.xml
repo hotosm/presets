@@ -560,14 +560,6 @@
 					<optional>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<label text=" "/>
-						<!--<check key="oneway" text="Oneway" default="off" delete_if_empty="true" />
-<check key="bridge" text="Bridge" default="off" delete_if_empty="true" />
-<check key="tunnel" text="Tunnel" default="off" delete_if_empty="true" />
-<check key="cutting" text="Cutting" default="off" delete_if_empty="true" />
-<check key="embankment" text="Embankment" default="off" delete_if_empty="true" />
-<combo key="layer" text="Layer" values="5,4,3,2,1,0,-1,-2,-3,-4,-5" default="" delete_if_empty="true" />
-<combo key="lanes" text="Lanes" values="1,2,3,4,5" default="" delete_if_empty="true" />
--->
 						<space/>
 						<text key="width" text="Width (meters)" default="" delete_if_empty="true"/>
 					</optional>
@@ -701,73 +693,6 @@
 					<label text=" "/>
 				</item>
 				<separator/>
-				<!--<item name="Motorway Junction" icon="presets/motorway_exit.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=motorway_junction"
-  de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=motorway_junction"
-  es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:highway=motorway_junction"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=motorway_junction"
-  ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=motorway_junction" />
-<label text="Edit Motorway Junction" />
-<space />
-<key key="highway" value="motorway_junction" />
-<text key="name" text="Name" default="" delete_if_empty="true" />
-<text key="loc_name" text="Name in local language" fr.text="Nom en langue locale" en.text="Name in local language"/>
-<label text=" " /
-<text key="alt_name" text="Alternative name" fr.text="Nom populaire alternatif" en.text="Alternative name"/>
-<text key="short_name" text="Abbreviation name" fr.text="Abbreviation du nom" en.text="Abbreviation name"/>
-<text key="old_name" text="Old name" fr.text="Ancien nom" en.text="Old name"/>
-<label text=" " />
-<text key="ref" text="Number" default="" delete_if_empty="true" />
-<text key="exit_to" text="Exit to" default="" delete_if_empty="true" />
-</item>
-<item name="Services" icon="styles/standard/vehicle/services.png" type="node,closedway,relation">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=services"
-  de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=services"
-  fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway=services"
-  ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:highway=services"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=services"
-  ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=services" />
-<label text="Edit Service Station" />
-<space />
-<key key="highway" value="services" />
-<optional>
-<text key="name" text="Name" default="" delete_if_empty="true" />
-<text key="loc_name" text="Name in local language" fr.text="Nom en langue locale" en.text="Name in local language"/>
-<label text=" " />
-<text key="alt_name" text="Alternative name" fr.text="Nom populaire alternatif" en.text="Alternative name"/>
-<text key="short_name" text="Abbreviation name" fr.text="Abbreviation du nom" en.text="Abbreviation name"/>
-<text key="old_name" text="Old name" fr.text="Ancien nom" en.text="Old name"/>
-<label text=" " />
-<text key="operator" text="Operator" default="" delete_if_empty="true" />
-<check key="toilets" text="Toilets" default="off" delete_if_empty="true" />
-</optional>
-</item>
-<item name="Rest Area" icon="presets/parking.png" type="node,closedway">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=rest_area"
-  de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=rest_area"
-  fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway=rest_area"
-  it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:highway=rest_area"
-  ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:highway=rest_area"
-  ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=rest_area"
-  sv.href="http://wiki.openstreetmap.org/wiki/Sv:Tag:highway=rest_area" />
-<label text="Edit Rest Area" />
-<space />
-<key key="highway" value="rest_area" />
-<optional>
-<text key="name" text="Name" default="" delete_if_empty="true" />
-<text key="loc_name" text="Name in local language" fr.text="Nom en langue locale" en.text="Name in local language"/>
-<label text=" " />
-<text key="alt_name" text="Alternative name" fr.text="Nom populaire alternatif" en.text="Alternative name"/>
-<text key="short_name" text="Abbreviation name" fr.text="Abbreviation du nom" en.text="Abbreviation name"/>
-<text key="old_name" text="Old name" fr.text="Ancien nom" en.text="Old name"/>
-<label text=" " /><check key="toilets" text="Toilets" default="off" delete_if_empty="true" />
-</optional>
-</item>
-<item name="Emergency Phone" icon="presets/telephone.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/emergency_phone" />
-<key key="amenity" value="emergency_phone" />
-</item>
-<separator/>-->
 				<item name="Fire Hydrant" fr.name="Borne incendie" en.name="Fire Hydrant" icon="presets/fire_hydrant.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:emergency=fire_hydrant" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:emergency=fire_hydrant" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:emergency=fire_hydrant" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:emergency=fire_hydrant" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:emergency=fire_hydrant"/>
 					<label text="** Edit/modify a Fire Hydrant **" fr.text="** Creer/mettre a jour une borne incendie **" en.text="** Edit/modify a Fire Hydrant **"/>
@@ -793,13 +718,6 @@
 					<label text="TRAFFIC SIGNAL" fr.text="FEU DE CIRCULATION" en.text="TRAFFIC SIGNAL"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=traffic_signals" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=traffic_signals" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:highway=traffic_signals" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=traffic_signals" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=traffic_signals"/>
 					<key key="highway" value="traffic_signals"/>
-					<!--<optional>
- <combo key="crossing" text="Pedestrian crossing type" values="uncontrolled,traffic_signals,island,unmarked,no,unknown" default="" delete_if_empty="true" />
- <check key="horse" text="Cross on horseback" default="off" delete_if_empty="true" />
- <check key="bicycle" text="Cross by bicycle" default="off" delete_if_empty="true" />
- <check key="supervised" text="Crossing attendant" default="off" delete_if_empty="true" />
- <combo key="crossing_ref" text="Crossing type name (UK)" values="zebra,pelican,toucan,puffin,pegasus,tiger" default="" delete_if_empty="true" />
-</optional>-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -833,15 +751,6 @@
 					<label text="** Edit/modify a pedestrian crossing **" fr.text="** Creer/mettre a jour un passage pieton **" en.text="** Edit/modify a pedestrian crossing **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:crossing" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:crossing" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:crossing" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:crossing" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:crossing" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:crossing" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:crossing"/>
 					<key key="highway" value="crossing"/>
-					<!--<label text="________________________________________" />
-<label text="PEDESTRIAN CROSSING" fr.text="PASSAGE PIETON" en.text="PEDESTRIAN CROSSING"/>
-<combo key="crossing" text="Type" 
-values="uncontrolled,traffic_signals,island,unmarked,unknown" 
-default="" delete_if_empty="true" />
-<check key="bicycle" text="Cross by bicycle" default="off" delete_if_empty="true" />
-<check key="horse" text="Cross on horseback" default="off" delete_if_empty="true" />
-<check key="supervised" text="Crossing attendant" default="off" delete_if_empty="true" />
-<combo key="crossing_ref" text="Type name (UK)" values="zebra,pelican,toucan,puffin,pegasus,tiger" default="" delete_if_empty="true" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -891,57 +800,6 @@ default="" delete_if_empty="true" />
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 					<label text=" "/>
 				</item>
-				<!--<separator/>
-<item name="City Limit" icon="presets/citylimit.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:traffic_sign=city_limit"
-  ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:traffic_sign" />
-<label text="Edit City Limit Sign" />
-<space />
-<key key="traffic_sign" value="city_limit" />
-<space />
-<text key="name" text="Name" default="" delete_if_empty="true" />
-<text key="loc_name" text="Name in local language" fr.text="Nom en langue locale" en.text="Name in local language"/>
-<label text=" " />
-<text key="alt_name" text="Alternative name" fr.text="Nom populaire alternatif" en.text="Alternative name"/>
-<text key="short_name" text="Abbreviation name" fr.text="Abbreviation du nom" en.text="Abbreviation name"/>
-<text key="old_name" text="Old name" fr.text="Ancien nom" en.text="Old name"/>
-<label text=" " />
-<text key="alt_name" text="Second Name" default="" delete_if_empty="true" />
-</item>
-<item name="Speed Camera" icon="presets/speed_camera.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=speed_camera"
-  de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=speed_camera"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=speed_camera"
-  ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=speed_camera" />
-<key key="highway" value="speed_camera" />
-</item>
-<item name="Grit Bin" icon="styles/standard/misc/grit_bin.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=grit_bin"
-  de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=grit_bin"
-  ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=grit_bin"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=grit_bin" />
-<key key="amenity" value="grit_bin" />
-</item>
-<item name="Mountain Pass" icon="presets/mountain_pass.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Key:mountain_pass"
-  it.href="http://wiki.openstreetmap.org/wiki/IT:Key:mountain_pass"
-  ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:mountain_pass"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:mountain_pass" />
-<label text="Edit Mountain Pass" />
-<space />
-<key key="mountain_pass" value="yes" />
-<optional>
-<text key="name" text="Name" default="" delete_if_empty="true" />
-<text key="loc_name" text="Name in local language" fr.text="Nom en langue locale" en.text="Name in local language"/>
-<label text=" " />
-<text key="alt_name" text="Alternative name" fr.text="Nom populaire alternatif" en.text="Alternative name"/>
-<text key="short_name" text="Abbreviation name" fr.text="Abbreviation du nom" en.text="Abbreviation name"/>
-<text key="old_name" text="Old name" fr.text="Ancien nom" en.text="Old name"/>
-<label text=" " />
-<text key="ele" text="Elevation" default="" delete_if_empty="true" />
-<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true" />
-</optional>
-</item>-->
 			</group>
 			<!-- Other road objects -->
 			<group name="Transportation means" fr.name="Moyens de transports" icon="presets/bus.png">
@@ -2749,9 +2607,6 @@ default="" delete_if_empty="true" />
 					<key key="leisure" value="track"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<label text="select sport:" />
-<space />
-<combo key="sport" text="sport" values="multi,archery,athletics,american_football,australian_football,baseball,basketball,boules,bowls,canadian_football,canoe,climbing,cricket,cricket_nets,croquet,cycling,dog_racing,equestrian,gaelic_football,golf,gymnastics,hockey,horse_racing,motor,pelota,racquet,rugby_league,rugby_union,shooting,skateboard,skating,skiing,soccer,table_tennis,tennis" default="" delete_if_empty="true" />-->
 					<label text=" "/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
@@ -3927,7 +3782,6 @@ default="" delete_if_empty="true" />
 					<key key="tourism" value="viewpoint"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<check key="man_made" value="tower" text="Look-Out Tower" default="off" delete_if_empty="true" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -6316,7 +6170,6 @@ default="" delete_if_empty="true" />
 					<key key="waterway" value="river"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<combo key="layer" text="Layer" values="5,4,3,2,1,0,-1,-2,-3,-4,-5" default="" delete_if_empty="true" />-->
 					<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text=" "/>
@@ -6339,7 +6192,6 @@ default="" delete_if_empty="true" />
 					<key key="waterway" value="stream"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<!--<combo key="layer" text="Layer" values="5,4,3,2,1,0,-1,-2,-3,-4,-5" default="" delete_if_empty="true" />-->
 					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
