@@ -15,7 +15,6 @@
 			<label text=" "/>
 			<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 			<label text=" "/>
-			<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 			<label text="________________________________________"/>
 			<label text=" "/>
 			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -71,7 +70,6 @@
 			<label text=" "/>
 			<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 			<label text=" "/>
-			<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 			<label text="________________________________________"/>
 			<label text=" "/>
 			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -97,7 +95,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -123,7 +120,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -148,7 +144,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -174,7 +169,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -199,7 +193,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -223,7 +216,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -247,7 +239,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -270,7 +261,6 @@
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -311,7 +301,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -348,7 +337,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -381,7 +369,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -412,7 +399,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -441,7 +427,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -483,7 +468,6 @@
 							<label text=" "/>
 							<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 							<label text=" "/>
-							<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 							<label text="________________________________________"/>
 							<label text=" "/>
 							<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -520,7 +504,6 @@
 							<label text=" "/>
 							<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 							<label text=" "/>
-							<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 							<label text="________________________________________"/>
 							<label text=" "/>
 							<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -545,7 +528,6 @@
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -570,7 +552,6 @@
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -606,7 +587,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -627,7 +607,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -645,7 +624,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -675,7 +653,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -703,7 +680,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -728,7 +704,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -815,7 +790,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -842,7 +816,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -859,7 +832,6 @@
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -886,7 +858,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -907,7 +878,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -925,7 +895,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1002,7 +971,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1029,7 +997,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1051,7 +1018,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1077,7 +1043,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1105,7 +1070,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1127,7 +1091,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1150,7 +1113,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1172,7 +1134,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1191,7 +1152,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1210,7 +1170,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1245,7 +1204,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1265,7 +1223,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1315,7 +1272,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1340,7 +1296,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1366,7 +1321,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1393,7 +1347,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1419,7 +1372,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1437,7 +1389,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1458,7 +1409,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1475,7 +1425,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1493,7 +1442,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1511,7 +1459,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1539,7 +1486,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1566,7 +1512,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1664,7 +1609,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1698,7 +1642,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1731,7 +1674,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1761,7 +1703,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1794,7 +1735,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1827,7 +1767,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1860,7 +1799,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1893,7 +1831,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1918,7 +1855,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1944,7 +1880,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -1968,7 +1903,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2003,7 +1937,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2041,7 +1974,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2064,7 +1996,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2089,7 +2020,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2128,7 +2058,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2160,7 +2089,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2179,7 +2107,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2220,7 +2147,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2244,7 +2170,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2267,7 +2192,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2290,7 +2214,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2310,7 +2233,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2329,7 +2251,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2355,7 +2276,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2379,7 +2299,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2405,7 +2324,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2434,7 +2352,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2452,7 +2369,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2470,7 +2386,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2503,7 +2418,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2527,7 +2441,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2552,7 +2465,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2575,7 +2487,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2600,7 +2511,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2624,7 +2534,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2647,7 +2556,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2673,7 +2581,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2699,7 +2606,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2719,7 +2625,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2743,7 +2648,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2762,7 +2666,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2782,7 +2685,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2811,7 +2713,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2837,7 +2738,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2863,7 +2763,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2889,7 +2788,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2913,7 +2811,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2937,7 +2834,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -2975,7 +2871,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3014,7 +2909,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3047,7 +2941,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3081,7 +2974,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3129,7 +3021,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3154,7 +3045,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3178,7 +3068,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3202,7 +3091,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3229,7 +3117,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3253,7 +3140,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3278,7 +3164,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3343,7 +3228,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3371,7 +3255,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3395,7 +3278,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3420,7 +3302,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3444,7 +3325,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3468,7 +3348,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3494,7 +3373,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3515,7 +3393,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3538,7 +3415,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3560,7 +3436,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3588,7 +3463,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3629,7 +3503,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3666,7 +3539,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3701,7 +3573,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3738,7 +3609,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3774,7 +3644,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3815,7 +3684,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3850,7 +3718,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3893,7 +3760,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3931,7 +3797,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -3967,7 +3832,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4005,7 +3869,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4043,7 +3906,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4077,7 +3939,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4113,7 +3974,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4146,7 +4006,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4174,7 +4033,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4194,7 +4052,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4215,7 +4072,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4237,7 +4093,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4268,7 +4123,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4290,7 +4144,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4319,7 +4172,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4346,7 +4198,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4373,7 +4224,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4398,7 +4248,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4425,7 +4274,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4453,7 +4301,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4481,7 +4328,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4508,7 +4354,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4538,7 +4383,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4566,7 +4410,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4592,7 +4435,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4620,7 +4462,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4646,7 +4487,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4675,7 +4515,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4703,7 +4542,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4729,7 +4567,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4756,7 +4593,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4782,7 +4618,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4810,7 +4645,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4837,7 +4671,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4863,7 +4696,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4888,7 +4720,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4917,7 +4748,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4950,7 +4780,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -4976,7 +4805,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5004,7 +4832,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5032,7 +4859,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5058,7 +4884,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5084,7 +4909,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5122,7 +4946,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5151,7 +4974,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5179,7 +5001,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5207,7 +5028,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5240,7 +5060,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5271,7 +5090,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5301,7 +5119,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5346,7 +5163,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5382,7 +5198,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5408,7 +5223,6 @@ default="" delete_if_empty="true" />
 						<label text=" "/>
 						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 						<label text=" "/>
-						<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 						<label text="________________________________________"/>
 						<label text=" "/>
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5442,7 +5256,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5469,7 +5282,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5496,7 +5308,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5521,7 +5332,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5549,7 +5359,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5580,7 +5389,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5609,7 +5417,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5636,7 +5443,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5662,7 +5468,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5688,7 +5493,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5716,7 +5520,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5743,7 +5546,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5771,7 +5573,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5798,7 +5599,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5826,7 +5626,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5854,7 +5653,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5881,7 +5679,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5908,7 +5705,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5936,7 +5732,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5963,7 +5758,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -5992,7 +5786,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6020,7 +5813,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6048,7 +5840,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6075,7 +5866,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6103,7 +5893,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6129,7 +5918,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6156,7 +5944,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6186,7 +5973,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6212,7 +5998,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6239,7 +6024,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6265,7 +6049,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6294,7 +6077,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6328,7 +6110,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6363,7 +6144,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6398,7 +6178,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6432,7 +6211,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6465,7 +6243,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6501,7 +6278,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6529,7 +6305,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6559,7 +6334,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6585,7 +6359,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6611,7 +6384,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6638,7 +6410,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6665,7 +6436,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6692,7 +6462,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6721,7 +6490,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6746,7 +6514,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6768,7 +6535,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6791,7 +6557,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6810,7 +6575,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6830,7 +6594,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6850,7 +6613,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6869,7 +6631,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6889,7 +6650,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6912,7 +6672,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6936,7 +6695,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6958,7 +6716,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6978,7 +6735,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -6999,7 +6755,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7021,7 +6776,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7040,7 +6794,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7060,7 +6813,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7079,7 +6831,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7099,7 +6850,6 @@ default="" delete_if_empty="true" />
 					<label text=" "/>
 					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 					<label text=" "/>
-					<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 					<label text="________________________________________"/>
 					<label text=" "/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7123,7 +6873,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7142,7 +6891,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7161,7 +6909,6 @@ default="" delete_if_empty="true" />
 				<label text=" "/>
 				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 				<label text=" "/>
-				<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 				<label text="________________________________________"/>
 				<label text=" "/>
 				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7185,7 +6932,6 @@ default="" delete_if_empty="true" />
 			<label text=" "/>
 			<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
 			<label text=" "/>
-			<!--<text key="source:date" teXt="source daTE (YYYY-MM-Dd)" fr.teXt="Date de la sourCE (AAAA-MM-Dd)" en.teXt="source daTE (YYYY-MM-DD)"/>-->
 			<label text="________________________________________"/>
 			<label text=" "/>
 			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
@@ -7193,8 +6939,8 @@ default="" delete_if_empty="true" />
 		</item>
 		<item name="Add an address" fr.name="+ Adresse">
 			<label text=" "/>
-			<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/> 
-			<text key="addr:street" text="street name" use_last_as_default="force" delete_if_empty="true" />
+			<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/>
+			<text key="addr:street" text="street name" use_last_as_default="force" delete_if_empty="true"/>
 			<label text=" "/>
 		</item>
 		<item name="Add more Names" fr.name="+ Nom">
