@@ -3190,28 +3190,6 @@
 				</item>
 			</group>
 			<!-- Public and governmental facilities -->
-			<item name="Orphanage" fr.name="Orphelinat" type="node">
-				<label text="Edit orphanage" fr.text="Creer ou mettre a jour un orphelinat"/>
-				<key key="amenity" value="social_facility"/>
-				<key key="social_facility:for" value="orphan"/>
-				<label text=" "/>
-				<text key="name" text="Name" default="" delete_if_empty="true"/>
-				<label text=" "/>
-				<text key="operator" text="Operator" fr.text="Operateur" default="" delete_if_empty="true"/>
-				<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-				<label text=" "/>
-				<label text="________________________________________"/>
-				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-				<label text=" "/>
-				<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-				<label text=" "/>
-				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-				<label text=" "/>
-				<label text="________________________________________"/>
-				<label text=" "/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-				<label text=" "/>
-			</item>
 		</group>
 		<!-- Public services -->
 		<group name="Commercial and Economic" fr.name="Commerce et Economie" en.name="Commercial and Economic">
