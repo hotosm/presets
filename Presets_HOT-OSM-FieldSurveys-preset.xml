@@ -1468,22 +1468,14 @@
 		<group name="Utilities" fr.name="Equipements" en.name="Utilities">
 			<group name="Water and sanitation" fr.name="Eau et assainissement" en.name="Water and sanitation" icon="presets/water_works.png">
 				<group name="Watering places" fr.name="Points d'eau" en.name="Watering places" icon="presets/ drinking_water.png">
-					<item name="Spring" fr.name="Source" en.name="Spring" type="node,relation" icon="presets/spring.png">
-						<!--<key key="project:xxx" value="yes" />-->
-						<label text="** Edit/modify a spring **" fr.text="** Creer/mettre a jour d'une source d'eau **" en.text="** Edit/modify a spring **"/>
-						<label text="________________________________________"/>
-						<label text="SPRING" fr.text="SOURCE D'EAU" en.text="SPRING"/>
-						<label text=" "/>
-						<key key="natural" value="spring"/>
-						<label text=" "/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
+					<item name="Drinking Water" icon="presets/drinking_water.png" type="node">
+						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"/>
+						<label text="Edit Drinking Water"/>
+						<key key="amenity" value="drinking_water"/>
+						<text key="name" text="Name"/>
+						<space/>
+						<label text="Is there a fee to use" fr.text="Is there a fee to use" en.text="Is there a fee to use"/>
+						<check key="fee" text="yes" fr.text="wi" default="off" delete_if_empty="true"/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<label text=" "/>
@@ -1496,55 +1488,19 @@
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 						<label text=" "/>
 					</item>
-					<item name="Fountain" fr.name="Fontaine" en.name="Fountain" type="node,relation" icon="presets/fountain.png">
-						<!--<key key="project:xxx" value="yes" />-->
-						<label text="** Edit/modify a fountain **" fr.text="** Creer/mettre a jour une fontaine **" en.text="** Edit/modify a fountain **"/>
-						<label text="________________________________________"/>
-						<label text="FOUNTAIN" fr.text="FONTAINE" en.text="FOUNTAIN"/>
-						<label text=" "/>
-						<key key="amenity" value="fountain"/>
-						<text key="fountain" text="Number of fountains if more than 1" fr.text="Nombre de fontaines (si plus d'une)" en.text="Number of fountains if more than 1"/>
-						<label text=" "/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="water_supply" text="Water supply" fr.text="Alimentation" en.text="Water supply" values="running_water,pump,water_trucking,unspecified" display_values="running water,pump,water trucking,unspecified" fr.display_values="eau courante,pompe,camion,non precise" en.display_values="running water,pump,water trucking,unspecified"/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_purification" text="Water purification" fr.text="Potabilisation" en.text="Water purification" values="chlorine,reverse_osmosis,aquatabs,none,unspecified" display_values="chlorine,reverse osmosis,aquatabs,none,unspecified" fr.display_values="chlore,osmose inverse,aquatabs,aucune,non precise" en.display_values="chlorine,reverse osmosis,aquatabs,none,unspecified"/>
-						<label text=" "/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<label text=" "/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<label text=" "/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<label text=" "/>
-						<label text="________________________________________"/>
-						<label text=" "/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<label text=" "/>
-					</item>
-					<item name="Well" fr.name="Puits" en.name="Well" type="node,relation" icon="presets/water_well.png">
-						<!--<key key="project:xxx" value="yes" />-->
+					<item name="Water Well" icon="presets/water_well.png" type="node">
+						<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=water_well"/>
 						<label text="** Edit/modify a water well **" fr.text="** Creer/mettre a jour d'un puits d'eau **" en.text="** Edit/modify a water well **"/>
-						<label text="________________________________________"/>
-						<label text="WELL" fr.text="PUITS" en.text="WELL"/>
-						<label text=" "/>
-						<key key="man_made" value="well"/>
+						<key key="man_made" value="water_well"/>
+						<text key="name" text="Name"/>
+						<space/>
+						<combo key="water_well" text="Well type" fr.text="Well type" values="pump,bucket" display_values="pump, bucket drawn" fr.display_values="pump, bucket drawn"/>
+						<combo key="pump" text="If pump, what type" fr.text="If pump, what type" values="manual,powered" display_values="manual,powered" fr.display_values="manual,powered"/>
+						<space/>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_purification" text="Water purification" fr.text="Potabilisation" en.text="Water purification" values="chlorine,reverse_osmosis,aquatabs,none,unspecified" display_values="chlorine,reverse osmosis,aquatabs,none,unspecified" fr.display_values="chlore,osmose inverse,aquatabs,aucune,non precise" en.display_values="chlorine,reverse osmosis,aquatabs,none,unspecified"/>
-						<label text=" "/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<label text=" "/>
@@ -1557,122 +1513,13 @@
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 						<label text=" "/>
 					</item>
-					<item name="Borehole" fr.name="Forage (borehole)" en.name="Borehole" type="node,relation" icon="presets/borehole.png">
-						<!--<key key="project:xxx" value="yes" />-->
-						<label text="** Edit/modify a borehole **" fr.text="** Creer/mettre a jour un forage **" en.text="** Edit/modify a borehole **"/>
-						<label text="________________________________________"/>
-						<label text="BOREHOLE" fr.text="FORAGE" en.text="BOREHOLE"/>
+					<item name="Spring" icon="presets/spring.png" type="node,closedway">
+						<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=spring"/>
+						<label text="Edit Spring"/>
+						<key key="natural" value="spring"/>
+						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<label text=" "/>
-						<key key="borehole" value="yes"/>
-						<text key="borehole" text="Number of boreholes if more than 1" fr.text="Nombre de forages (si plus d'un)" en.text="Number of boreholes if more than 1"/>
-						<label text=" "/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="water_supply" text="Water supply" fr.text="Alimentation" en.text="Water supply" values="running_water,pump,water_trucking,unspecified" display_values="running water,pump,water trucking,unspecified" fr.display_values="eau courante,pompe,camion,non precise" en.display_values="running water,pump,water trucking,unspecified"/>
 						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_purification" text="Water purification" fr.text="Potabilisation" en.text="Water purification" values="chlorine,reverse_osmosis,aquatabs,none,unspecified" display_values="chlorine,reverse osmosis,aquatabs,none,unspecified" fr.display_values="chlore,osmose inverse,aquatabs,aucune,non precise" en.display_values="chlorine,reverse osmosis,aquatabs,none,unspecified"/>
-						<label text=" "/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<label text=" "/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<label text=" "/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<label text=" "/>
-						<label text="________________________________________"/>
-						<label text=" "/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<label text=" "/>
-					</item>
-					<item name="Bladder" fr.name="Bladder" en.name="Bladder" type="node,relation" icon="presets/borehole.png">
-						<!--<key key="project:xxx" value="yes" />-->
-						<label text="** Edit/modify a bladder **" fr.text="** Creer/mettre a jour un bladder **" en.text="** Edit/modify a bladder **"/>
-						<label text="________________________________________"/>
-						<label text="BLADDER" fr.text="BLADDER" en.text="BLADDER"/>
-						<label text=" "/>
-						<key key="bladder" value="yes"/>
-						<text key="bladder" text="Number of bladders if more than 1" fr.text="Nombre de bladders (si plus d'une)" en.text="Number of bladders if more than 1"/>
-						<label text=" "/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="water_supply" text="Water supply" fr.text="Alimentation" en.text="Water supply" values="running_water,pump,water_trucking,unspecified" display_values="running water,pump,water trucking,unspecified" fr.display_values="eau courante,pompe,camion,non precise" en.display_values="running water,pump,water trucking,unspecified"/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_purification" text="Water purification" fr.text="Potabilisation" en.text="Water purification" values="chlorine,reverse_osmosis,aquatabs,none,unspecified" display_values="chlorine,reverse osmosis,aquatabs,none,unspecified" fr.display_values="chlore,osmose inverse,aquatabs,aucune,non precise" en.display_values="chlorine,reverse osmosis,aquatabs,none,unspecified"/>
-						<label text=" "/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<label text=" "/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<label text=" "/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<label text=" "/>
-						<label text="________________________________________"/>
-						<label text=" "/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<label text=" "/>
-					</item>
-					<item name="Tank" fr.name="Reservoir" en.name="Tank" type="node,relation" icon="presets/borehole.png">
-						<!--<key key="project:xxx" value="yes" />-->
-						<label text="** Edit/modify a tank **" fr.text="** Creer/mettre a jour un reservoir **" en.text="** Edit/modify a tank **"/>
-						<label text="________________________________________"/>
-						<label text="TANK" fr.text="RESERVOIR" en.text="TANK"/>
-						<label text=" "/>
-						<key key="tank" value="yes"/>
-						<text key="tank" text="Number of tanks if more than 1" fr.text="Nombre de reservoirs (si plus d'une)" en.text="Number of tanks if more than 1"/>
-						<label text=" "/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="water_supply" text="Water supply" fr.text="Alimentation" en.text="Water supply" values="running_water,pump,water_trucking,unspecified" display_values="running water,pump,water trucking,unspecified" fr.display_values="eau courante,pompe,camion,non precise" en.display_values="running water,pump,water trucking,unspecified"/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_purification" text="Water purification" fr.text="Potabilisation" en.text="Water purification" values="chlorine,reverse_osmosis,aquatabs,none,unspecified" display_values="chlorine,reverse osmosis,aquatabs,none,unspecified" fr.display_values="chlore,osmose inverse,aquatabs,aucune,non precise" en.display_values="chlorine,reverse osmosis,aquatabs,none,unspecified"/>
-						<label text=" "/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<label text=" "/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<label text=" "/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<label text=" "/>
-						<label text="________________________________________"/>
-						<label text=" "/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<label text=" "/>
-					</item>
-					<item name="Tap" fr.name="Robinet" en.name="Tap" type="node,relation" icon="presets/borehole.png">
-						<!--<key key="project:xxx" value="yes" />-->
-						<label text="** Edit/modify a tap **" fr.text="** Creer/mettre a jour un robinet **" en.text="** Edit/modify a tap **"/>
-						<label text="________________________________________"/>
-						<label text="TAP" fr.text="ROBINET" en.text="TAP"/>
-						<label text=" "/>
-						<key key="tap" value="yes"/>
-						<text key="tap" text="Number of taps if more than 1" fr.text="Nombre de robinets (si plus d'une)" en.text="Number of taps if more than 1"/>
-						<label text=" "/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-						<label text=" "/>
-						<combo key="water_supply" text="Water supply" fr.text="Alimentation" en.text="Water supply" values="running_water,pump,water_trucking,unspecified" display_values="running water,pump,water trucking,unspecified" fr.display_values="eau courante,pompe,camion,non precise" en.display_values="running water,pump,water trucking,unspecified"/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<combo key="water_purification" text="Water purification" fr.text="Potabilisation" en.text="Water purification" values="chlorine,reverse_osmosis,aquatabs,none,unspecified" display_values="chlorine,reverse osmosis,aquatabs,none,unspecified" fr.display_values="chlore,osmose inverse,aquatabs,aucune,non precise" en.display_values="chlorine,reverse osmosis,aquatabs,none,unspecified"/>
-						<label text=" "/>
-						<combo key="water_place_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
-						<combo key="water_place_durability" text="Durability" fr.text="Durabilite" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
-						<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-						<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<label text=" "/>
