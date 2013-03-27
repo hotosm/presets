@@ -7209,8 +7209,8 @@ default="" delete_if_empty="true" />
 </item>-->
 		<item name="Add an address" fr.name="+ Adresse">
 			<label text=" "/>
-			<!--<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/> 
-<text key="addr:street" text="street name" use_last_as_default="force" delete_if_empty="true" />-->
+			<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/> 
+			<text key="addr:street" text="street name" use_last_as_default="force" delete_if_empty="true" />
 			<label text=" "/>
 		</item>
 		<item name="Add more Names" fr.name="+ Nom">
