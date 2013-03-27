@@ -2130,9 +2130,8 @@
 				<item name="Street Lamp" icon="styles/standard/misc/streetlamp.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=street_lamp" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=street_lamp"/>
 					<label text="Edit Street Lamp"/>
-					<space/>
 					<key key="highway" value="street_lamp"/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<combo key="generator:method" text="Power source:" fr.text="Power source:" values="photovoltaic"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
