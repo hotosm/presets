@@ -1482,8 +1482,7 @@
 						<key key="man_made" value="water_well"/>
 						<text key="name" text="Name"/>
 						<space/>
-						<combo key="water_well" text="Well type" fr.text="Well type" values="pump,bucket" display_values="pump, bucket drawn" fr.display_values="pump, bucket drawn"/>
-						<combo key="pump" text="If pump, what type" fr.text="If pump, what type" values="manual,powered" display_values="manual,powered" fr.display_values="manual,powered"/>
+						<combo key="pump" text="Pumped or not" fr.text="Pumped or not" values="powered,manual,no" display_values="powered,manual,no" fr.display_values="powered,manual,no"/>
 						<space/>
 						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 						<space/>
