@@ -389,6 +389,31 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+					<combo key="practicability" text="Practicability" fr.text="Praticabilite" values="non_motorized,motorbike" display_values="non motorized,motorbike" fr.display_values="pieton,moto" required="true"/>
+					<optional>
+						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
+					</optional>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<label text=" "/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<label text=" "/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<label text=" "/>
+					<label text="________________________________________"/>
+					<label text=" "/>
+					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<label text=" "/>
+				</item>
+				<item name="Footways" fr.name="Chemins pieton" icon="presets/footway.png" type="way">
+					<key key="highway" value="footway"/>
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dfootway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dfootway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dfootway"/>
+					<label text="** Edit/modify a footway **" fr.text="** Creer/mettre a jour un Chemins pieton **" />
+					<label text="________________________________________"/>
+					<label text="FOOTWAY" fr.text="Chemins pieton" />
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<label text=" "/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 					<key key="practicability" value="non_motorized"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
@@ -1000,19 +1025,6 @@
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 						<label text=" "/>
 					</item>
-					<!--<item name="Beacon" icon="styles/standard/misc/landmark/beacon.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=beacon"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=beacon"
-  ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:man_made=beacon" />
-<label text="Beacon" />
-<key key="man_made" value="beacon" />
-</item>
-<item name="Windsock" icon="styles/standard/transport/airport/windsock.png" type="node">
-<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=windsock"
-  pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=windsock" />
-<label text="Windsock" />
-<key key="aeroway" value="windsock" />
-</item>-->
 					<separator/>
 					<item name="Terminal" icon="styles/standard/transport/airport/terminal.png" type="node,closedway">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=terminal" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:aeroway=terminal" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=terminal" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:aeroway=terminal"/>
