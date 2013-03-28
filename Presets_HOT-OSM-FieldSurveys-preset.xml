@@ -381,7 +381,6 @@
 					<label text=" "/>
 				</item>-->
 				<item name="Corridors and pathes" fr.name="Corridors ou chemins ruraux" en.name="Corridors and pathes" icon="presets/path.png" type="way">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="highway" value="path"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dpath" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dpath" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dpath"/>
 					<label text="** Edit/modify a corridor or a rural path **" fr.text="** Creer/mettre a jour un corridor ou un chemin rural **" en.text="** Edit/modify a corridor or a rural path **"/>
@@ -390,10 +389,8 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
-					<key key="surface_condition" value="rough_less_than_40kph"/>
 					<key key="practicability" value="non_motorized"/>
 					<optional>
-						<!--<check key="bridge" text="Bridge" default="off" delete_if_empty="true" />-->
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
 					<label text="________________________________________"/>
