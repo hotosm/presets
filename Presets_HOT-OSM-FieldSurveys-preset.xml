@@ -277,7 +277,7 @@
 					<combo key="highway" text="Road type" fr.text="Type de route" en.text="Road type" values="primary,secondary,tertiary,unclassified,residential,service,living_street" display_values="primary,secondary,tertiary,unclassified,residential,service,living street" fr.display_values="primaire,secondaire,tertiaire,non classe,residentiel,service,voie pietonne" delete_if_empty="true"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<label text=" "/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,gravel,dirt/sand,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" required="true"/>
 					<combo key="surface_condition" text="Surface condition" fr.text="Condition du revetement de surface" en.text="Surface condition" values="rough_less_than_40kph,smooth_greater_than_40kph,snow-ice,mud,unspecified" display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified" fr.display_values="Mauvaise (moins de 40km/h),Bonne (plus de 40km/h),Neige/glace,Boue,Non precise" en.display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified"/>
 					<label text=" "/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
@@ -307,20 +307,11 @@
 					<key key="highway" value="construction"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<label text=" "/>
-					<!--<combo key="layer" text="Layer" values="5,4,3,2,1,0,-1,-2,-3,-4,-5" default="0" delete_if_empty="true" />-->
-					<combo key="lanes" text="Lanes" values="1,2,3,4,5" default="2" delete_if_empty="true"/>
-					<label text=" "/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,gravel,dirt/sand,unspecified" display_values="paved,gravel,dirt/sand,unspecified" fr.display_values="revetement dur,graviers,terre/sable,non precise" en.display_values="paved,gravel,dirt/sand,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 					<combo key="surface_condition" text="Surface condition" fr.text="Condition du revetement de surface" en.text="Surface condition" values="rough_less_than_40kph,smooth_greater_than_40kph,snow-ice,mud,unspecified" display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified" fr.display_values="Mauvaise (moins de 40km/h),Bonne (plus de 40km/h),Neige/glace,Boue,Non precise" en.display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified"/>
 					<label text=" "/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
 					<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
-					<optional>
-						<!--<check key="oneway" text="Oneway" default="off" delete_if_empty="true" />
-<check key="bridge" text="Bridge" default="off" delete_if_empty="true" />
-<check key="tunnel" text="Tunnel" default="off" delete_if_empty="true" /> -->
-						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-					</optional>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<label text=" "/>
@@ -344,7 +335,7 @@
 					<label text=" "/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,gravel,dirt/sand,unspecified" display_values="paved,gravel,dirt/sand,unspecified" fr.display_values="revetement dur,graviers,terre/sable,non precise" en.display_values="paved,gravel,dirt/sand,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 					<combo key="surface_condition" text="Surface condition" fr.text="Condition du revetement de surface" en.text="Surface condition" values="rough_less_than_40kph,smooth_greater_than_40kph,snow-ice,mud,unspecified" display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified" fr.display_values="Mauvaise (moins de 40km/h),Bonne (plus de 40km/h),Neige/glace,Boue,Non precise" en.display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified"/>
 					<label text=" "/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
@@ -374,7 +365,7 @@
 					<label text="TRACK" fr.text="PISTE" en.text="TRACK"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,gravel,dirt/sand,unspecified" display_values="paved,gravel,dirt/sand,unspecified" fr.display_values="revetement dur,graviers,terre/sable,non precise" en.display_values="paved,gravel,dirt/sand,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 					<combo key="surface_condition" text="Surface condition" fr.text="Condition du revetement de surface" en.text="Surface condition" values="rough_less_than_40kph,smooth_greater_than_40kph,snow-ice,mud,unspecified" display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified" fr.display_values="Mauvaise (moins de 40km/h),Bonne (plus de 40km/h),Neige/glace,Boue,Non precise" en.display_values="rough less than 40kph,smooth greater than 40kph,snow-ice,mud,unspecified"/>
 					<label text=" "/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
@@ -404,7 +395,7 @@
 					<label text="CORRIDOR OR PATH" fr.text="CORRIDOR OU CHEMIN" en.text="CORRIDOR OR PATH"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<label text=" "/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,gravel,dirt/sand,unspecified" display_values="paved,gravel,dirt/sand,unspecified" fr.display_values="revetement dur,graviers,terre/sable,non precise" en.display_values="paved,gravel,dirt/sand,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 					<key key="surface_condition" value="rough_less_than_40kph"/>
 					<key key="practicability" value="non_motorized"/>
 					<optional>
@@ -1727,10 +1718,10 @@
 						<combo key="canal_roof_extent" text="Couverture du canal" en.text="Canal roof extent" values="totally,partially,no,unspecified" display_values="totale,partielle,aucune,non precise" en.display_values="totally,partially,no,unspecified"/>
 						<text key="canal_roof_desc" text="Description couverture" en.text="Canal roof description"/>
 						<label text=" "/>
-						<combo key="canal_banks_right" text="Materiaux des berges rive droite" en.text="Banks on right side " values="dirt/sand,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="dirt/sand,asphalt/paved,vegetation"/>
+						<combo key="canal_banks_right" text="Materiaux des berges rive droite" en.text="Banks on right side " values="unpaved,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="unpaved,asphalt/paved,vegetation"/>
 						<text key="canal_banks_desc_right" text="Description berges rive droite" en.text="Banks right side description"/>
 						<label text=" "/>
-						<combo key="canal_banks_left" text="Materiaux des berges rive gauche" en.text="Banks on left side " values="dirt/sand,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="dirt/sand,asphalt/paved,vegetation"/>
+						<combo key="canal_banks_left" text="Materiaux des berges rive gauche" en.text="Banks on left side " values="unpaved,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="unpaved,asphalt/paved,vegetation"/>
 						<text key="canal_banks_desc_left" text="Description berges rive gauche" en.text="Banks left side description"/>
 						<label text=" "/>
 						<combo key="operational_status" text="Statut operationnel" values="operational,closed" display_values="operationnel,non operationnel" en.display_values="operational,closed"/>
