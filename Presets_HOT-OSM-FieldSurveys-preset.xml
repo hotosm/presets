@@ -2252,6 +2252,30 @@
 			</group>
 			<!-- Historic Places -->
 			<group name="Sport Facilities" icon="presets/stadium.png">
+				<item name="Pitch" icon="presets/pitch.png" type="closedway">
+					<label text="Edit Pitch"/>
+					<key key="leisure" value="pitch"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="select sport:"/>
+					<space/>
+					<combo key="sport" text="sport" values="multi,archery,athletics,american_football,australian_football,baseball,basketball,boules,bowls,canadian_football,canoe,climbing,cockfighting,cricket,cricket_nets,croquet,cycling,dog_racing,equestrian,gaelic_football,golf,gymnastics,hockey,horse_racing,motor,pelota,racquet,rugby_league,rugby_union,shooting,skateboard,skating,skiing,soccer,table_tennis,tennis" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<space/>
+				</item>
 				<item name="Stadium" icon="presets/stadium.png" type="closedway">
 					<label text="Edit Stadium"/>
 					<key key="leisure" value="stadium"/>
@@ -2284,30 +2308,6 @@
 					<label text="select sport:"/>
 					<space/>
 					<combo key="sport" text="sport" values="multi,archery,athletics,american_football,australian_football,baseball,basketball,boules,bowls,canadian_football,canoe,climbing,cricket,cricket_nets,croquet,cycling,dog_racing,equestrian,gaelic_football,golf,gymnastics,hockey,horse_racing,motor,pelota,racquet,rugby_league,rugby_union,shooting,skateboard,skating,skiing,soccer,swimming,table_tennis,tennis" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-					<space/>
-				</item>
-				<item name="Pitch" icon="presets/pitch.png" type="closedway">
-					<label text="Edit Pitch"/>
-					<key key="leisure" value="pitch"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="select sport:"/>
-					<space/>
-					<combo key="sport" text="sport" values="multi,archery,athletics,american_football,australian_football,baseball,basketball,boules,bowls,canadian_football,canoe,climbing,cockfighting,cricket,cricket_nets,croquet,cycling,dog_racing,equestrian,gaelic_football,golf,gymnastics,hockey,horse_racing,motor,pelota,racquet,rugby_league,rugby_union,shooting,skateboard,skating,skiing,soccer,table_tennis,tennis" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
