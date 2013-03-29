@@ -255,7 +255,7 @@
 			</item>
 		</group>
 		<!-- Places -->
-		<group name="Transportation" fr.name="Transports" en.name="Transportation">
+		<group name="Transportation" fr.name="Transports" en.name="Transportation" icon="presets/railway.png">
 			<group name="Roads" fr.name="Voirie" en.name="Roads" icon="presets/way_secondary.png">
 				<item name="Roads and streets" fr.name="Routes et rues" en.name="Roads and streets" icon="presets/way_secondary.png" type="way">
 					<label text="** Edit/modify a road **" fr.text="** Creer/mettre a jour une voie **" en.text="** Edit/modify a road **"/>
@@ -1399,7 +1399,7 @@
 			</item>
 		</group>
 		<!-- Transportation -->
-		<group name="Utilities" fr.name="Equipements" en.name="Utilities">
+		<group name="Utilities" fr.name="Equipements" icon="presets/water_works.png">
 			<group name="Water and sanitation" fr.name="Eau et assainissement" en.name="Water and sanitation" icon="presets/water_works.png">
 				<group name="Watering places" fr.name="Points d'eau" en.name="Watering places" icon="presets/ drinking_water.png">
 					<item name="Drinking Water" icon="presets/drinking_water.png" type="node">
@@ -1997,7 +1997,7 @@
 			<!-- Solid waste management -->
 		</group>
 		<!-- Utilities -->
-		<group name="Cultural and social" fr.name="Culturel et social" en.name="Cultural and social">
+		<group name="Cultural and social" fr.name="Culturel et social" icon="presets/theater.png">
 			<group name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" icon="presets/church.png">
 				<item name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" type="node,relation" icon="presets/church.png">
 					<key key="amenity" value="place_of_worship"/>
@@ -2251,7 +2251,7 @@
 				</item>
 			</group>
 			<!-- Historic Places -->
-			<group name="Sport Facilities" icon="presets/stadium.png">
+			<group name="Sport Facilities" icon="presets/soccer.png">
 				<item name="Pitch" icon="presets/pitch.png" type="closedway">
 					<label text="Edit Pitch"/>
 					<key key="leisure" value="pitch"/>
@@ -2393,7 +2393,7 @@
 			<!-- Sport facilities -->
 		</group>
 		<!-- Cultural and social -->
-		<group name="Public services" fr.name="Services d'interet public" en.name="Public services">
+		<group name="Public services" fr.name="Services d'interet public" icon="presets/townhall.png">
 			<group name="Educational facilities" fr.name="Structures d'education" en.name="Educational facilities" icon="presets/school.png">
 				<item name="Kindergarten" fr.name="Kindergarten" en.name="Kindergarten" type="node,relation" icon="presets/kindergarten.png">
 					<key key="amenity" value="kindergarten"/>
@@ -3070,7 +3070,7 @@
 			<!-- Public and governmental facilities -->
 		</group>
 		<!-- Public services -->
-		<group name="Commercial and Economic" fr.name="Commerce et Economie" en.name="Commercial and Economic">
+		<group name="Commercial and Economic" fr.name="Commerce et Economie" icon="styles/standard/shop/mall.png">
 			<group name="Accommodation" icon="presets/bed.png">
 				<item name="Hotel" icon="presets/bed.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=hotel" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:tourism=hotel" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=hotel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=hotel" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:tourism=hotel"/>
@@ -5934,7 +5934,7 @@
 			</item>
 		</group>
 		<!-- Commercial and economical -->
-		<group name="Landuse" fr.name="Occupation du sol" en.name="Landuse">
+		<group name="Landuse" fr.name="Occupation du sol" icon="presets/landuse.png">
 			<item name="Agricultural landuse" fr.name="Zones agricoles" en.name="Agricultural landuse" type="closedway,relation" icon="presets/landuse.png">
 				<link href="http://wiki.openstreetmap.org/wiki/Landuse"/>
 				<label text="** Edit/modify an agricultural landuse **" fr.text="** Creer/mettre a jour une zone d'occupation agricole **" en.text="** Edit/modify an agricultural landuse **"/>
@@ -6087,7 +6087,7 @@
 			<!-- urban landuse -->
 		</group>
 		<!-- Landuse -->
-		<group name="Physical environment" fr.name="Environnement naturel" en.name="Physical environment">
+		<group name="Physical environment" fr.name="Environnement naturel" icon="presets/tree.png">
 			<group name="Nature" icon="presets/tree.png">
 				<item name="Peak" icon="presets/peak.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=peak" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=peak"/>
@@ -6454,7 +6454,7 @@
 			<!-- Water -->
 		</group>
 		<!-- Physical environment -->
-		<group name="Hazards" fr.name="Menaces" en.name="Hazards">
+		<group name="Hazards" fr.name="Menaces" icon="icons/ambulance_station.png">
 			<item name="Flood prone" fr.name="Menace d'inondation" en.name="Flood prone">
 				<key key="hazard_prone" value="yes"/>
 				<key key="hazard_type" value="flood"/>
@@ -6508,26 +6508,6 @@
 			</item>
 		</group>
 		<!-- Hazards -->
-		<item name="Other objects without presets" fr.name="Autres objets sans presets" en.name="Other objects">
-			<text key="name" text="Name" default="" delete_if_empty="true"/>
-			<space/>
-			<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-			<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-			<space/>
-			<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-			<space/>
-			<label text="________________________________________"/>
-			<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-			<space/>
-			<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-			<space/>
-			<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-			<space/>
-			<label text="________________________________________"/>
-			<space/>
-			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-			<space/>
-		</item>
 		<item name="Add an address" fr.name="+ Adresse">
 			<space/>
 			<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/>
