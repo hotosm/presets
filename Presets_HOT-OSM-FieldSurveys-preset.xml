@@ -3,7 +3,6 @@
 	<group name="HOT" fr.name="HOT" en.name="HOT">
 		<!-- -->
 		<item name="Building digitizing" fr.name="Digitalisation de batiment" en.name="Building digitizing" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
-			<!--<key key="project:xxx" value="yes" />-->
 			<label text="** Edit a building based on imagery **" fr.text="** Creer/mettre a jour un batiment a partir d'une imagerie **" en.text="** Edit/modify a building based on imagery **"/>
 			<link href="http://wiki.openstreetmap.org/wiki/Key:building" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:building" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:building"/>
 			<space/>
@@ -21,7 +20,6 @@
 			<space/>
 		</item>
 		<item name="Building features" fr.name="Caracteristiques du batiment" en.name="Building features" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
-			<!--<key key="project:xxx" value="yes" />-->
 			<label text="** Edit/modify a building **" fr.text="** Creer/mettre a jour un batiment **" en.text="** Edit/modify a building **"/>
 			<label text="________________________________________"/>
 			<label text="ADDRESS DETAILS" fr.text="ADRESSE DETAILS" en.text="ADDRESS DETAILS"/>
@@ -85,7 +83,6 @@
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
 				<space/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -110,7 +107,6 @@
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
 				<space/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -134,7 +130,6 @@
 				<text key="population" text="Population" default="" delete_if_empty="true"/>
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -158,7 +153,6 @@
 				<text key="population" text="Population" default="" delete_if_empty="true"/>
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -182,7 +176,6 @@
 				<text key="population" text="Population" default="" delete_if_empty="true"/>
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -205,7 +198,6 @@
 				<text key="population" text="Population" default="" delete_if_empty="true"/>
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -228,7 +220,6 @@
 				<text key="population" text="Population" default="" delete_if_empty="true"/>
 				<text key="addr:postcode" text="Post code" default="" delete_if_empty="true"/>
 				<text key="website" text="Website" default="" delete_if_empty="true"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -250,7 +241,6 @@
 				<text key="name" text="Name" default="" delete_if_empty="true"/>
 				<space/>
 				<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -268,7 +258,6 @@
 		<group name="Transportation" fr.name="Transports" en.name="Transportation">
 			<group name="Roads" fr.name="Voirie" en.name="Roads" icon="presets/way_secondary.png">
 				<item name="Roads and streets" fr.name="Routes et rues" en.name="Roads and streets" icon="presets/way_secondary.png" type="way">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a road **" fr.text="** Creer/mettre a jour une voie **" en.text="** Edit/modify a road **"/>
 					<label text="________________________________________"/>
 					<label text="ROAD" fr.text="VOIE" en.text="ROAD"/>
@@ -298,7 +287,6 @@
 					<space/>
 				</item>
 				<item name="Roads under construction" fr.name="Voies en construction" en.name="Roads under construction" icon="presets/construction.png" type="way">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a road under construction **" fr.text="** Creer/mettre a jour une voie en construction **" en.text="** Edit/modify a road under construction **"/>
 					<label text="________________________________________"/>
 					<label text="ROAD UNDER CONSTRUCTION" fr.text="VOIE EN CONSTRUCTION" en.text="ROAD UNDER CONSTRUCTION"/>
@@ -408,9 +396,9 @@
 				<item name="Footways" fr.name="Chemins pieton" icon="presets/footway.png" type="way">
 					<key key="highway" value="footway"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dfootway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dfootway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dfootway"/>
-					<label text="** Edit/modify a footway **" fr.text="** Creer/mettre a jour un Chemins pieton **" />
+					<label text="** Edit/modify a footway **" fr.text="** Creer/mettre a jour un Chemins pieton **"/>
 					<label text="________________________________________"/>
-					<label text="FOOTWAY" fr.text="Chemins pieton" />
+					<label text="FOOTWAY" fr.text="Chemins pieton"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
@@ -438,7 +426,6 @@
 						<item name="Car Park" fr.name="Parking pour automobiles" icon="presets/parking.png" type="node,closedway,relation">
 							<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=parking" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=parking" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=parking" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=parking" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=parking" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=parking" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=parking"/>
 							<label text="Edit Parking"/>
-							<!--<key key="project:xxx" value="yes" />-->
 							<label text="________________________________________"/>
 							<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 							<key key="amenity" value="parking"/>
@@ -471,7 +458,6 @@
 						<item name="Parking entrance" fr.name="Entree de parking" icon="presets/parking.png" type="node,relation">
 							<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking_entrance"/>
 							<label text="Edit Parking entrance"/>
-							<!--<key key="project:xxx" value="yes" />-->
 							<label text="________________________________________"/>
 							<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 							<key key="amenity" value="parking_entrance"/>
@@ -504,7 +490,6 @@
 					</group>
 					<item name="Motorcycle Parking" fr.name="Parking pour motos" icon="styles/standard/vehicle/parking/motorbike.png" type="node,relation">
 						<label text="Edit Motorcycle Parking"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="motorcycle_parking"/>
@@ -528,7 +513,6 @@
 					<item name="Bicycle Parking" fr.name="Parking pour velos" icon="styles/standard/vehicle/parking/bicycle.png" type="node,relation">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=bicycle_parking" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=bicycle_parking" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bicycle_parking" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bicycle_parking"/>
 						<label text="Edit Bicycle Parking"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="bicycle_parking"/>
@@ -551,7 +535,6 @@
 					</item>
 				</group>
 				<item name="Roundabout" icon="presets/roundabout.png" type="closedway">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a roundabout **" fr.text="** Creer/mettre a jour un rond-point **" en.text="** Edit/modify a roundabout **"/>
 					<label text="________________________________________"/>
 					<label text="ROUNDABOUT" fr.text="ROND-POINT" en.text="ROUNDABOUT"/>
@@ -577,7 +560,6 @@
 					<space/>
 				</item>
 				<item name="Mini-roundabout" icon="presets/roundabout_left.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a mini roundabout **" fr.text="** Creer/mettre a jour un mini rond-point **" en.text="** Edit/modify a mini roundabout **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=mini_roundabout" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=mini_roundabout" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway=mini_roundabout" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:highway=mini_roundabout" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=mini_roundabout" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=mini_roundabout"/>
 					<label text="________________________________________"/>
@@ -597,7 +579,6 @@
 					<space/>
 				</item>
 				<item name="Turning Circle" icon="presets/turning_circle.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a turning circle **" fr.text="** Creer/mettre a jour un rond point interne **" en.text="** Edit/modify a turning circle **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=turning_circle" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=turning_circle" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=turning_circle" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=turning_circle"/>
 					<key key="highway" value="turning_circle"/>
@@ -615,7 +596,6 @@
 				</item>
 				<separator/>
 				<item name="Bridge" icon="presets/bridge.png" type="way">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a bridge **" fr.text="** Creer/mettre a jour un pont **" en.text="** Edit/modify a bridge **"/>
 					<label text="________________________________________"/>
 					<label text="BRIDGE" fr.text="PONT" en.text="BRIDGE"/>
@@ -643,7 +623,6 @@
 					<space/>
 				</item>
 				<item name="Tunnel" icon="presets/tunnel.png" type="way">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a tunnel **" fr.text="** Creer/mettre a jour un tunnel **" en.text="** Edit/modify a tunnel **"/>
 					<label text="________________________________________"/>
 					<label text="TUNNEL" fr.text="TUNNEL" en.text="TUNNEL"/>
@@ -670,7 +649,6 @@
 					<space/>
 				</item>
 				<item name="Ford" fr.name="Gue (labou an kreyol)" icon="presets/ford.png" type="node,way">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a ford **" fr.text="** Creer/mettre a jour un gue (labou an kreyol) **" en.text="** Edit/modify a ford **"/>
 					<label text="________________________________________"/>
 					<label text="FORD" fr.text="GUE" en.text="F"/>
@@ -699,7 +677,6 @@
 					<label text="** Edit/modify a Fire Hydrant **" fr.text="** Creer/mettre a jour une borne incendie **" en.text="** Edit/modify a Fire Hydrant **"/>
 					<key key="emergency" value="fire_hydrant"/>
 					<key key="fire_hydrant:type" value="pillar"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -713,7 +690,6 @@
 					<space/>
 				</item>
 				<item name="Traffic Signal" icon="presets/traffic-light.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a traffic signal **" fr.text="** Creer/mettre a jour un feu de circulation **" en.text="** Edit/modify a traffic signal **"/>
 					<label text="________________________________________"/>
 					<label text="TRAFFIC SIGNAL" fr.text="FEU DE CIRCULATION" en.text="TRAFFIC SIGNAL"/>
@@ -732,7 +708,6 @@
 					<space/>
 				</item>
 				<item name="Stop" icon="presets/Stop.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="highway" value="stop"/>
 					<label text="** Edit/modify a stop **" fr.text="** Creer/mettre a jour un stop **" en.text="** Edit/modify a stop **"/>
 					<label text="________________________________________"/>
@@ -748,7 +723,6 @@
 					<space/>
 				</item>
 				<item name="Pedestrian Crossing" icon="styles/standard/vehicle/zebra_crossing.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a pedestrian crossing **" fr.text="** Creer/mettre a jour un passage pieton **" en.text="** Edit/modify a pedestrian crossing **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:crossing" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:crossing" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:crossing" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:crossing" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:crossing" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:crossing" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:crossing"/>
 					<key key="highway" value="crossing"/>
@@ -765,7 +739,6 @@
 					<space/>
 				</item>
 				<item name="Traffic Calming" icon="presets/chicane.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a traffic calming **" fr.text="** Creer/mettre a jour un ralentisseur **" en.text="** Edit/modify a traffic calming **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:traffic_calming" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:traffic_calming" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:traffic_calming" it.href="http://wiki.openstreetmap.org/wiki/IT:Key:traffic_calming" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:traffic_calming" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:traffic_calming"/>
 					<!--<label text="________________________________________" />
@@ -785,7 +758,6 @@
 					<space/>
 				</item>
 				<item name="Passing Place" icon="presets/passingplace.png" type="node">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a passing place **" fr.text="** Creer/mettre a jour une aire de croisement **" en.text="** Edit/modify a passing place  **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=passing_place" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=passing_place" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=passing_place"/>
 					<key key="highway" value="passing_place"/>
@@ -812,7 +784,6 @@
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
 					</optional>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -838,7 +809,6 @@
 						<combo key="bench" text="Bench" values="yes,no" default="" delete_if_empty="true"/>
 						<combo key="tactile_paving" text="Tactile Paving" values="yes,no" default="" delete_if_empty="true"/>
 					</optional>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -859,7 +829,6 @@
 					<text key="ref" text="Reference (track number)" default="" delete_if_empty="true"/>
 					<text key="width" text="Width (meters)" default="" delete_if_empty="true"/>
 					<check key="area" text="Area" default="off" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -884,7 +853,6 @@
 					<check key="motorcar" text="Motorcar" value_on="yes" default="off" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" value_on="yes" default="off" delete_if_empty="true"/>
 					<text key="capacity" text="Capacity" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -911,7 +879,6 @@
 							<text key="icao" text="ICAO" default="" delete_if_empty="true"/>
 							<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
 						</optional>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -932,7 +899,6 @@
 						<optional>
 							<text key="ref" text="Reference" default="" delete_if_empty="true"/>
 						</optional>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -954,7 +920,6 @@
 						<optional>
 							<text key="ref" text="Reference" default="" delete_if_empty="true"/>
 						</optional>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -975,7 +940,6 @@
 						<optional>
 							<text key="ref" text="Reference" default="" delete_if_empty="true"/>
 						</optional>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -993,7 +957,6 @@
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=apron" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:aeroway=apron" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=apron" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:aeroway=apron"/>
 						<label text="Apron"/>
 						<key key="aeroway" value="apron"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -1011,7 +974,6 @@
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=hangar"/>
 						<label text="Hangar"/>
 						<key key="building" value="hangar"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -1031,7 +993,6 @@
 						<label text="Edit Terminal"/>
 						<space/>
 						<key key="aeroway" value="terminal"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
 						<label text="________________________________________"/>
@@ -1051,7 +1012,6 @@
 						<label text="Edit Terminal Gate"/>
 						<key key="aeroway" value="gate"/>
 						<text key="ref" text="Reference" default="" delete_if_empty="true"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -1070,7 +1030,6 @@
 			</group>
 			<!-- Transportation means -->
 			<item name="Road Restrictions" icon="presets/restrictions.png" type="node,way">
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="** Edit/modify road restrictions **" fr.text="** Creer/mettre a jour des restrictions de voirie **" en.text="** Edit/modify road restrictions **"/>
 				<label text="________________________________________"/>
 				<label text="ROAD RESTRICTIONS" fr.text="RESTRICTIONS DE VOIRIE" en.text="ROAD RESTRICTIONS"/>
@@ -1125,7 +1084,6 @@
 						<space/>
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					</optional>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1150,7 +1108,6 @@
 					<check key="horse" text="Horse" default="off" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true"/>
 					<check key="motorcar" text="Motorcar" default="off" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1176,7 +1133,6 @@
 					<check key="bicycle" text="Bicycle" default="on" delete_if_empty="true"/>
 					<check key="horse" text="Horse" default="off" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1201,7 +1157,6 @@
 					<check key="horse" text="Horse" default="off" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true"/>
 					<check key="motorcar" text="Motorcar" default="off" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1218,7 +1173,6 @@
 				<item name="Hedge" icon="presets/hedge.png" type="way,closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:barrier=hedge" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:barrier=hedge" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:barrier=hedge" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:barrier=hedge" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:barrier=hedge" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:barrier=hedge" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:barrier=hedge"/>
 					<key key="barrier" value="hedge"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1238,7 +1192,6 @@
 					<optional>
 						<combo key="fence_type" text="Type" values="barbed_wire,chain,electric,hedge,pole,split_rail,wood" default="" delete_if_empty="true"/>
 					</optional>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1254,7 +1207,6 @@
 				<!-- fence -->
 				<item name="Wall" icon="presets/wall.png" type="way,closedway">
 					<key key="barrier" value="wall"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1271,7 +1223,6 @@
 				<item name="City Wall" icon="presets/city_wall.png" type="way,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:barrier=city_wall" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:barrier=city_wall" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:barrier=city_wall"/>
 					<key key="barrier" value="city_wall"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1288,7 +1239,6 @@
 				<item name="Retaining Wall" icon="presets/retaining_wall.png" type="way,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:barrier=retaining_wall" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:barrier=retaining_wall" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:barrier=retaining_wall" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:barrier=retaining_wall" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:barrier=retaining_wall"/>
 					<key key="barrier" value="retaining_wall"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1315,7 +1265,6 @@
 					<check key="horse" text="Horse" default="off" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true"/>
 					<check key="motorcar" text="Motorcar" default="off" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1341,7 +1290,6 @@
 					<check key="horse" text="Horse" default="off" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true"/>
 					<check key="motorcar" text="Motorcar" default="off" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1434,7 +1382,6 @@
 			</group>
 			<!-- Barriers -->
 			<item name="Obstacles" icon="presets/block.png" type="node,way,closedway,relation">
-				<!--<key key="project:xxx" value="yes" />-->
 				<key key="barrier" value="block"/>
 				<label text="** Edit/modify obstacles **" fr.text="** Creer/mettre a jour des obstacles **" en.text="** Edit/modify obstacless **"/>
 				<space/>
@@ -1521,7 +1468,6 @@
 					</item>
 				</group>
 				<item name="Pipeline" fr.name="Pipeline" en.name="Pipeline" type="way,relation" icon="presets/path.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a pipeline **" fr.text="** Creer/mettre a jour un pipeline**" en.text="** Edit/modify a pipeline **"/>
 					<space/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=pipeline" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:man_made=pipeline" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=pipeline" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:man_made=pipeline"/>
@@ -1545,7 +1491,6 @@
 				</item>
 				<item name="Water Tower" icon="presets/water_tower.png" type="node,closedway">
 					<label text="Edit Water Tower"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="man_made" value="water_tower"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
@@ -1572,7 +1517,6 @@
 					<label text="Edit Water Works"/>
 					<space/>
 					<key key="man_made" value="water_works"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
@@ -1591,7 +1535,6 @@
 				</item>
 				<separator/>
 				<item name="Showers" fr.name="Douche" en.name="Showers" type="node,relation" icon="presets/shower.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify showers **" fr.text="** Creer/mettre a jour des douches **" en.text="** Edit/modify showers **"/>
 					<label text="________________________________________"/>
 					<label text="SHOWERS" fr.text="DOUCHES" en.text="SHOWERS"/>
@@ -1623,7 +1566,6 @@
 					<space/>
 				</item>
 				<item name="Toilets and latrines" fr.name="Toilettes et latrines" en.name="Toilets and latrines" type="node,relation" icon="presets/toilet.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify toilets/latrines **" fr.text="** Creer/mettre a jour des toilettes/latrines **" en.text="** Edit/modify toilets/latrines **"/>
 					<label text="________________________________________"/>
 					<label text="TOILETS" fr.text="TOILETTES" en.text="TOILETS"/>
@@ -1662,7 +1604,6 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=wastewater_plant" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:man_made=wastewater_plant" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:man_made=wastewater_plant" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:man_made=wastewater_plant" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:man_made=wastewater_plant" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=wastewater_plant"/>
 					<label text="Edit Wastewater Plant"/>
 					<key key="man_made" value="wastewater_plant"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<space/>
@@ -1685,7 +1626,6 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=watermill" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:man_made=watermill" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=watermill"/>
 					<label text="Edit Watermill"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="man_made" value="watermill"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
@@ -1729,7 +1669,6 @@
 						<combo key="operational_status" text="Statut operationnel" values="operational,closed" display_values="operationnel,non operationnel" en.display_values="operational,closed"/>
 						<text key="canal_description" text="Notes et observations" en.text="Note"/>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -1760,7 +1699,6 @@
 						<combo key="canal_banks_barriers_left" text="Obstacles sur lpes berges rive gauche" en.text="Banks barriers on left side" values="waste_embankments,various_materials_embankments,buildings,stagnant water,others,no" display_values="talus de dechets,talus de materiaux divers,constructions,eau stagnante,autres,aucun" en.display_values="waste embankments,various materials embankments,buildings,stagnant water,others,no"/>
 						<text key="canal_banks_barriers_desc_left" text="Description berges rive gauche" en.text="Banks left side description"/>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -1774,7 +1712,6 @@
 						<space/>
 					</item>
 					<item name="Damage prone" fr.name="Dommages frequents" en.name="Damage prone">
-						<!--<key key="project:xxx" value="yes" />-->
 						<key key="damage_prone" value="yes"/>
 						<label text="Damage prone canal" fr.text="Canal frequemment endommagee" en.text="Damage prone canal"/>
 						<text key="damage-type" name="Damage type" fr.name="Type de dommage" en.name="Damage type"/>
@@ -1818,7 +1755,6 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1841,7 +1777,6 @@
 					<text key="ref" text="Reference" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1863,7 +1798,6 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1885,7 +1819,6 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1904,7 +1837,6 @@
 					<label text="Edit Power Tower"/>
 					<key key="power" value="tower"/>
 					<text key="ref" text="Tower reference" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1922,7 +1854,6 @@
 					<label text="Edit Power Pole"/>
 					<key key="power" value="pole"/>
 					<text key="ref" text="Pole reference" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1947,7 +1878,6 @@
 					<combo key="voltage" text="Voltage" values="3000,10000,15000,20000,25000,110000,220000,380000" default="" delete_if_empty="true"/>
 					<text key="cables" text="Amount of Cables" default="" delete_if_empty="true"/>
 					<!--<combo key="wires" text="Number of wires (better: conductors) per power cable" values="single,double,triple,quad" default="" delete_if_empty="true" /> -->
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1969,7 +1899,6 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1989,7 +1918,6 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse%3Dlandfill" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:landuse%3Dlandfill"/>
 					<label text="Edit landfill" fr.text="Creer ou mettre a jour une decharge"/>
 					<key key="landuse" value="landfill"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
@@ -2022,7 +1950,6 @@
 					<check key="recycling:paper" text="Paper" default="off" delete_if_empty="true"/>
 					<check key="recycling:scrap_metal" text="Scrap Metal" default="off" delete_if_empty="true"/>
 					<combo key="recycling_type" text="Type" values="container,centre" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2039,7 +1966,6 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity%3Dwaste_disposal"/>
 					<label text="Edit Waste Disposal" fr.text="Creer ou mettre a jour une benne a ordures"/>
 					<key key="amenity" value="waste_disposal"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2056,7 +1982,6 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=waste_basket" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=waste_basket" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=waste_basket" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=waste_basket"/>
 					<label text="Edit Waste Basket"/>
 					<key key="amenity" value="waste_basket"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2076,7 +2001,6 @@
 		<group name="Cultural and social" fr.name="Culturel et social" en.name="Cultural and social">
 			<group name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" icon="presets/church.png">
 				<item name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" type="node,relation" icon="presets/church.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="place_of_worship"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=place_of_worship" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=place_of_worship" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=place_of_worship" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=place_of_worship" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=place_of_worship" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=place_of_worship" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=place_of_worship" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=place_of_worship" sv.href="http://wiki.openstreetmap.org/wiki/Sv:Tag:amenity=place_of_worship"/>
 					<label text="** Edit/modify a place of worship **" fr.text="** Creer/mettre a jour un lieu de culte **" en.text="** Edit/modify a place of worship **"/>
@@ -2322,7 +2246,6 @@
 					<space/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2346,7 +2269,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2369,7 +2291,6 @@
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2388,7 +2309,6 @@
 					<key key="amenity" value="theatre"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2409,7 +2329,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2430,7 +2349,6 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Operateur" en.text="Operator name"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2449,7 +2367,6 @@
 					<key key="tourism" value="artwork"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2472,7 +2389,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2490,7 +2406,6 @@
 					<key key="historic" value="monument"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2509,7 +2424,6 @@
 					<key key="historic" value="memorial"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2537,7 +2451,6 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2562,7 +2475,6 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2587,7 +2499,6 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2609,7 +2520,6 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2632,7 +2542,6 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2655,7 +2564,6 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2675,7 +2583,6 @@
 		<group name="Public services" fr.name="Services d'interet public" en.name="Public services">
 			<group name="Educational facilities" fr.name="Structures d'education" en.name="Educational facilities" icon="presets/school.png">
 				<item name="Kindergarten" fr.name="Kindergarten" en.name="Kindergarten" type="node,relation" icon="presets/kindergarten.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="kindergarten"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Kindergarten" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity%3Dkindergarten"/>
 					<label text="** Edit/modify a kindergarten **" fr.text="** Creer/mettre a jour un kindergarten **" en.text="** Edit/modify a kindergarten **"/>
@@ -2704,7 +2611,6 @@
 					<space/>
 				</item>
 				<item name="School" fr.name="Ecole" en.name="School" type="node,relation" icon="presets/school.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="school"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=school" ar.href="http://wiki.openstreetmap.org/wiki/Ar:Tag:amenity=school" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=school" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=school" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=school" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=school" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=school" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=school" uk.href="http://wiki.openstreetmap.org/wiki/Uk:Tag:amenity=school"/>
 					<label text="** Edit/modify a school **" fr.text="** Creer/mettre a jour une ecole **" en.text="** Edit/modify a school **"/>
@@ -2725,7 +2631,6 @@
 					<space/>
 					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2739,7 +2644,6 @@
 					<space/>
 				</item>
 				<item name="College" fr.name="Enseignement superieure" en.name="College" type="node,relation" icon="styles/standard/education/college.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="college"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=college" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=college" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=college" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=college" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=college"/>
 					<label text="** Edit/modify a college **" fr.text="** Creer/mettre a jour une ecole superieure **" en.text="** Edit/modify a college **"/>
@@ -2768,7 +2672,6 @@
 					<space/>
 				</item>
 				<item name="University" fr.name="Universite" en.name="University" type="node,relation" icon="styles/standard/education/university.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="university"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=university" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=university" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=university" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=university" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=university" uk.href="http://wiki.openstreetmap.org/wiki/Uk:Tag:amenity=university"/>
 					<label text="** Edit/modify a university **" fr.text="** Creer/mettre a jour une universite **" en.text="** Edit/modify a university **"/>
@@ -2784,7 +2687,6 @@
 					<space/>
 					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2801,7 +2703,6 @@
 			<!-- Educational facilities -->
 			<group name="Health facilities" fr.name="Structures de sante" en.name="Health facilities" icon="styles/standard/health/hospital.png">
 				<item name="Hospital" fr.name="Hopital" en.name="Hospital" type="node,relation" icon="styles/standard/health/hospital.png">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="hospital"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=hospital" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=hospital" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=hospital" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=hospital" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=hospital" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=hospital" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=hospital"/>
 					<label text="** Edit/modify a health facility **" fr.text="** Creer/mettre a jour une structure de sante  **" en.text="** Edit/modify a health facility **"/>
@@ -2850,7 +2751,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2870,7 +2770,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2890,7 +2789,6 @@
 					<space/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2913,7 +2811,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2936,7 +2833,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2957,7 +2853,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3019,7 +2914,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -3043,7 +2937,6 @@
 					<key key="office" value="administrative"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3062,7 +2955,6 @@
 					<key key="amenity" value="courthouse"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3080,10 +2972,8 @@
 					<label text="Edit Prison"/>
 					<key key="amenity" value="prison"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3102,7 +2992,6 @@
 					<key key="amenity" value="police"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3121,7 +3010,6 @@
 					<key key="amenity" value="fire_station"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3142,7 +3030,6 @@
 					<space/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3162,7 +3049,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3200,7 +3086,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3232,7 +3117,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3262,7 +3146,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3294,7 +3177,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3325,7 +3207,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3361,7 +3242,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3392,7 +3272,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3430,7 +3309,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3463,7 +3341,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3494,7 +3371,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3527,7 +3403,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3560,7 +3435,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3590,7 +3464,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3621,7 +3494,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3650,7 +3522,6 @@
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3677,7 +3548,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<check key="supervised" text="Supervised" fr.text="Surveillance" default="off"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3696,7 +3566,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3715,7 +3584,6 @@
 					<key key="tourism" value="viewpoint"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3736,7 +3604,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="opening_hours" text="Opening Hours" values="24/7,Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00;Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3766,7 +3633,6 @@
 					<check key="ski" text="Skiing" default="off" delete_if_empty="true"/>
 					<check key="horse" text="Riding" default="off" delete_if_empty="true"/>
 					<label text="... other transportation modes possible"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3787,7 +3653,6 @@
 					<space/>
 					<combo key="board_type" text="Board Content" values="notice,history,nature,wildlife,plants" default="board" delete_if_empty="true"/>
 					<text key="description" text="Closer Description" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -3805,7 +3670,6 @@
 			<group name="Food" icon="styles/standard/shop/supermarket.png">
 				<item name="Supermarket" icon="styles/standard/shop/supermarket.png" type="node">
 					<label text="Edit Supermarket"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="supermarket"/>
@@ -3828,7 +3692,6 @@
 				<item name="Convenience Store" icon="presets/convenience.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=convenience" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=convenience" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=convenience"/>
 					<label text="Edit Convenience Store"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="convenience"/>
@@ -3851,7 +3714,6 @@
 				<item name="Kiosk" icon="presets/kiosk.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=kiosk" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=kiosk" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=kiosk" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=kiosk" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=kiosk"/>
 					<label text="Edit Kiosk"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="kiosk"/>
@@ -3895,7 +3757,6 @@
 				<item name="Butcher" icon="presets/cow.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=butcher" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:shop=butcher" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:shop=butcher" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=butcher" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=butcher" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=butcher"/>
 					<label text="Edit Butcher"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="butcher"/>
@@ -3918,7 +3779,6 @@
 				<item name="Seafood" icon="presets/seafood.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=seafood" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=seafood"/>
 					<label text="Edit Seafood"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="seafood"/>
@@ -3942,7 +3802,6 @@
 				<item name="Deli (Fine Food)" icon="presets/deli.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=deli" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=deli"/>
 					<label text="Edit Deli (Fine Food)"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="deli"/>
@@ -3966,7 +3825,6 @@
 				<item name="Confectionery" icon="presets/confectionery.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=confectionery" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:shop=confectionery" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=confectionery" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=confectionery"/>
 					<label text="Edit Confectionery"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="confectionery"/>
@@ -3990,7 +3848,6 @@
 				<item name="Marketplace" icon="styles/standard/place/marketplace.png" type="node,way">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=marketplace" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=marketplace" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=marketplace" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=marketplace" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=marketplace" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=marketplace" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=marketplace"/>
 					<label text="Edit Marketplace"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="amenity" value="marketplace"/>
@@ -3999,7 +3856,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4015,7 +3871,6 @@
 				<item name="Greengrocer" icon="presets/greengrocer.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=greengrocer" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=greengrocer" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:shop=greengrocer" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=greengrocer"/>
 					<label text="Edit Greengrocer"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="greengrocer"/>
@@ -4038,7 +3893,6 @@
 				</item>
 				<item name="Organic" icon="presets/fruits.png" type="node">
 					<label text="Edit Organic Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="organic"/>
@@ -4062,7 +3916,6 @@
 				<item name="Alcohol" icon="styles/standard/shop/beverages.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=alcohol" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=alcohol"/>
 					<label text="Edit Alcohol Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="alcohol"/>
@@ -4084,7 +3937,6 @@
 				</item>
 				<item name="Beverages" icon="styles/standard/shop/beverages.png" type="node">
 					<label text="Edit Beverages Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="beverages"/>
@@ -4109,7 +3961,6 @@
 			<group name="Clothes" icon="styles/standard/shop/clothes.png">
 				<item name="Clothes" icon="styles/standard/shop/clothes.png" type="node,relation">
 					<label text="Edit Clothes Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="clothes"/>
@@ -4132,7 +3983,6 @@
 				<item name="Boutique" icon="presets/boutique.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=boutique" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=boutique" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=boutique"/>
 					<label text="Edit Boutique"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="boutique"/>
@@ -4155,7 +4005,6 @@
 				</item>
 				<item name="Shoes" icon="styles/standard/shop/shoes.png" type="node">
 					<label text="Edit Shoe Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="shoes"/>
@@ -4178,7 +4027,6 @@
 				<item name="Outdoor" icon="presets/tent.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=outdoor" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=outdoor" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=outdoor"/>
 					<label text="Edit Outdoor Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="outdoor"/>
@@ -4200,7 +4048,6 @@
 				</item>
 				<item name="Sports" icon="presets/rowing.png" type="node">
 					<label text="Edit Sports Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="sports"/>
@@ -4224,7 +4071,6 @@
 				<item name="Dry Cleaning" icon="presets/laundry.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=dry_cleaning" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:shop=dry_cleaning" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=dry_cleaning"/>
 					<label text="Edit Dry Cleaning"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="dry_cleaning"/>
@@ -4247,7 +4093,6 @@
 				<item name="Laundry" icon="presets/laundry.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/Laundry"/>
 					<label text="Edit Laundry"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="laundry"/>
@@ -4269,7 +4114,6 @@
 				</item>
 				<item name="Tailor" icon="styles/standard/shop/tailor.png" type="node">
 					<label text="Edit Tailor"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="tailor"/>
@@ -4292,7 +4136,6 @@
 				<item name="Fabric" icon="presets/fabric.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=fabric" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=fabric"/>
 					<label text="Edit Fabric"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="fabric"/>
@@ -4318,7 +4161,6 @@
 			<group name="Electronic" icon="styles/standard/shop/electronics.png">
 				<item name="Computer" icon="styles/standard/shop/computer.png" type="node">
 					<label text="Edit Computer Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="computer"/>
@@ -4339,7 +4181,6 @@
 					<space/>
 				</item>
 				<item name="Internet cafe" fr.name="Internet cafe" type="node,relation">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="cafe"/>
 					<key key="internet_access" value="service"/>
 					<label text="** Edit/modify an Internet cafe **" fr.text="** Creer/mettre a jour d'un Internet cafe **" en.text="** Edit/modify an Internet cafe **"/>
@@ -4369,7 +4210,6 @@
 				</item>
 				<item name="Electronics" icon="styles/standard/shop/electronics.png" type="node">
 					<label text="Edit Electronics Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="electronics"/>
@@ -4392,7 +4232,6 @@
 				<item name="Mobile Phone" icon="presets/mobile_phone.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=mobile_phone" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=mobile_phone" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=mobile_phone"/>
 					<label text="Edit Mobile Phone"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="mobile_phone"/>
@@ -4416,7 +4255,6 @@
 				<item name="Vacuum Cleaner" icon="presets/vacuum_cleaner.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=vacuum_cleaner" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=vacuum_cleaner"/>
 					<label text="Edit Vacuum Cleaner"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="vacuum_cleaner"/>
@@ -4439,7 +4277,6 @@
 				</item>
 				<item name="Hifi" icon="styles/standard/shop/hifi.png" type="node">
 					<label text="Edit Hifi Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="hifi"/>
@@ -4461,7 +4298,6 @@
 				</item>
 				<item name="Video" icon="styles/standard/shop/video.png" type="node">
 					<label text="Edit Video Shop"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
 					<key key="shop" value="video"/>
@@ -4488,7 +4324,6 @@
 					<item name="Fuel" icon="presets/fuel.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=fuel" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=fuel" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=fuel" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=fuel" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=fuel" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=fuel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=fuel" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=fuel" zh-hant.href="http://wiki.openstreetmap.org/wiki/Zh-hant:Tag:amenity=fuel"/>
 						<label text="Edit Fuel"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="fuel"/>
@@ -4502,7 +4337,6 @@
 							<check key="fuel:diesel" text="Diesel" default="off" delete_if_empty="true"/>
 						</optional>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -4517,7 +4351,6 @@
 					</item>
 					<item name="Wash" icon="presets/car_wash.png" type="node">
 						<label text="Edit Car Wash"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="car_wash"/>
@@ -4527,7 +4360,6 @@
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -4544,7 +4376,6 @@
 					<item name="Car Dealer" icon="presets/car.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=car" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:shop=car" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:shop=car" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=car" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:shop=car" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=car" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=car"/>
 						<label text="Edit Car Shop"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="shop" value="car"/>
@@ -4566,7 +4397,6 @@
 					</item>
 					<item name="Repair" icon="presets/car_repair.png" type="node">
 						<label text="Edit Car Repair"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="shop" value="car_repair"/>
@@ -4590,7 +4420,6 @@
 					</item>
 					<item name="Tyres" icon="presets/tyres.png" type="node">
 						<label text="Edit Tyres"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="shop" value="tyres"/>
@@ -4621,7 +4450,6 @@
 					<item name="Rental" icon="presets/car_rental.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=car_rental" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=car_rental" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=car_rental" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=car_rental" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=car_rental"/>
 						<label text="Edit Car Rental"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="car_rental"/>
@@ -4631,7 +4459,6 @@
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -4647,7 +4474,6 @@
 					<item name="Sharing" icon="presets/car_sharing.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=car_sharing" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=car_sharing" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=car_sharing" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=car_sharing" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=car_sharing" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=car_sharing" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=car_sharing"/>
 						<label text="Edit Car Sharing"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="car_sharing"/>
@@ -4676,7 +4502,6 @@
 					<item name="Motorcycle Dealer" icon="presets/motorbike.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=motorcycle" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=motorcycle" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=motorcycle" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=motorcycle"/>
 						<label text="Edit Shop Motorcycle"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="shop" value="motorcycle"/>
@@ -4717,13 +4542,11 @@
 					<item name="Bike Dealer" icon="presets/bike.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=bicycle" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:shop=bicycle" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:shop=bicycle" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=bicycle" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=bicycle"/>
 						<label text="Edit Bicycle Shop"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="shop" value="bicycle"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<check key="service:bicycle:retail" text="Bicycles are sold"/>
 						<check key="service:bicycle:second_hand" text="Second-hand bicycles are sold"/>
 						<check key="service:bicycle:repair" text="Bicycles are repaired"/>
@@ -4746,13 +4569,11 @@
 					<item name="Rental" icon="presets/bicycle_rental.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_rental" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=bicycle_rental" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=bicycle_rental" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=bicycle_rental" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=bicycle_rental" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bicycle_rental" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bicycle_rental" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bicycle_rental"/>
 						<label text="Edit Bicycle Rental"/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 						<key key="amenity" value="bicycle_rental"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
-						<!--<key key="project:xxx" value="yes" />-->
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -4773,7 +4594,6 @@
 				<item name="Bank" icon="styles/standard/money/bank.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bank" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=bank" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=bank" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bank" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=bank" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=bank" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bank" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bank"/>
 					<label text="Edit Bank"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
 					<key key="amenity" value="bank"/>
@@ -4805,7 +4625,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4828,7 +4647,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4849,7 +4667,6 @@
 					<key key="amenity" value="atm"/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4873,7 +4690,6 @@
 					<space/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4900,7 +4716,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4924,7 +4739,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4947,7 +4761,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4969,7 +4782,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -4991,7 +4803,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5015,7 +4826,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5038,7 +4848,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5062,7 +4871,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5085,7 +4893,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5109,7 +4916,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5133,7 +4939,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5156,7 +4961,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5180,7 +4984,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5203,7 +5006,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5228,7 +5030,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5252,7 +5053,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5276,7 +5076,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5299,7 +5098,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5323,7 +5121,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5345,7 +5142,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5368,7 +5164,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5394,7 +5189,6 @@
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="website" text="Website" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5461,7 +5255,6 @@
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -5486,7 +5279,6 @@
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6023,7 +5815,6 @@
 			</group>
 			<separator/>
 			<item name="Information centre" fr.name="Centre d'information" type="node,relation" icon="presets/informationoffice.png">
-				<!--<key key="project:xxx" value="yes" />-->
 				<key key="information" value="office"/>
 				<label text="** Edit/modify an information centre **" fr.text="** Creer/mettre a jour un centre d'information **" en.text="** Edit/modify an information centre **"/>
 				<label text="________________________________________"/>
@@ -6052,7 +5843,6 @@
 			<separator/>
 			<group name="Telecommunication">
 				<item name="Radio or TV studio" fr.name="Studio et station de radio ou television" type="node,relation">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="amenity" value="studio"/>
 					<combo key="type" text="Type" fr.text="Type" en.text="Type" values="audio,video" display_values="audio,video" fr.display_values="audio,video" en.display_values="audio,video" required="true"/>
 					<label text="** Edit/modify a radio or television studio **" fr.text="** Creer/mettre a jour un studio de radio ou de television **" en.text="** Edit/modify a radio or television studio **"/>
@@ -6081,7 +5871,6 @@
 					<space/>
 				</item>
 				<item name="Telecommunication antenna" fr.name="Antenne de telecommunication" type="node,relation">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="man_made" value="tower"/>
 					<key key="tower:type" value="communication"/>
 					<label text="** Edit/modify a telecommunication antenna **" fr.text="** Creer/mettre a jour d'une antenne de telecommunication **" en.text="** Edit/modify a telecommunication antenna **"/>
@@ -6112,7 +5901,6 @@
 					<space/>
 				</item>
 				<item name="Telecommunication office" fr.name="Bureau d'activite de telecommunication" type="node,relation">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="office" value="telecommunication"/>
 					<label text="** Edit/modify a telecommunication office **" fr.text="** Creer/mettre a jour d'un bureau d'activite de telecommunication **" en.text="** Edit/modify a telecommunication office **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:information" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:information" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:information" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:information" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:information"/>
@@ -6142,7 +5930,6 @@
 					<space/>
 				</item>
 				<item name="Telecommunication company retail office" fr.name="Boutique d'une compagnie de telecommunication" type="node,relation">
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="office" value="telecommunication"/>
 					<key key="function" value="retail"/>
 					<label text="** Edit/modify a telecommunication company retail office **" fr.text="** Creer/mettre a jour d'une boutique d'une compagnie de telecommunication **" en.text="** Edit/modify a telecommunication company retail office **"/>
@@ -6178,7 +5965,6 @@
 				<label text="** Edit/modify works or factories **" fr.text="** Creer/mettre a jour une usine ou une fabrique **" en.text="** Edit/modify works or factorie **"/>
 				<combo key="works:type" text="Type" fr.text="Type" en.text="Type" values="brewery,dairy,furniture_anufacture,ice_manufacture,other" display_values="brewery,dairy,furniture manufacture,ice manufacture,other" fr.display_values="brasserie,laiterie,manufacture de meuble,fabrique de glace,autre" en.display_values="brewery,dairy,furniture manufacture,ice manufacture,other" required="true"/>
 				<text key="works:description" text="Description if other" fr.text="Description si autre" en.text="Description if other"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<text key="name" text="Name" default="" delete_if_empty="true"/>
 				<space/>
 				<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
@@ -6201,7 +5987,6 @@
 		<group name="Landuse" fr.name="Occupation du sol" en.name="Landuse">
 			<item name="Agricultural landuse" fr.name="Zones agricoles" en.name="Agricultural landuse" type="closedway,relation" icon="presets/landuse.png">
 				<link href="http://wiki.openstreetmap.org/wiki/Landuse"/>
-				<!--<key key="project:xxx" value="yes" />-->
 				<label text="** Edit/modify an agricultural landuse **" fr.text="** Creer/mettre a jour une zone d'occupation agricole **" en.text="** Edit/modify an agricultural landuse **"/>
 				<label text="________________________________________"/>
 				<label text="LANDUSE" fr.text="OCCUPATION DU SOL" en.text="LANDUSE"/>
@@ -6228,7 +6013,6 @@
 			<group name="Urban landuse" fr.name="Zones urbaines" en.name="Urban landuse" icon="styles/standard/misc/landmark/building.png">
 				<item name="Built urban landuses" fr.name="Zones baties urbaines" en.name="Built urban landuses" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Landuse"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a built urban landuse **" fr.text="** Creer/mettre a jour une occupation du sol batie urbaine **" en.text="** Edit/modify a built urban landuse **"/>
 					<label text="________________________________________"/>
 					<label text="LANDUSE" fr.text="OCCUPATION DU SOL" en.text="LANDUSE"/>
@@ -6252,7 +6036,6 @@
 				</item>
 				<item name="Square" fr.name="Place" en.name="Square" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Key:area"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="area" value="yes"/>
 					<label text="** Edit/modify a square **" fr.text="** Creer/mettre a jour une place **" en.text="** Edit/modify a square **"/>
 					<label text="________________________________________"/>
@@ -6278,7 +6061,6 @@
 				<item name="Grass" fr.name="Pelouse" en.name="Grass" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass"/>
 					<link href="http://wiki.openstreetmap.org/wiki/FR:Key:surface"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<key key="surface" value="grass"/>
 					<label text="** Edit/modify a grass(not for pasture) **" fr.text="** Creer/mettre a jour une pelouse (pas pour le pâturage) **" en.text="** Edit/modify a grass(not for pasture)  **"/>
 					<label text="________________________________________"/>
@@ -6304,7 +6086,6 @@
 				<item name="Leisure" fr.name="Loisirs" en.name="Leisure" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Leisure"/>
 					<link href="http://wiki.openstreetmap.org/wiki/FR:Key:leisure"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a leisure place **" fr.text="** Creer/mettre a jour une zone de loisirs **" en.text="** Edit/modify a leisure place **"/>
 					<label text="________________________________________"/>
 					<label text="LEISURE" fr.text="LOISIRS" en.text="LEISURE"/>
@@ -6330,7 +6111,6 @@
 				<item name="Other non-built urban landuses" fr.name="Autres zones non-baties urbaines" en.name="Other non-built urban landuses" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Landuse"/>
 					<link href="http://wiki.openstreetmap.org/wiki/FR:Key:leisure"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="** Edit/modify a non-built urban landuse **" fr.text="** Creer/mettre a jour une occupation du sol non-batie urbaine **" en.text="** Edit/modify a non-built urban landuse **"/>
 					<label text="________________________________________"/>
 					<label text="LANDUSE" fr.text="OCCUPATION DU SOL" en.text="LANDUSE"/>
@@ -6367,7 +6147,6 @@
 					<space/>
 					<text key="ele" text="Elevation" default="" delete_if_empty="true"/>
 					<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -6392,7 +6171,6 @@
 					<text key="height" text="Height" default="" delete_if_empty="true"/>
 					<text key="name:botanical" text="Botanical Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6413,7 +6191,6 @@
 					<space/>
 					<combo key="wood" text="Type" values="coniferous,deciduous,mixed" values_context="wood" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6435,7 +6212,6 @@
 					<space/>
 					<combo key="wood" text="Type" values="coniferous,deciduous,mixed" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6453,7 +6229,6 @@
 					<key key="leisure" value="nature_reserve"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6472,7 +6247,6 @@
 					<key key="natural" value="scree"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6491,7 +6265,6 @@
 					<key key="natural" value="fell"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6509,7 +6282,6 @@
 					<key key="natural" value="scrub"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6528,7 +6300,6 @@
 					<key key="natural" value="heath"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6550,7 +6321,6 @@
 					<key key="natural" value="water"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6571,7 +6341,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -6592,7 +6361,6 @@
 					<key key="waterway" value="stream"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6611,7 +6379,6 @@
 					<key key="natural" value="spring"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6631,7 +6398,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="wikipedia" text="Wikipedia" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6652,7 +6418,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="wetland" text="Type" values="swamp,bog,marsh,reedbed,saltmarsh,tidalflat,mangrove" default="" delete_if_empty="true"/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6670,7 +6435,6 @@
 					<key key="natural" value="mud"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6689,7 +6453,6 @@
 					<key key="natural" value="beach"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6707,7 +6470,6 @@
 					<key key="natural" value="bay"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6726,7 +6488,6 @@
 					<key key="natural" value="cliff"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<!--<key key="project:xxx" value="yes" />-->
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -6745,7 +6506,6 @@
 		<!-- Physical environment -->
 		<group name="Hazards" fr.name="Menaces" en.name="Hazards">
 			<item name="Flood prone" fr.name="Menace d'inondation" en.name="Flood prone">
-				<!--<key key="project:xxx" value="yes" />-->
 				<key key="hazard_prone" value="yes"/>
 				<key key="hazard_type" value="flood"/>
 				<label text="Flood prone space" fr.text="Lieu menace par les inondations" en.text="Flood prone space"/>
@@ -6763,7 +6523,6 @@
 				<space/>
 			</item>
 			<item name="Landslide prone" fr.name="Menace de glissements de terrain" en.name="Landslide prone">
-				<!--<key key="project:xxx" value="yes" />-->
 				<key key="hazard_prone" value="yes"/>
 				<key key="hazard_type" value="landslide"/>
 				<label text="Landslide prone space" fr.text="Lieu menace par les glissements de terrain" en.text="Landslide prone space"/>
@@ -6781,7 +6540,6 @@
 				<space/>
 			</item>
 			<item name="Windstorm prone" fr.name="Menace de tempetes de vent" en.name="Windstorm prone">
-				<!--<key key="project:xxx" value="yes" />-->
 				<key key="hazard_prone" value="yes"/>
 				<key key="hazard_type" value="windstorm"/>
 				<label text="Windstorm prone space" fr.text="Lieu menace par les tempetes de vent" en.text="Windstorm prone space"/>
@@ -6801,7 +6559,6 @@
 		</group>
 		<!-- Hazards -->
 		<item name="Other objects without presets" fr.name="Autres objets sans presets" en.name="Other objects">
-			<!--<key key="project:xxx" value="yes" />-->
 			<text key="name" text="Name" default="" delete_if_empty="true"/>
 			<space/>
 			<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
