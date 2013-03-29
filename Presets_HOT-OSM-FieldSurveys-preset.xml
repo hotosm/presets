@@ -402,7 +402,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
-					<key key="practicability" value="non_motorized"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
