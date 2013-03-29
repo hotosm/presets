@@ -2049,193 +2049,7 @@
 				</item>
 			</group>
 			<!-- Place of worship -->
-			<group name="Social and communautary facilities" fr.name="Structures sociales ou communautaires" icon="presets/community_centre.png">
-				<item name="Ambulatory Care" de.name="Ambulante Hilfe" fr.name="Soins ambulants" icon="icons/ambulantorycare.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/Key:social_facility" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Ambulatory Care" de.text="bearbeite Ambulante Hilfe"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="ambulatory_care"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Assisted Living" de.name="Betreutes Wohnen" icon="icons/social_living.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Assisted Living" de.text="bearbeite Betreutes Wohnen"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="assisted_living"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Workshop" de.name="Behindertenwerkstatt" icon="icons/sheltered_workshop.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Workshop" de.text="bearbeite Behindertenwerkstatt"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="workshop"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" ru.text="Целевая группа" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Food bank" de.name="Essenausgabe" fr.name="Banque alimentaire" icon="icons/foodbank.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Food bank" de.text="bearbeite Essenausgabe"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="food_bank"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Healthcare" de.name="Medizinische Versorgung" icon="icons/outpatient_care.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Healthcare" de.text="Medizinische Versorgung"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="healthcare"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Shelter" de.name="Obdachlosenasyl" fr.name="Refuge" icon="icons/social_shelter.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Shelter" de.text="bearbeite Obdachlosenasyl"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="shelter"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Outreach" de.name="Tagesbetreuung" icon="icons/outreach.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Outreach" de.text="bearbeite Tagesbetreuung"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="outreach"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
-				<item name="Group Home" de.name="Wohngruppe" icon="icons/group_home.png" type="node,closedway">
-					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
-					<label text="Edit Group Home" de.text="bearbeite Wohngruppe"/>
-					<space/>
-					<key key="amenity" value="social_facility"/>
-					<key key="social_facility" value="group_home"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
-					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
-					<label text="________________________________________"/>
-					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
-					<space/>
-					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
-					<space/>
-					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="note" fr.text="notes" en.text="note"/>
-					<space/>
-				</item>
+			<group name="Community Center" fr.name="Community Center" icon="presets/community_centre.png">
 				<item name="Community Centre" fr.name="Centre communautaire" icon="presets/community_centre.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=community_centre" da.href="http://wiki.openstreetmap.org/wiki/Da:Tag:amenity=community_centre" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=community_centre" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=community_centre" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=community_centre" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=community_centre"/>
 					<label text="Community Centre" fr.text="centre communautaire"/>
@@ -2924,6 +2738,194 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<space/>
+				</item>
+			</group>
+			<group name="Social Facility" de.name="Sozialeinrichtung" fr.name="Établissement de services sociaux" icon="icons/group_home.png">
+				<item name="Ambulatory Care" de.name="Ambulante Hilfe" fr.name="Soins ambulants" icon="icons/ambulantorycare.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/Key:social_facility" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Ambulatory Care" de.text="bearbeite Ambulante Hilfe"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="ambulatory_care"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Assisted Living" de.name="Betreutes Wohnen" icon="icons/social_living.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Assisted Living" de.text="bearbeite Betreutes Wohnen"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="assisted_living"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Workshop" de.name="Behindertenwerkstatt" icon="icons/sheltered_workshop.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Workshop" de.text="bearbeite Behindertenwerkstatt"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="workshop"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" ru.text="Целевая группа" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Food bank" de.name="Essenausgabe" fr.name="Banque alimentaire" icon="icons/foodbank.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Food bank" de.text="bearbeite Essenausgabe"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="food_bank"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Healthcare" de.name="Medizinische Versorgung" icon="icons/outpatient_care.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Healthcare" de.text="Medizinische Versorgung"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="healthcare"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Shelter" de.name="Obdachlosenasyl" fr.name="Refuge" icon="icons/social_shelter.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Shelter" de.text="bearbeite Obdachlosenasyl"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="shelter"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Outreach" de.name="Tagesbetreuung" icon="icons/outreach.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Outreach" de.text="bearbeite Tagesbetreuung"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="outreach"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Group Home" de.name="Wohngruppe" icon="icons/group_home.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
+					<label text="Edit Group Home" de.text="bearbeite Wohngruppe"/>
+					<space/>
+					<key key="amenity" value="social_facility"/>
+					<key key="social_facility" value="group_home"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="social_facility:for" text="Audience" de.text="Zielgruppe" values="abused,child,disabled person,diseased,drug_addicted,homeless,juvenile,mental_health,migrant,orphan,senior,underprivileged,victim" fr.display_values="abus,enfants,personnes handicapées physiques,personnes souffrant de maladie et leur familles,drogués,sans domicile fixe,jeunes,personnes avec des problèmes mentaux ou psychologiques,migrants ou réfugiés,orphelins,personnes âgées,personnes pauvres ou désavantagées,victimes de crimes" default="" delete_if_empty="true"/>
+					<combo key="opening_hours" text="Opening Hours" de.text="Öffnungszeiten" fr.text="Heures d'ouverture" values="Mo-Fr 08:30-20:00,Tu-Su 08:00-15:00; Sa 08:00-12:00" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
 				</item>
 			</group>
