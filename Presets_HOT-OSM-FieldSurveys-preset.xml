@@ -30,7 +30,7 @@
 			<combo key="building" text="Building main use" fr.text="Usage principal du batiment" en.text="Building main use" values="yes,collapsed,church,commercial,farm,garage,greenhouse,hospital,hotel,industrial,office,panel_house,public,residential,school,storage_tank,supermarket,warehouse," display_values="yes,collapsed,church,commercial,farm,garage,greenhouse,hospital,hotel,industrial,office,panel house,public,residential,school,storage tank,supermarket,warehouse," fr.display_values="oui,detruit ou abime,lieu de culte,commercial,ferme,garage,serre,hopital,hotel,industriel,bureau,pre-fabrique,public,residentiel,ecole,stockage de liquides,supermarche,entrepot" en.display_values="yes,collapsed,church,commercial,farm,garage,greenhouse,hospital,hotel,industrial,office,panel house,public,residential,school,storage tank,supermarket,warehouse," default="yes"/>
 			<link href="http://wiki.openstreetmap.org/wiki/Key:building" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:building" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:building"/>
 			<space/>
-			<text key="building:levels" text="Building levels" fr.text="Nombre de niveaux" en.text="Building levels"/>
+			<combo key="building:levels" text="Building levels" fr.text="Nombre de niveaux" values="1,2,3,4,5" display_values="1,2,3,4,5"/>
 			<space/>
 			<label text="Building base material" fr.text="Materiaux du Batiment" en.text="Building base material"/>
 			<!--<check key="building_base_material:reinforced_concrete" text="reinforced concrete" fr.text="beton arme" en.text="reinforced concrete" default="off" /> -->
