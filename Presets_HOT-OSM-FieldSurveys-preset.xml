@@ -5768,7 +5768,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="function" text="Function" fr.text="Fonction" values="retail,headquarters" display_values="retail,headquarters" fr.text="vente au detail,siege social"
+					<combo key="function" text="Function" fr.text="Fonction" values="retail,headquarters" display_values="retail,headquarters" fr.text="vente au detail,siege social"/>
 					<label text="________________________________________"/>
 					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
 					<space/>
