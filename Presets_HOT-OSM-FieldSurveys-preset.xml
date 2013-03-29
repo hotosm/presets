@@ -5767,6 +5767,8 @@
 					<key key="office" value="telecommunication"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<space/>
+					<combo key="function" text="Function" fr.text="Fonction" values="retail,headquarters" display_values="retail,headquarters" fr.text="vente au detail,siege social"
 					<label text="________________________________________"/>
 					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
 					<space/>
@@ -5884,63 +5886,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-					<space/>
-					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-					<space/>
-				</item>
-				<item name="Telecommunication office" fr.name="Bureau d'activite de telecommunication" type="node,relation">
-					<key key="office" value="telecommunication"/>
-					<label text="** Edit/modify a telecommunication office **" fr.text="** Creer/mettre a jour d'un bureau d'activite de telecommunication **" en.text="** Edit/modify a telecommunication office **"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Key:information" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:information" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:information" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:information" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:information"/>
-					<label text="________________________________________"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
-					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
-					<space/>
-					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-					<space/>
-				</item>
-				<item name="Telecommunication company retail office" fr.name="Boutique d'une compagnie de telecommunication" type="node,relation">
-					<key key="office" value="telecommunication"/>
-					<key key="function" value="retail"/>
-					<label text="** Edit/modify a telecommunication company retail office **" fr.text="** Creer/mettre a jour d'une boutique d'une compagnie de telecommunication **" en.text="** Edit/modify a telecommunication company retail office **"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Key:information" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:information" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:information" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:information" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:information"/>
-					<label text="________________________________________"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
