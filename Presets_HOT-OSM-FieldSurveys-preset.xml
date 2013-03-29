@@ -2595,25 +2595,6 @@
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 					<space/>
 				</item>
-				<item name="Nursing Home" type="node">
-					<label text="Edit Nursing Home"/>
-					<key key="amenity" value="nursing_home"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-					<space/>
-				</item>
 				<separator/>
 				<item name="Pharmacy" icon="presets/pharmacy.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=pharmacy" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=pharmacy" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=pharmacy" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=pharmacy" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=pharmacy" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=pharmacy" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=pharmacy"/>
