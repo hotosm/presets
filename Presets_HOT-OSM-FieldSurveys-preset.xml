@@ -255,7 +255,7 @@
 			</item>
 		</group>
 		<!-- Places -->
-		<group name="Transportation" fr.name="Transports" en.name="Transportation" icon="presets/railway.png">
+		<group name="Transportation" fr.name="Transports" en.name="Transportation" icon="presets/railway.png" type="way">
 			<group name="Roads" fr.name="Voirie" en.name="Roads" icon="presets/way_secondary.png">
 				<item name="Roads and streets" fr.name="Routes et rues" en.name="Roads and streets" icon="presets/way_secondary.png" type="way">
 					<label text="** Edit/modify a road **" fr.text="** Creer/mettre a jour une voie **" en.text="** Edit/modify a road **"/>
@@ -1401,7 +1401,7 @@
 		<!-- Transportation -->
 		<group name="Utilities" fr.name="Equipements" icon="presets/water_works.png">
 			<group name="Water and sanitation" fr.name="Eau et assainissement" en.name="Water and sanitation" icon="presets/water_works.png">
-				<group name="Watering places" fr.name="Points d'eau" en.name="Watering places" icon="presets/ drinking_water.png">
+				<group name="Watering places" fr.name="Points d'eau" en.name="Watering places" icon="presets/drinking_water.png">
 					<item name="Drinking Water" icon="presets/drinking_water.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"/>
 						<label text="Edit Drinking Water"/>
@@ -1578,6 +1578,7 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<space/>
 					<combo key="gender_access" text="Gender access" fr.text="Genre" en.text="Gender access" values="male,female,all" display_values="male,female,all" fr.display_values="homme,femme,mixte" en.display_values="male,female,all"/>
 					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 					<combo key="toilets_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
@@ -1643,7 +1644,7 @@
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 					<space/>
 				</item>
-				<group name="Water Canals" fr.name="Canaux d'evacuation d'eau" en.name="Water Canals">
+				<group name="Water Canals" fr.name="Canaux d'evacuation d'eau" icon="presets/waterway.png">
 					<item name="Wastewater canal" fr.name="Canal d'assainissement" type="way,relation" icon="presets/waterway.png">
 						<label text="** Edit/modify a wastewater canal **" fr.text="** Creer/mettre a jour un canal d'assainissement **" en.text="** Edit/modify a wastewater canal **"/>
 						<key key="man_made" value="water_canal"/>
