@@ -1433,7 +1433,7 @@
 						<key key="contents" value="water"/>
 						<text key="name" text="Name"/>
 						<space/>
-						<combo key="storage_tank" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder"/>
+						<combo key="storage_tank" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
 						<space/>
 						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 						<space/>
