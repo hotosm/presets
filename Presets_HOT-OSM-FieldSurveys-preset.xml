@@ -1518,7 +1518,8 @@
 					<key key="man_made" value="water_tower"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
@@ -1575,7 +1576,8 @@
 					<space/>
 					<combo key="showers_durability" text="Durability" fr.text="Durabilitye" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -1611,7 +1613,8 @@
 					<combo key="toilets_durability" text="Durability" fr.text="Durabilitye" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
 					<combo key="toilets_technology" text="Technology" fr.text="Technique" en.text="Technology" values="flush,chemical,organical,ventilated,unspecified" display_values="flush,chemical,organical,ventilated,unspecified" fr.display_values="humide,chimique,organique,ventile,non precise" en.display_values="flush,chemical,organical,ventilated,unspecified"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2037,7 +2040,8 @@
 					<combo key="religion" text="Religion" fr.text="Religion" en.text="Religion" values="christian,voodoo,muslim,buddhist,jewish,hindu,other,unspecified" display_values="christian,voodoo,muslim,buddhist,jewish,hindu,other,unspecified" fr.display_values="christianisme,vaudou,islam,bouddhisme,judaisme,hindouisme,autre,non precise" en.display_values="christian,voodoo,muslim,buddhist,jewish,hindu,other,unspecified"/>
 					<combo key="denomination" text="Religion denomination" fr.text="Denomination du culte" en.text="Religion denomination" values="pentecostal,baptist,jehovahs_witnesses,adventist,catholic,protestant,methodist,others,unspecified" display_values="pentecostal,baptist,jehovah's witnesses,adventist,catholic,protestant,methodist,others,unspecified" fr.display_values="pencotiste,baptiste,temoins de jehovah,adventiste du 7eme jour,catholique,protestant,methodiste,autres,unspecified" en.display_values="pentecostal,baptist,jehovah's witnesses,adventist,catholic,protestant,methodist,others,unspecified"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2414,7 +2418,8 @@
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -2446,7 +2451,8 @@
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2474,7 +2480,8 @@
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2502,7 +2509,8 @@
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -2531,7 +2539,8 @@
 					<space/>
 					<combo key="health_facility_type" text="Health facility type" fr.text="Type de structure de sante" en.text="Health facility type" values="specialized_hospital,hospital,field_hospital,cal_health_center_with_beds,csl_health_center_without_beds,dispensary,other,unspecified" display_values="specialized hospital,hospital,field hospital,cal health center with beds,csl health center without beds,dispensary,other,unspecified" fr.display_values="hopital specialise,hopital,hopital de terrain,CAL-centre de sante avec lits,CSL-centre de sante sans lits,dispensaire,autre,non precise" en.display_values="specialized hospital,hospital,field hospital,cal health center with beds,csl health center without beds,dispensary,other,unspecified"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
@@ -5829,7 +5838,8 @@
 				<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 				<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 				<space/>
-				<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+				<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+				<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 				<space/>
 				<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 				<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
@@ -5859,7 +5869,8 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
@@ -5889,7 +5900,8 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
 					<space/>
-					<combo key="operational_status" text="Operational status" fr.text="Statut operationnel" en.text="Operational status" values="open,restricted,closed,unspecified" display_values="open,restricted,closed,unspecified" fr.display_values="ouvert,restreint,ferme,non precise" en.display_values="open,restricted,closed,unspecified" required="true"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
