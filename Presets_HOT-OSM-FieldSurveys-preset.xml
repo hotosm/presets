@@ -1552,7 +1552,7 @@
 					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
 					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private" display_values="public,private" fr.display_values="publique,prive"/>
 					<space/>
-					<combo key="showers_durability" text="Durability" fr.text="Durabilitye" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
+					<!--<combo key="shower:durability" text="Durability" fr.text="Durabilitye" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable"/>-->
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
@@ -1591,7 +1591,7 @@
 					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
 					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private" display_values="public,private" fr.display_values="publique,prive"/>
 					<space/>
-					<combo key="toilets_durability" text="Durability" fr.text="Durabilitye" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
+					<!--<combo key="toilets:durability" text="Durability" fr.text="Durabilitye" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable"/>-->
 					<combo key="toilets_technology" text="Technology" fr.text="Technique" en.text="Technology" values="flush,chemical,organical,ventilated,unspecified" display_values="flush,chemical,organical,ventilated,unspecified" fr.display_values="humide,chimique,organique,ventile,non precise" en.display_values="flush,chemical,organical,ventilated,unspecified"/>
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
