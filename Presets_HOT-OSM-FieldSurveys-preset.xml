@@ -35,7 +35,7 @@
 			<combo key="building:material" text="Building Material" fr.text="Matériaux du Bâtiment" values="plaster,brick,wood,concrete,glass,stone,metal" display_values="plaster,brick,wood,concrete,glass,stone,metal" fr.display_values="plâtre,brique,bois,béton,verre,pierre,métal"/>
 			<combo key="roof:material" text="Roof Material" fr.text="Matériaux du toit" values="roof_tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" display_values="roof_tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" fr.display_values="tuiles,béton,papier goudronné,métal,bois,plastique,pierre,toile,PVC"/>
 			<space/>
-			<combo key="building_status" text="Building status" fr.text="Etat Bâtiment" en.text="Building status" values="good,medium,bad,unspecified" display_values="good,medium,bad,unspecified" fr.display_values="bon,moyen,mauvais,non précisé" en.display_values="good,medium,bad,unspecified"/>
+			<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
 			<space/>
 			<check key="historic" text="Historic interest" fr.text="Intérêt historique" en.text="Historic interest" default="off"/>
 			<space/>
@@ -1495,7 +1495,7 @@
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
@@ -1553,7 +1553,7 @@
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1590,7 +1590,7 @@
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1669,8 +1669,8 @@
 						<combo key="canal_banks_left" text="Materiaux des berges rive gauche" en.text="Banks on left side " values="unpaved,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="unpaved,asphalt/paved,vegetation"/>
 						<text key="canal_banks_desc_left" text="Description berges rive gauche" en.text="Banks left side description"/>
 						<space/>
-						<combo key="operational_status" text="Statut operationnel" values="operational,closed" display_values="operationnel,non operationnel" en.display_values="operational,closed"/>
-						<text key="canal_description" text="Notes et observations" en.text="Note"/>
+						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 						<space/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
