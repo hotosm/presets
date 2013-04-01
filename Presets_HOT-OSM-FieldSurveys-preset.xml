@@ -757,7 +757,7 @@
 					<space/>
 				</item>
 				<item name="Passing Place" icon="presets/passingplace.png" type="node">
-					<label text="** Edit/modify a passing place **" fr.text="** Creer/mettre a jour une aire de croisement **" en.text="** Edit/modify a passing place  **"/>
+					<label text="** Edit/modify a passing place **" fr.text="** Creer/mettre a jour une aire de croisement **" en.text="** Edit/modify a passing place **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=passing_place" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=passing_place" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=passing_place"/>
 					<key key="highway" value="passing_place"/>
 					<label text="________________________________________"/>
@@ -2497,7 +2497,7 @@
 				<item name="Hospital" fr.name="Hopital" en.name="Hospital" type="node,relation" icon="styles/standard/health/hospital.png">
 					<key key="amenity" value="hospital"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=hospital" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=hospital" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=hospital" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=hospital" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=hospital" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=hospital" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=hospital"/>
-					<label text="** Edit/modify a health facility **" fr.text="** Creer/mettre a jour une structure de sante  **" en.text="** Edit/modify a health facility **"/>
+					<label text="** Edit/modify a health facility **" fr.text="** Creer/mettre a jour une structure de sante **" en.text="** Edit/modify a health facility **"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="ADDRESS DETAILS" fr.text="ADRESSE DETAILS" en.text="ADDRESS DETAILS"/>
@@ -5986,7 +5986,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass"/>
 					<link href="http://wiki.openstreetmap.org/wiki/FR:Key:surface"/>
 					<key key="surface" value="grass"/>
-					<label text="** Edit/modify a grass(not for pasture) **" fr.text="** Creer/mettre a jour une pelouse (pas pour le pâturage) **" en.text="** Edit/modify a grass(not for pasture)  **"/>
+					<label text="** Edit/modify a grass(not for pasture) **" fr.text="** Creer/mettre a jour une pelouse (pas pour le pâturage) **" en.text="** Edit/modify a grass(not for pasture) **"/>
 					<label text="________________________________________"/>
 					<optional>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
