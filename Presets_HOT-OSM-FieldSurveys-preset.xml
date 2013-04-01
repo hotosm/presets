@@ -1545,7 +1545,10 @@
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-					<combo key="gender_access" text="Gender access" fr.text="Genre" en.text="Gender access" values="male,female,all" display_values="male,female,all" fr.display_values="homme,femme,mixte" en.display_values="male,female,all"/>
+					<label text="Gender Access:" fr.text="Genre:"/>
+					<check key="male" text="male" fr.text="hommes" default="off"/>
+					<check key="female" text="female" fr.text="femmes" default="off"/>
+					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
 					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 					<combo key="shower_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
 					<space/>
@@ -1581,7 +1584,10 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
-					<combo key="gender_access" text="Gender access" fr.text="Genre" en.text="Gender access" values="male,female,all" display_values="male,female,all" fr.display_values="homme,femme,mixte" en.display_values="male,female,all"/>
+					<label text="Gender Access:" fr.text="Genre:"/>
+					<check key="male" text="male" fr.text="hommes" default="off"/>
+					<check key="female" text="female" fr.text="femmes" default="off"/>
+					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
 					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 					<combo key="toilets_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
 					<space/>
