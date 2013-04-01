@@ -1408,7 +1408,7 @@
 						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -1433,7 +1433,7 @@
 						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -1475,7 +1475,7 @@
 					<combo key="location" text="Location" fr.text="Localisation" values="underground,overground" values_context="pipeline" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1498,7 +1498,7 @@
 					<combo key="status" text="Status" fr.text="Etat" en.text="Status" values="good,medium,bad" display_values="good,medium,bad" fr.display_values="bon,moyen,mauvais" en.display_values="good,medium,bad"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -1520,7 +1520,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1544,7 +1544,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dshower" text="More info about showers" fr.text="Plus d'infos sur les douches" en.text="More info about showers"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<combo key="gender_access" text="Gender access" fr.text="Genre" en.text="Gender access" values="male,female,all" display_values="male,female,all" fr.display_values="homme,femme,mixte" en.display_values="male,female,all"/>
 					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
 					<combo key="shower_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
@@ -1579,7 +1579,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Key:pitlatrine" text="More info about latrines" fr.text="Plus d'infos sur les latrines" en.text="More info about latrines"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<combo key="gender_access" text="Gender access" fr.text="Genre" en.text="Gender access" values="male,female,all" display_values="male,female,all" fr.display_values="homme,femme,mixte" en.display_values="male,female,all"/>
 					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
@@ -1611,7 +1611,7 @@
 					<space/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1634,7 +1634,7 @@
 					<space/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1757,7 +1757,7 @@
 					<combo key="generator:output:battery_charging" text="battery charging" values="yes,2 W,3 kW,5 MW,7 GW" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1779,7 +1779,7 @@
 					<space/>
 					<text key="ref" text="Reference" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1800,7 +1800,7 @@
 					<text key="ref" text="Line reference" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1821,7 +1821,7 @@
 					<text key="ref" text="Reference" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1901,7 +1901,7 @@
 					<combo key="generator:method" text="Power source:" fr.text="Power source:" values="photovoltaic"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1925,7 +1925,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1945,7 +1945,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<check key="recycling:batteries" text="Batteries" default="off" delete_if_empty="true"/>
 					<check key="recycling:cans" text="Cans" default="off" delete_if_empty="true"/>
 					<check key="recycling:clothes" text="Clothes" default="off" delete_if_empty="true"/>
@@ -2389,7 +2389,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
@@ -2417,7 +2417,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<check key="school:fondamental_first_cycle" text="Fundamental first cycle" fr.text="Fondamentale premier Cycle" en.text="Fundamental first cycle" default="off"/>
 					<check key="school:fondamental_second_cycle" text="Fundamental second cycle" fr.text="Fondamentale second Cycle" en.text="Fundamental second cycle" default="off"/>
@@ -2451,7 +2451,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
@@ -2480,7 +2480,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
@@ -2518,7 +2518,7 @@
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<check key="healthcare_departments:general_medicine" text="General medecine" fr.text="Medecine generale" en.text="General medecine"/>
 					<check key="healthcare_departments:operating_room" text="Operating room" fr.text="Salle d'operation" en.text="Operating room"/>
@@ -2551,7 +2551,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
@@ -3040,7 +3040,7 @@
 					<label text="Edit Post Box"/>
 					<key key="amenity" value="post_box"/>
 					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -5769,7 +5769,7 @@
 				<text key="name" text="Name" default="" delete_if_empty="true"/>
 				<space/>
 				<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-				<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+				<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 				<space/>
 				<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 				<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
@@ -5800,7 +5800,7 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
@@ -5831,7 +5831,7 @@
 					<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
@@ -5862,7 +5862,7 @@
 				<text key="name" text="Name" default="" delete_if_empty="true"/>
 				<space/>
 				<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-				<combo key="operator_type" text="Operator type" fr.text="Type d'operateur" en.text="Operator type" values="government,private,NGO,community,unspecified" display_values="government,private,NGO,community,unspecified" fr.display_values="gouvernement,prive,ONG,communaute,non precise" en.display_values="government,private,NGO,community,unspecified" required="true"/>
+				<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 				<space/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
