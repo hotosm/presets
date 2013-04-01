@@ -32,28 +32,8 @@
 			<space/>
 			<combo key="building:levels" text="Building levels" fr.text="Nombre de niveaux" values="1,2,3,4,5" display_values="1,2,3,4,5"/>
 			<space/>
-			<label text="Building base material" fr.text="Matériaux du Bâtiment" en.text="Building base material"/>
-			<!--<check key="building_base_material:reinforced_concrete" text="reinforced concrete" fr.text="beton arme" en.text="reinforced concrete" default="off" /> -->
-			<check key="building_base_material:concrete" text="concrete" fr.text="béton" en.text="concrete" default="off"/>
-			<check key="building_base_material:sheet_metal" text="sheet metal" fr.text="tôle" en.text="sheet metal" default="off"/>
-			<check key="building_base_material:wood" text="wood" fr.text="bois" en.text="wood" default="off"/>
-			<check key="building_base_material:pvc" text="PVC" fr.text="PVC" en.text="PVC" default="off"/>
-			<check key="building_base_material:canvas" text="canvas" fr.text="toile" en.text="canvas" default="off"/>
-			<check key="building_base_material:plastic_sheeting" text="plastic sheeting, prelat" fr.text="bâche plastique, prélat" en.text="plastic sheeting, prelat" default="off"/>
-			<check key="building_base_material:tent" text="tent" fr.text="tente" en.text="tent" default="off"/>
-			<check key="building_base_material:unspecified" text="unspecified" fr.text="non précisé" en.text="unspecified" default="off"/>
-			<space/>
-			<label text="Building roof materials" fr.text="Matériaux du toit" en.text="Building roof materials"/>
-			<check key="building_roof_material:tiles" text="tiles" fr.text="tuiles" en.text="tiles" default="off"/>
-			<check key="building_roof_material:concrete" text="concrete" fr.text="béton" en.text="concrete" default="off"/>
-			<check key="building_roof_material:stone" text="stone" fr.text="pierre" en.text="stone" default="off"/>
-			<check key="building_roof_material:sheet_metal" text="sheet metal" fr.text="tôle" en.text="sheet metal" default="off"/>
-			<check key="building_roof_material:wood" text="wood" fr.text="bois" en.text="wood" default="off"/>
-			<check key="building_roof_material:pvc" text="PVC" fr.text="PVC" en.text="PVC" default="off"/>
-			<check key="building_roof_material:canvas" text="canvas" fr.text="toile" en.text="canvas" default="off"/>
-			<check key="building_roof_material:plastic_sheeting" text="plastic sheeting, prelat" fr.text="bâche plastique, prélat" en.text="plastic sheeting, prelat" default="off"/>
-			<check key="building_roof_material:tent" text="tent" fr.text="tente" en.text="tent" default="off"/>
-			<check key="building_roof_material:unspecified" text="unspecified" fr.text="non précisé" en.text="unspecified" default="off"/>
+			<combo key="building:material" text="Building Material" fr.text="Matériaux du Bâtiment" values="plaster,brick,wood,concrete,glass,stone,metal" display_values="plaster,brick,wood,concrete,glass,stone,metal" fr.display_values="plâtre,brique,bois,béton,verre,pierre,métal"/>
+			<combo key="roof:material" text="Roof Material" fr.text="Matériaux du toit" values="roof_tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" display_values="roof_tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" fr.display_values="tuiles,béton,papier goudronné,métal,bois,plastique,pierre,toile,PVC"/>
 			<space/>
 			<combo key="building_status" text="Building status" fr.text="Etat Bâtiment" en.text="Building status" values="good,medium,bad,unspecified" display_values="good,medium,bad,unspecified" fr.display_values="bon,moyen,mauvais,non précisé" en.display_values="good,medium,bad,unspecified"/>
 			<space/>
