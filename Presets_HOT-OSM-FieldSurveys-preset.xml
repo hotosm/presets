@@ -1654,9 +1654,8 @@
 				</item>
 				<group name="Water Canals" fr.name="Canaux d'evacuation d'eau" icon="presets/waterway.png">
 					<item name="Wastewater canal" fr.name="Canal d'assainissement" type="way,relation" icon="presets/waterway.png">
-						<label text="** Edit/modify a wastewater canal **" fr.text="** Creer/mettre a jour un canal d'assainissement **" en.text="** Edit/modify a wastewater canal **"/>
-						<key key="man_made" value="water_canal"/>
 						<key key="waterway" value="drain"/>
+						<label text="** Edit/modify a wastewater canal **" fr.text="** Creer/mettre a jour un canal d'assainissement **"/>
 						<space/>
 						<combo key="canal_type" text="Type de canal" en.text="Canal type" values="primary_collector,secondary_collector,tertiary_collector" display_values="collecteur principal,collecteur secondaire,collecteur tertiaire (rigoles etc.)" en.display_values="primary collector,secondary collector,tertiary collector"/>
 						<space/>
