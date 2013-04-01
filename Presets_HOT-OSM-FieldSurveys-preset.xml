@@ -250,7 +250,6 @@
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 					<space/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
-					<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
@@ -278,7 +277,6 @@
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 					<space/>
-					<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -304,7 +302,6 @@
 <combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
 <combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 <space/>
-<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
 <optional>
 <check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 </optional>
@@ -332,7 +329,6 @@
 <combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 <space/>
 <text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
-<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
 <optional>
 <check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 </optional>
@@ -357,7 +353,6 @@
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
-					<combo key="practicability" text="Practicability" fr.text="Praticabilite" values="non_motorized,motorbike" display_values="non motorized,motorbike" fr.display_values="pieton,moto" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
