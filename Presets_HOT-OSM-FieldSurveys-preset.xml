@@ -1549,7 +1549,7 @@
 					<check key="male" text="male" fr.text="hommes" default="off"/>
 					<check key="female" text="female" fr.text="femmes" default="off"/>
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
-					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,ulimited" fr.display_values="oui,non,limite"/>
 					<combo key="shower_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
 					<space/>
 					<combo key="showers_durability" text="Durability" fr.text="Durabilitye" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
@@ -1588,7 +1588,7 @@
 					<check key="male" text="male" fr.text="hommes" default="off"/>
 					<check key="female" text="female" fr.text="femmes" default="off"/>
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
-					<combo key="disability_access" text="Disability access" fr.text="Accessibilite aux handicapes" en.text="Disability access" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,ulimited" fr.display_values="oui,non,limite"/>
 					<combo key="toilets_access" text="Using" fr.text="Usage" en.text="Using" values="community,multifamilies,family,unspecified" display_values="community,multifamilies,family,unspecified" fr.display_values="communautaire,multifamilial,familial,non precise" en.display_values="community,multifamilies,family,unspecified"/>
 					<space/>
 					<combo key="toilets_durability" text="Durability" fr.text="Durabilitye" en.text="Durability" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable" en.display_values="emergency,durable"/>
