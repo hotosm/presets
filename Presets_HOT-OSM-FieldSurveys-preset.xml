@@ -1570,14 +1570,12 @@
 					<space/>
 				</item>
 				<item name="Toilets and latrines" fr.name="Toilettes et latrines" en.name="Toilets and latrines" type="node,relation" icon="presets/toilet.png">
+					<key key="amenity" value="toilets"/>
 					<label text="** Edit/modify toilets/latrines **" fr.text="** Creer/mettre a jour des toilettes/latrines **" en.text="** Edit/modify toilets/latrines **"/>
 					<label text="________________________________________"/>
 					<label text="TOILETS" fr.text="TOILETTES" en.text="TOILETS"/>
 					<space/>
-					<label text="TYPE" fr.text="TYPE" en.text="TYPE"/>
-					<check key="amenity" text="Toilets" fr.text="Toilettes" en.text="Toilets" default="off" value_on="toilets" delete_if_empty="true"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Toilets" text="More info about toilets" fr.text="Plus d'infos sur les toilettes" en.text="More info about toilets"/>
-					<key key="amenity" value="toilets"/>
 					<check key="pitlatrine" text="Pit latrine" fr.text="Latrines" en.text="Pit latrine" default="off"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:pitlatrine" text="More info about latrines" fr.text="Plus d'infos sur les latrines" en.text="More info about latrines"/>
 					<space/>
@@ -1588,12 +1586,13 @@
 					<check key="male" text="male" fr.text="hommes" default="off"/>
 					<check key="female" text="female" fr.text="femmes" default="off"/>
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
+					<space/>
 					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
 					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private" display_values="public,private" fr.display_values="publique,prive"/>
 					<space/>
 					<!--<combo key="toilets:durability" text="Durability" fr.text="Durabilitye" values="emergency,durable" display_values="emergency,durable" fr.display_values="urgence,durable"/>-->
 					<!--<combo key="toilets:technology" text="Technology" fr.text="Technique" values="flush,chemical,organical,ventilated,unspecified" display_values="flush,chemical,organical,ventilated,unspecified" fr.display_values="humide,chimique,organique,ventile,non precise"/>-->
-					<space/>
+					<label text="Status" fr.text="Statut"/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
