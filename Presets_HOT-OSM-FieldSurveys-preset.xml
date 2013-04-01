@@ -292,62 +292,62 @@
 					<space/>
 				</item>
 				<!--<item name="Service roads" fr.name="Voies de service" en.name="Service roads" icon="presets/way_unclassified.png" type="way">
-					<key key="highway" value="service"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Key:service" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:service"/>
-					<label text="** Edit/modify a service road **" fr.text="** Creer/mettre a jour une voie de service **" en.text="** Edit/modify a service road **"/>
-					<label text="________________________________________"/>
-					<label text="SERVICE ROAD" fr.text="VOIE DE SERVICE" en.text="SERVICE ROAD"/>
-					<combo key="service" text="Service road type" fr.text="Type de voie de service" en.text="Service road type" values="alley,driveway,parking_aisle" display_values="alley,driveway,parking aisle" fr.display_values="voie automobile de service entre proprietes,voie automobile menant a une seule propriete,voie automobile dans un parking" en.display_values="alley,driveway,parking aisle" required="true"/>
-					<space/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
-					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
-					<space/>
-					<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
-					<optional>
-						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-					</optional>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-					<space/>
-				</item>
-				<item name="Tracks" fr.name="Pistes" en.name="Tracks" icon="presets/track1.png" type="way">
-					<key key="highway" value="track"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Track" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dtrack" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dtrack"/>
-					<label text="** Edit/modify a track **" fr.text="** Creer/mettre a jour une piste **" en.text="** Edit/modify a track **"/>
-					<label text="________________________________________"/>
-					<label text="TRACK" fr.text="PISTE" en.text="TRACK"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
-					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
-					<space/>
-					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
-					<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
-					<optional>
-						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-					</optional>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-					<space/>
-				</item>-->
+<key key="highway" value="service"/>
+<link href="http://wiki.openstreetmap.org/wiki/Key:service" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:service"/>
+<label text="** Edit/modify a service road **" fr.text="** Creer/mettre a jour une voie de service **" en.text="** Edit/modify a service road **"/>
+<label text="________________________________________"/>
+<label text="SERVICE ROAD" fr.text="VOIE DE SERVICE" en.text="SERVICE ROAD"/>
+<combo key="service" text="Service road type" fr.text="Type de voie de service" en.text="Service road type" values="alley,driveway,parking_aisle" display_values="alley,driveway,parking aisle" fr.display_values="voie automobile de service entre proprietes,voie automobile menant a une seule propriete,voie automobile dans un parking" en.display_values="alley,driveway,parking aisle" required="true"/>
+<space/>
+<text key="name" text="Name" default="" delete_if_empty="true"/>
+<space/>
+<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
+<space/>
+<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
+<optional>
+<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
+</optional>
+<label text="________________________________________"/>
+<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+<space/>
+<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+<space/>
+<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+<space/>
+<label text="________________________________________"/>
+<space/>
+<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+<space/>
+</item>
+<item name="Tracks" fr.name="Pistes" en.name="Tracks" icon="presets/track1.png" type="way">
+<key key="highway" value="track"/>
+<link href="http://wiki.openstreetmap.org/wiki/Track" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dtrack" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dtrack"/>
+<label text="** Edit/modify a track **" fr.text="** Creer/mettre a jour une piste **" en.text="** Edit/modify a track **"/>
+<label text="________________________________________"/>
+<label text="TRACK" fr.text="PISTE" en.text="TRACK"/>
+<text key="name" text="Name" default="" delete_if_empty="true"/>
+<space/>
+<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
+<space/>
+<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
+<combo key="practicability" text="Practicability" fr.text="Praticabilite" en.text="Practicability" values="non_motorized,motorbike,4wd_less_than_3.5mt,light_truck_less_than_10mt,heavy_truck_less_than_20mt,truck_+_trailer_greater_than_20mt,unspecified" display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" fr.display_values="pieton,moto,4x4 de moins de 3.5t,camion de moins de 10t,camion de moins de 20t,camion de plus de 20t,non precise" en.display_values="non motorized,motorbike,4wd less than 3.5mt,light truck less than 10mt,heavy truck less than 20mt,truck + trailer greater than 20mt,unspecified" required="true"/>
+<optional>
+<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
+</optional>
+<label text="________________________________________"/>
+<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+<space/>
+<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+<space/>
+<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+<space/>
+<label text="________________________________________"/>
+<space/>
+<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+<space/>
+</item>-->
 				<item name="Corridors and pathes" fr.name="Corridors ou chemins ruraux" en.name="Corridors and pathes" icon="presets/path.png" type="way">
 					<key key="highway" value="path"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dpath" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dpath" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dpath"/>
@@ -3075,9 +3075,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3106,9 +3103,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3135,9 +3129,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3166,9 +3157,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3196,9 +3184,6 @@
 					<text key="ele" text="Elevation" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3226,9 +3211,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="capacity" text="Number of places" default="" delete_if_empty="true"/>
 					<combo key="fee" text="Requires a fee" values="yes,no,interval" delete_if_empty="true"/>
@@ -3261,9 +3243,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3298,9 +3277,6 @@
 					<combo key="stars" text="Stars" values="1,2,3,4,5,6,7" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3330,9 +3306,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3360,9 +3333,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3392,9 +3362,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3424,9 +3391,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3453,9 +3417,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
@@ -3483,9 +3444,6 @@
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<combo key="internet_access" text="Internet access" values="yes,wlan,wired,terminal,no" default="" delete_if_empty="true"/>
-					<combo key="internet_access:fee" text="Internet access fee" values="yes,no" default="" delete_if_empty="true"/>
-					<combo key="smoking" text="Smoking" values="yes,dedicated,separated,isolated,no" default="" delete_if_empty="true"/>
-					<combo key="wheelchair" text="Wheelchairs" values="yes,no" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
 					<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
