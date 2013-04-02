@@ -2507,7 +2507,7 @@
 					<label text="HEALTH FACILITY" fr.text="STRUCTURE DE SANTE" en.text="HEALTH FACILITY"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="health_facility_type" text="Health facility type" fr.text="Type de structure de sante" en.text="Health facility type" values="specialized_hospital,hospital,field_hospital,cal_health_center_with_beds,csl_health_center_without_beds,dispensary,other,unspecified" display_values="specialized hospital,hospital,field hospital,cal health center with beds,csl health center without beds,dispensary,other,unspecified" fr.display_values="hopital specialise,hopital,hopital de terrain,CAL-centre de sante avec lits,CSL-centre de sante sans lits,dispensaire,autre,non precise" en.display_values="specialized hospital,hospital,field hospital,cal health center with beds,csl health center without beds,dispensary,other,unspecified"/>
+					<combo key="health_facility:type" text="Health facility type" fr.text="Type de structure de sante" values="hospital,field_hospital,laboratory" display_values="hospital,field hospital,laboratory" fr.display_values="hopital,hopital de terrain,laboratory"/>
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
@@ -2515,16 +2515,9 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
-					<check key="healthcare_departments:general_medicine" text="General medecine" fr.text="Medecine generale" en.text="General medecine"/>
-					<check key="healthcare_departments:operating_room" text="Operating room" fr.text="Salle d'operation" en.text="Operating room"/>
-					<check key="healthcare_departments:medical_laboratory" text="Medical laboratory" fr.text="Laboratoire medical" en.text="Medical laboratory"/>
-					<text key="healthcare_departments:others" text="Other specialized medical departments" fr.text="Autres services specialises" en.text="Other specialized medical departments"/>
-					<space/>
 					<text key="capacity:beds" text="Beds capacity max" fr.text="Capacite en nombre maxi de lits" en.text="Beds capacity max"/>
-					<!--<text key="doctors" text="Number of doctors" fr.text="Nombre de docteurs" en.text=" Number of doctors" />
-<text key="nurses" text="Number of nurses" fr.text="Nombre d'infirmier(e)s" en.text="Number of nurses"/>-->
 					<space/>
-					<combo key="healthcare:cholera" text="Cholera treatment" fr.text="Traitement du cholera" en.text="Cholera treatment" values="oral_rehydratation_centre,cholera_treatment_unit,cholera_treatment_centre,no,unspecified" display_values="oral rehydratation centre,cholera treatment unit,cholera treatment centre,no,unspecified" fr.display_values="Centre de rehydratation orale,Unite de traitement du cholera,Centre de traitement du cholera,non,non precise" en.display_values="oral rehydratation centre,cholera treatment unit,cholera treatment centre,no,unspecified"/>
+					<combo key="healthcare:cholera" text="Cholera treatment" fr.text="Traitement du cholera" values="oral_rehydratation_centre,cholera_treatment_unit,cholera_treatment_centre,no,unspecified" display_values="oral rehydratation centre,cholera treatment unit,cholera treatment centre,no,unspecified" fr.display_values="Centre de rehydratation orale,Unite de traitement du cholera,Centre de traitement du cholera,non,non precise"/>
 					<text key="id:db_ctc" text="ID CTC from MSPP" fr.text="ID CTC du MSPP" en.text="ID CTC from MSPP"/>
 					<space/>
 					<label text="________________________________________"/>
