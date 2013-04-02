@@ -1659,19 +1659,10 @@
 						<space/>
 						<combo key="canal_type" text="Type de canal" en.text="Canal type" values="primary_collector,secondary_collector,tertiary_collector" display_values="collecteur principal,collecteur secondaire,collecteur tertiaire (rigoles etc.)" en.display_values="primary collector,secondary collector,tertiary collector"/>
 						<space/>
-						<text key="width" text="Largeur (a la surface du canal) en cm" en.text="Width afloat in cm "/>
-						<text key="depth" text="Profondeur en cm" en.text="Depth in cm"/>
+						<text key="width" text="Largeur (a la surface du canal) en meters" en.text="Width afloat in meters "/>
+						<text key="depth" text="Profondeur en meters" en.text="Depth in meters"/>
 						<space/>
-						<combo key="canal_base_material" text="Materiel de construction" en.text="Building materials" values="concrete,dirt,stone" display_values="beton,terre,pierre" en.display_values="concrete,dirt,stone"/>
-						<space/>
-						<combo key="canal_roof_extent" text="Couverture du canal" en.text="Canal roof extent" values="totally,partially,no,unspecified" display_values="totale,partielle,aucune,non precise" en.display_values="totally,partially,no,unspecified"/>
-						<text key="canal_roof_desc" text="Description couverture" en.text="Canal roof description"/>
-						<space/>
-						<combo key="canal_banks_right" text="Materiaux des berges rive droite" en.text="Banks on right side " values="unpaved,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="unpaved,asphalt/paved,vegetation"/>
-						<text key="canal_banks_desc_right" text="Description berges rive droite" en.text="Banks right side description"/>
-						<space/>
-						<combo key="canal_banks_left" text="Materiaux des berges rive gauche" en.text="Banks on left side " values="unpaved,asphalt/paved,vegetation" display_values="terre/sable,vegetation,asphalte/paves" en.display_values="unpaved,asphalt/paved,vegetation"/>
-						<text key="canal_banks_desc_left" text="Description berges rive gauche" en.text="Banks left side description"/>
+						<combo key="material" text="Materiel de construction" en.text="Building materials" values="concrete,dirt,stone" display_values="beton,terre,pierre" en.display_values="concrete,dirt,stone"/>
 						<space/>
 						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
