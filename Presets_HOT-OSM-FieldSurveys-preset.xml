@@ -33,7 +33,7 @@
 			<combo key="building:levels" text="Building levels" fr.text="Nombre de niveaux" values="1,2,3,4,5" display_values="1,2,3,4,5"/>
 			<space/>
 			<combo key="building:material" text="Building Material" fr.text="Matériaux du Bâtiment" values="plaster,brick,wood,concrete,glass,stone,metal,timber_framing" display_values="plaster,brick,wood,concrete,glass,stone,metal,timber_framing" fr.display_values="plâtre,brique,bois,béton,verre,pierre,métal,ossature bois"/>
-			<combo key="roof:material" text="Roof Material" fr.text="Matériaux du toit" values="roof_tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" display_values="roof_tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" fr.display_values="tuiles,béton,papier goudronné,métal,bois,plastique,pierre,toile,PVC"/>
+			<combo key="building:roof" text="Roof Material" fr.text="Matériaux du toit" values="tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" display_values="tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" fr.display_values="tuiles,béton,papier goudronné,métal,bois,plastique,pierre,toile,PVC"/>
 			<space/>
 			<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
 			<space/>
