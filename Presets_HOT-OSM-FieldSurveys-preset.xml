@@ -1679,36 +1679,6 @@
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 						<space/>
 					</item>
-					<item name="Obstacles" en.name="Barriers" type="node,way,closedway,relation">
-						<label text="ROOF OBSTACLES" fr.text="OBSTACLES DE COUVERTURE" en.text="ROOF OBSTACLES"/>
-						<check key="bridge" text="Pont" en.text="Bridge" value_on="yes" default="off" delete_if_empty="true"/>
-						<check key="ramp" text="Passage ou rampe" en.text="Ramp to cross the canal" value_on="yes" default="off" delete_if_empty="true"/>
-						<check key="building" text="Construction (batiment)" en.text="Building" value_on="yes" default="off" delete_if_empty="true"/>
-						<space/>
-						<label text="________________________________________"/>
-						<label text="CANAL OBSTACLES" fr.text="OBSTACLES DANS LE CANAL" en.text="CANAL OBSTACLES"/>
-						<combo key="canal:obstacle_type" text="Type d'obstacle" en.text="Obstacle type" values="waste_embankments,various_materials_embankments,vegetation,others,no" display_values="talus de dechets,talus de materiaux divers,vegetation,autres,aucun" en.display_values="waste embankments,various materials embankments,vegetation,others,no"/>
-						<text key="barriers:obstacle_description" text="Description de l'obstacle" en.text="Barriers description"/>
-						<space/>
-						<label text="________________________________________"/>
-						<label text="CANAL BANKS OBSTACLES" fr.text="OBSTACLES SUR LES BERGES" en.text="CANAL BANKS OBSTACLES"/>
-						<combo key="canal_banks_barriers_right" text="Obstacles sur les berges rive droite" en.text="Banks barriers on right side" values="waste_embankments,various_materials_embankments,buildings,stagnant water,others,no" display_values="talus de dechets,talus de materiaux divers,constructions,eau stagnante,autres,aucun" en.display_values="waste embankments,various materials embankments,buildings,stagnant water,others,no"/>
-						<text key="canal_banks_barriers_desc_right" text="Description berges rive droite" en.text="Banks right side description"/>
-						<combo key="canal_banks_barriers_left" text="Obstacles sur lpes berges rive gauche" en.text="Banks barriers on left side" values="waste_embankments,various_materials_embankments,buildings,stagnant water,others,no" display_values="talus de dechets,talus de materiaux divers,constructions,eau stagnante,autres,aucun" en.display_values="waste embankments,various materials embankments,buildings,stagnant water,others,no"/>
-						<text key="canal_banks_barriers_desc_left" text="Description berges rive gauche" en.text="Banks left side description"/>
-						<space/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<space/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<space/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<space/>
-						<label text="________________________________________"/>
-						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<space/>
-					</item>
 					<item name="Damage prone" fr.name="Dommages frequents" en.name="Damage prone">
 						<key key="damage_prone" value="yes"/>
 						<label text="Damage prone canal" fr.text="Canal frequemment endommagee" en.text="Damage prone canal"/>
