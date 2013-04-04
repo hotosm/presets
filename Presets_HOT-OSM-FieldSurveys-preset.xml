@@ -246,7 +246,7 @@
 					<combo key="highway" text="Road type" fr.text="Type de route" en.text="Road type" values="primary,secondary,tertiary,unclassified,residential,service,track,living_street" display_values="primary,secondary,tertiary,unclassified,residential,service,track,living street" fr.display_values="primaire,secondaire,tertiaire,non classe,residentiel,service,piste,voie pietonne" delete_if_empty="true"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" required="true"/>
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 					<space/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
@@ -274,7 +274,7 @@
 					<key key="highway" value="construction"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 					<space/>
 					<label text="________________________________________"/>
@@ -299,7 +299,7 @@
 <space/>
 <text key="name" text="Name" default="" delete_if_empty="true"/>
 <space/>
-<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
 <combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 <space/>
 <optional>
@@ -325,7 +325,7 @@
 <label text="TRACK" fr.text="PISTE" en.text="TRACK"/>
 <text key="name" text="Name" default="" delete_if_empty="true"/>
 <space/>
-<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
 <combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 <space/>
 <text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
@@ -352,7 +352,7 @@
 					<label text="CORRIDOR OR PATH" fr.text="CORRIDOR OU CHEMIN" en.text="CORRIDOR OR PATH"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
@@ -376,7 +376,7 @@
 					<label text="FOOTWAY" fr.text="Chemins pieton"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,unspecified" display_values="paved,unpaved,gravel,unspecified" fr.display_values="revetement dur,sans revetement,graviers,non precise" en.display_values="paved,unpaved,gravel,unspecified" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
@@ -1359,7 +1359,7 @@
 				<key key="barrier" value="block"/>
 				<label text="** Edit/modify obstacles **" fr.text="** Creer/mettre a jour des obstacles **" en.text="** Edit/modify obstacless **"/>
 				<space/>
-				<combo key="barrier:obstacle_type" text="Obstacle type" fr.text="Type d'obstacle" en.text="Obstacle type" values="bridge_damage,road_damage,landslide,debris,checkpoint,roadblock,unspecified" display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock,unspecified" fr.display_values="pont endommage,route endommagee,glissement de terrain,debris,checkpoint,route barree,non specifie" en.display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock,unspecified" required="true"/>
+				<combo key="barrier:obstacle_type" text="Obstacle type" fr.text="Type d'obstacle" en.text="Obstacle type" values="bridge_damage,road_damage,landslide,debris,checkpoint,roadblock" display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock" fr.display_values="pont endommage,route endommagee,glissement de terrain,debris,checkpoint,route barree,non specifie" en.display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock" required="true"/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -1405,7 +1405,7 @@
 						<space/>
 						<combo key="pump" text="Pumped or not" fr.text="Pumped or not" values="powered,manual,no" display_values="powered,manual,no" fr.display_values="powered,manual,no"/>
 						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
 						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
@@ -1427,7 +1427,7 @@
 						<key key="natural" value="spring"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
@@ -1472,7 +1472,7 @@
 						<space/>
 						<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
 						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
 						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
@@ -1977,8 +1977,8 @@
 					<label text="PLACE OF WORSHIP" fr.text="LIEU DE CULTE" en.text="PLACE OF WORSHIP"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="religion" text="Religion" fr.text="Religion" en.text="Religion" values="christian,voodoo,muslim,buddhist,jewish,hindu,other,unspecified" display_values="christian,voodoo,muslim,buddhist,jewish,hindu,other,unspecified" fr.display_values="christianisme,vaudou,islam,bouddhisme,judaisme,hindouisme,autre,non precise" en.display_values="christian,voodoo,muslim,buddhist,jewish,hindu,other,unspecified"/>
-					<combo key="denomination" text="Religion denomination" fr.text="Denomination du culte" en.text="Religion denomination" values="pentecostal,baptist,jehovahs_witnesses,adventist,catholic,protestant,methodist,others,unspecified" display_values="pentecostal,baptist,jehovah's witnesses,adventist,catholic,protestant,methodist,others,unspecified" fr.display_values="pencotiste,baptiste,temoins de jehovah,adventiste du 7eme jour,catholique,protestant,methodiste,autres,unspecified" en.display_values="pentecostal,baptist,jehovah's witnesses,adventist,catholic,protestant,methodist,others,unspecified"/>
+					<combo key="religion" text="Religion" fr.text="Religion" en.text="Religion" values="christian,voodoo,muslim,buddhist,jewish,hindu,other" display_values="christian,voodoo,muslim,buddhist,jewish,hindu,other" fr.display_values="christianisme,vaudou,islam,bouddhisme,judaisme,hindouisme,autre" en.display_values="christian,voodoo,muslim,buddhist,jewish,hindu,other"/>
+					<combo key="denomination" text="Religion denomination" fr.text="Denomination du culte" en.text="Religion denomination" values="pentecostal,baptist,jehovahs_witnesses,adventist,catholic,protestant,methodist,others" display_values="pentecostal,baptist,jehovah's witnesses,adventist,catholic,protestant,methodist,others" fr.display_values="pencotiste,baptiste,temoins de jehovah,adventiste du 7eme jour,catholique,protestant,methodiste,autres" en.display_values="pentecostal,baptist,jehovah's witnesses,adventist,catholic,protestant,methodist,others"/>
 					<space/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
@@ -2484,7 +2484,7 @@
 					<space/>
 					<text key="capacity:beds" text="Beds capacity max" fr.text="Capacite en nombre maxi de lits" en.text="Beds capacity max"/>
 					<space/>
-					<combo key="healthcare:cholera" text="Cholera treatment" fr.text="Traitement du cholera" values="oral_rehydratation_centre,cholera_treatment_unit,cholera_treatment_centre,no,unspecified" display_values="oral rehydratation centre,cholera treatment unit,cholera treatment centre,no,unspecified" fr.display_values="Centre de rehydratation orale,Unite de traitement du cholera,Centre de traitement du cholera,non,non precise"/>
+					<combo key="healthcare:cholera" text="Cholera treatment" fr.text="Traitement du cholera" values="oral_rehydratation_centre,cholera_treatment_unit,cholera_treatment_centre,no" display_values="oral rehydratation centre,cholera treatment unit,cholera treatment centre,no" fr.display_values="Centre de rehydratation orale,Unite de traitement du cholera,Centre de traitement du cholera,non"/>
 					<text key="id:db_ctc" text="ID CTC from MSPP" fr.text="ID CTC du MSPP" en.text="ID CTC from MSPP"/>
 					<space/>
 					<label text="________________________________________"/>
