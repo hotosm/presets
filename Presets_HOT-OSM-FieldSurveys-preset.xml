@@ -1421,31 +1421,6 @@
 						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 						<space/>
 					</item>
-					<item name="Water Storage" icon="presets/gasometer.png" type="node,closedway">
-						<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=storage_tank"/>
-						<label text="** Edit/modify water storage **" fr.text="** Éditer/modifier le réservoir d'eau **"/>
-						<key key="man_made" value="storage_tank"/>
-						<key key="contents" value="water"/>
-						<text key="name" text="Name"/>
-						<space/>
-						<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
-						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
-						<space/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<space/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<space/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<space/>
-						<label text="________________________________________"/>
-						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<space/>
-					</item>
 					<item name="Spring" icon="presets/spring.png" type="node,closedway">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=spring"/>
 						<label text="Edit Spring"/>
@@ -1488,6 +1463,31 @@
 					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
 					<space/>
 				</item>
+				<item name="Water Storage" icon="presets/gasometer.png" type="node,closedway">
+						<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=storage_tank"/>
+						<label text="** Edit/modify water storage **" fr.text="** Éditer/modifier le réservoir d'eau **"/>
+						<key key="man_made" value="storage_tank"/>
+						<key key="contents" value="water"/>
+						<text key="name" text="Name"/>
+						<space/>
+						<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
+						<space/>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no,unspecified" display_values="yes,no,unspecified" fr.display_values="oui,non,non precise" en.display_values="yes,no,unspecified"/>
+						<space/>
+						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+						<label text="________________________________________"/>
+						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+						<space/>
+						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+						<space/>
+						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+						<space/>
+						<label text="________________________________________"/>
+						<space/>
+						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<space/>
+					</item>
 				<item name="Water Tower" icon="presets/water_tower.png" type="node,closedway">
 					<label text="Edit Water Tower"/>
 					<key key="man_made" value="water_tower"/>
