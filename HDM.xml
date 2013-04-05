@@ -16,7 +16,7 @@
 			<space/>
 			<label text="________________________________________"/>
 			<space/>
-			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+			<text key="note" text="Note" fr.text="Notes"/>
 			<space/>
 		</item>
 		<item name="Building features" fr.name="Caractéristiques du bâtiment" en.name="Building features" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
@@ -48,7 +48,7 @@
 			<space/>
 			<label text="________________________________________"/>
 			<space/>
-			<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+			<text key="note" text="Note" fr.text="Notes"/>
 			<space/>
 		</item>
 		<group name="Places" fr.name="Lieux" icon="presets/places.png">
@@ -72,7 +72,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Town" icon="presets/places.png" type="node">
@@ -96,7 +96,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Suburb" icon="presets/places.png" type="node">
@@ -119,7 +119,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Neighborhood" fr.name="Quartier" icon="presets/places.png" type="node">
@@ -142,7 +142,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<separator/>
@@ -165,7 +165,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Hamlet" icon="presets/places.png" type="node">
@@ -187,7 +187,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Isolated Dwelling" icon="presets/places.png" type="node">
@@ -209,7 +209,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<separator/>
@@ -230,7 +230,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 		</group>
@@ -262,7 +262,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Roads under construction" fr.name="Voies en construction" en.name="Roads under construction" icon="presets/construction.png" type="way">
@@ -286,7 +286,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!--<item name="Service roads" fr.name="Voies de service" en.name="Service roads" icon="presets/way_unclassified.png" type="way">
@@ -314,7 +314,7 @@
 <space/>
 <label text="________________________________________"/>
 <space/>
-<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+<text key="note" text="Note" fr.text="Notes"/>
 <space/>
 </item>
 <item name="Tracks" fr.name="Pistes" en.name="Tracks" icon="presets/track1.png" type="way">
@@ -341,7 +341,7 @@
 <space/>
 <label text="________________________________________"/>
 <space/>
-<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+<text key="note" text="Note" fr.text="Notes"/>
 <space/>
 </item>-->
 				<item name="Corridors and pathes" fr.name="Corridors ou chemins ruraux" en.name="Corridors and pathes" icon="presets/path.png" type="way">
@@ -365,7 +365,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Footways" fr.name="Chemins pieton" icon="presets/footway.png" type="way">
@@ -389,7 +389,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -425,7 +425,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Parking entrance" fr.name="Entree de parking" icon="presets/parking.png" type="node,relation">
@@ -457,7 +457,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Motorcycle Parking" fr.name="Parking pour motos" icon="styles/standard/vehicle/parking/motorbike.png" type="node,relation">
@@ -479,7 +479,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Bicycle Parking" fr.name="Parking pour velos" icon="styles/standard/vehicle/parking/bicycle.png" type="node,relation">
@@ -502,7 +502,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -528,7 +528,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Mini-roundabout" icon="presets/roundabout_left.png" type="node">
@@ -547,7 +547,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Turning Circle" icon="presets/turning_circle.png" type="node">
@@ -563,7 +563,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -591,7 +591,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Tunnel" icon="presets/tunnel.png" type="way">
@@ -617,7 +617,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Ford" fr.name="Gue (labou an kreyol)" icon="presets/ford.png" type="node,way">
@@ -640,7 +640,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -658,7 +658,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Traffic Signal" icon="presets/traffic-light.png" type="node">
@@ -676,7 +676,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Stop" icon="presets/Stop.png" type="node">
@@ -691,7 +691,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Pedestrian Crossing" icon="styles/standard/vehicle/zebra_crossing.png" type="node">
@@ -707,7 +707,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Traffic Calming" icon="presets/chicane.png" type="node">
@@ -726,7 +726,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Passing Place" icon="presets/passingplace.png" type="node">
@@ -742,7 +742,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -766,7 +766,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Bus Stop" icon="presets/bus_small.png" type="node">
@@ -791,7 +791,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Bus Platform" icon="presets/platform_bus.png" type="node,closedway">
@@ -811,7 +811,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -835,7 +835,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -861,7 +861,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Helipad" icon="styles/standard/transport/airport/helipad.png" type="node,closedway">
@@ -881,7 +881,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<separator/>
@@ -902,7 +902,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Taxiway" icon="presets/taxiway.png" type="way">
@@ -922,7 +922,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Apron" icon="presets/apron.png" type="closedway">
@@ -939,7 +939,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Hangar" icon="presets/hangar.png" type="node,closedway">
@@ -956,7 +956,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<separator/>
@@ -976,7 +976,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Gate" name_context="airport" icon="presets/aeroway_gate.png" type="node">
@@ -994,7 +994,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -1042,7 +1042,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<group name="Barriers" icon="presets/barrier.png">
@@ -1065,7 +1065,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- toll_booth -->
@@ -1089,7 +1089,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- border_control -->
@@ -1114,7 +1114,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- bollard -->
@@ -1138,7 +1138,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- spikes -->
@@ -1154,7 +1154,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- hedge -->
@@ -1173,7 +1173,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- fence -->
@@ -1188,7 +1188,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- wall -->
@@ -1204,7 +1204,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- city_wall -->
@@ -1220,7 +1220,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- retaining_wall -->
@@ -1246,7 +1246,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- entrance -->
@@ -1271,7 +1271,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!-- gate -->
@@ -1367,7 +1367,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 		</group>
@@ -1392,7 +1392,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Water Well" icon="presets/water_well.png" type="node">
@@ -1416,7 +1416,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Spring" icon="presets/spring.png" type="node,closedway">
@@ -1435,7 +1435,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -1458,7 +1458,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Water Storage" icon="presets/gasometer.png" type="node,closedway">
@@ -1483,7 +1483,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Water Tower" icon="presets/water_tower.png" type="node,closedway">
@@ -1507,7 +1507,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Water Works" icon="presets/water_works.png" type="node,closedway">
@@ -1528,7 +1528,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -1564,7 +1564,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Toilets and latrines" fr.name="Toilettes et latrines" en.name="Toilets and latrines" type="node,relation" icon="presets/toilet.png">
@@ -1603,7 +1603,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Wastewater Plant" icon="presets/wastewater_plant.png" type="node,closedway">
@@ -1624,7 +1624,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -1647,7 +1647,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<group name="Water Canals" fr.name="Canaux d'evacuation d'eau" icon="presets/waterway.png">
@@ -1674,7 +1674,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Damage prone" fr.name="Dommages frequents" en.name="Damage prone">
@@ -1691,7 +1691,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -1730,7 +1730,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Power Station" icon="presets/power.png" type="node,closedway">
@@ -1752,7 +1752,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Power Sub Station" icon="presets/power.png" type="node,closedway">
@@ -1773,7 +1773,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Cable Distribution Cabinet" icon="presets/power.png" type="node">
@@ -1794,7 +1794,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -1812,7 +1812,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Pole" icon="styles/standard/misc/landmark/power/pole.png" type="node">
@@ -1829,7 +1829,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -1853,7 +1853,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -1874,7 +1874,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -1898,7 +1898,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Recycling" icon="presets/recycling.png" type="node">
@@ -1925,7 +1925,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Waste Disposal" fr.name="Benne a ordures" icon="styles/standard/service/recycling/trash-bin.png" type="node">
@@ -1941,7 +1941,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Waste Basket" icon="styles/standard/service/recycling/trash-bin.png" type="node">
@@ -1957,7 +1957,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -1989,7 +1989,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Graveyard" fr.name="Cimetiere appartenant a un lieu de culte" en.name="Graveyard" icon="presets/graveyard.png" type="node,closedway,relation">
@@ -2012,7 +2012,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2036,7 +2036,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2059,7 +2059,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Cinema" icon="presets/cinema.png" type="node,closedway,relation">
@@ -2078,7 +2078,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Theatre" icon="presets/theater.png" type="node,relation">
@@ -2096,7 +2096,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Library" icon="styles/standard/shop/rental/library.png" type="node,relation">
@@ -2116,7 +2116,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Arts Centre" icon="presets/arts_centre.png" type="node,closedway,relation">
@@ -2136,7 +2136,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Artwork" icon="presets/arts_centre.png" type="node,way,closedway">
@@ -2154,7 +2154,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2176,7 +2176,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Monument" icon="presets/monument.png" type="node,relation">
@@ -2193,7 +2193,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Memorial" icon="presets/memorial.png" type="node,relation">
@@ -2211,7 +2211,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2235,7 +2235,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Stadium" icon="presets/stadium.png" type="closedway">
@@ -2256,7 +2256,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Sports Centre" icon="presets/sports_centre.png" type="node">
@@ -2277,7 +2277,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Racetrack" icon="presets/stadium.png" type="way,closedway,relation">
@@ -2294,7 +2294,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Golf Course" icon="presets/golf.png" type="node,closedway">
@@ -2313,7 +2313,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Miniature Golf" icon="presets/golf.png" type="node,closedway">
@@ -2332,7 +2332,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2367,7 +2367,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="School" fr.name="Ecole" en.name="School" type="node,relation" icon="presets/school.png">
@@ -2398,7 +2398,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="College" fr.name="Enseignement superieure" en.name="College" type="node,relation" icon="styles/standard/education/college.png">
@@ -2427,7 +2427,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="University" fr.name="Universite" en.name="University" type="node,relation" icon="styles/standard/education/university.png">
@@ -2456,7 +2456,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2494,7 +2494,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Clinic" icon="styles/standard/health/clinic.png" type="node">
@@ -2517,7 +2517,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Doctors" icon="styles/standard/health/doctor.png" type="node">
@@ -2537,7 +2537,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Dentist" icon="styles/standard/health/dentist.png" type="node">
@@ -2556,7 +2556,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -2578,7 +2578,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Hearing Aids" icon="presets/hearing_aids.png" type="node">
@@ -2600,7 +2600,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -2621,7 +2621,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<!--<separator/>
@@ -2682,7 +2682,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -2892,7 +2892,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Courthouse" icon="presets/JusticeScales.png" type="node,relation">
@@ -2910,7 +2910,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Prison" icon="presets/prison.png" type="node,relation">
@@ -2929,7 +2929,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Police" icon="styles/standard/service/police.png" type="node,relation">
@@ -2947,7 +2947,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Fire Station" icon="presets/firebrigade.png" type="node,relation">
@@ -2965,7 +2965,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Post Office" icon="styles/standard/service/post_office.png" type="node,relation">
@@ -2985,7 +2985,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Post Box" icon="styles/standard/service/post_box.png" type="node">
@@ -3004,7 +3004,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -3038,7 +3038,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Motel" icon="styles/standard/accommodation/motel.png" type="node,relation">
@@ -3066,7 +3066,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Guest House" icon="styles/standard/accommodation/guest_house.png" type="node,relation">
@@ -3092,7 +3092,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Hostel" icon="presets/hostel.png" type="node,relation">
@@ -3120,7 +3120,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Alpine Hut" icon="styles/standard/accommodation/alpine_hut.png" type="node,relation">
@@ -3147,7 +3147,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -3179,7 +3179,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Camping Site" icon="presets/tent.png" type="node,relation">
@@ -3206,7 +3206,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -3240,7 +3240,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Fast Food" icon="presets/fastfood.png" type="node,relation">
@@ -3269,7 +3269,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Food Court" icon="presets/fastfood.png" type="node,relation">
@@ -3296,7 +3296,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Cafe" icon="presets/cafe.png" type="node,relation">
@@ -3325,7 +3325,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Pub" icon="presets/pub.png" type="node,relation">
@@ -3354,7 +3354,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Biergarten" icon="presets/biergarten.png" type="node,relation">
@@ -3380,7 +3380,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Bar" icon="presets/bar.png" type="node,relation">
@@ -3407,7 +3407,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Nightclub" icon="presets/bar.png" type="node,relation">
@@ -3435,7 +3435,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -3461,7 +3461,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Attraction" icon="presets/sightseeing.png" type="node,closedway">
@@ -3479,7 +3479,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Viewpoint" icon="presets/viewpoint.png" type="node,closedway">
@@ -3497,7 +3497,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -3517,7 +3517,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Map" icon="presets/map.png" type="node">
@@ -3546,7 +3546,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Information Board" icon="presets/board.png" type="node">
@@ -3566,7 +3566,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -3590,7 +3590,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Convenience Store" icon="presets/convenience.png" type="node">
@@ -3612,7 +3612,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Kiosk" icon="presets/kiosk.png" type="node">
@@ -3634,7 +3634,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -3655,7 +3655,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Butcher" icon="presets/cow.png" type="node">
@@ -3677,7 +3677,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Seafood" icon="presets/seafood.png" type="node">
@@ -3700,7 +3700,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Deli (Fine Food)" icon="presets/deli.png" type="node">
@@ -3723,7 +3723,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Confectionery" icon="presets/confectionery.png" type="node">
@@ -3745,7 +3745,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -3769,7 +3769,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Greengrocer" icon="presets/greengrocer.png" type="node">
@@ -3792,7 +3792,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Organic" icon="presets/fruits.png" type="node">
@@ -3813,7 +3813,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -3836,7 +3836,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Beverages" icon="styles/standard/shop/beverages.png" type="node">
@@ -3857,7 +3857,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -3881,7 +3881,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Boutique" icon="presets/boutique.png" type="node">
@@ -3904,7 +3904,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Shoes" icon="styles/standard/shop/shoes.png" type="node">
@@ -3925,7 +3925,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Outdoor" icon="presets/tent.png" type="node">
@@ -3947,7 +3947,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Sports" icon="presets/rowing.png" type="node">
@@ -3968,7 +3968,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -3991,7 +3991,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Laundry" icon="presets/laundry.png" type="node">
@@ -4013,7 +4013,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Tailor" icon="styles/standard/shop/tailor.png" type="node">
@@ -4034,7 +4034,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Fabric" icon="presets/fabric.png" type="node">
@@ -4057,7 +4057,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -4081,7 +4081,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Internet cafe" fr.name="Internet cafe" type="node,relation">
@@ -4104,7 +4104,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Electronics" icon="styles/standard/shop/electronics.png" type="node">
@@ -4125,7 +4125,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Mobile Phone" icon="presets/mobile_phone.png" type="node">
@@ -4148,7 +4148,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Vacuum Cleaner" icon="presets/vacuum_cleaner.png" type="node">
@@ -4171,7 +4171,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Hifi" icon="styles/standard/shop/hifi.png" type="node">
@@ -4192,7 +4192,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Video" icon="styles/standard/shop/video.png" type="node">
@@ -4213,7 +4213,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -4245,7 +4245,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Wash" icon="presets/car_wash.png" type="node">
@@ -4268,7 +4268,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<separator/>
@@ -4291,7 +4291,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Repair" icon="presets/car_repair.png" type="node">
@@ -4314,7 +4314,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Tyres" icon="presets/tyres.png" type="node">
@@ -4342,7 +4342,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<separator/>
@@ -4367,7 +4367,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Sharing" icon="presets/car_sharing.png" type="node">
@@ -4392,7 +4392,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -4432,7 +4432,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -4462,7 +4462,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 					<item name="Rental" icon="presets/bicycle_rental.png" type="node">
@@ -4482,7 +4482,7 @@
 						<space/>
 						<label text="________________________________________"/>
 						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
 				</group>
@@ -4511,7 +4511,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Money Transfer" icon="styles/standard/money/exchange.png" type="node">
@@ -4533,7 +4533,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Money Exchange" icon="styles/standard/money/exchange.png" type="node">
@@ -4555,7 +4555,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Automated Teller Machine" icon="styles/standard/money/atm.png" type="node">
@@ -4575,7 +4575,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -4598,7 +4598,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -4624,7 +4624,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Mall" icon="styles/standard/shop/mall.png" type="node">
@@ -4647,7 +4647,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -4669,7 +4669,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Hairdresser" icon="styles/standard/shop/hairdresser.png" type="node">
@@ -4690,7 +4690,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Optician" icon="styles/standard/shop/optician.png" type="node">
@@ -4711,7 +4711,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Jewelry" icon="styles/standard/shop/jewelry.png" type="node">
@@ -4734,7 +4734,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Erotic" icon="presets/erotic.png" type="node">
@@ -4756,7 +4756,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -4779,7 +4779,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Garden Centre" icon="styles/standard/shop/garden_centre.png" type="node">
@@ -4801,7 +4801,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -4824,7 +4824,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -4847,7 +4847,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Hardware" fr.name="Quincaillerie ou materiaux de construction" icon="presets/hardware.png" type="node">
@@ -4869,7 +4869,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Paint" icon="presets/paint.png" type="node">
@@ -4892,7 +4892,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -4914,7 +4914,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Kitchen" icon="presets/kitchen.png" type="node">
@@ -4938,7 +4938,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Curtain" icon="presets/curtain.png" type="node">
@@ -4961,7 +4961,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Frame" icon="presets/frame.png" type="node">
@@ -4984,7 +4984,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -5006,7 +5006,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Copyshop" icon="presets/copyshop.png" type="node">
@@ -5029,7 +5029,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Book Store" icon="presets/book.png" type="node">
@@ -5050,7 +5050,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Photo Shop" fr.name="Studio de photo" en.name="Photo Shop" type="node">
@@ -5072,7 +5072,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -5097,7 +5097,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -5119,7 +5119,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Musical Instrument" icon="presets/musical_instrument.png" type="node">
@@ -5142,7 +5142,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Toys" icon="styles/standard/shop/toys.png" type="node">
@@ -5163,7 +5163,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Variety Store" icon="presets/variety_store.png" type="node">
@@ -5187,7 +5187,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -5210,7 +5210,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Beekeeper" de.name="Imker" fr.name="Apiculteur" type="node,closedway">
@@ -5229,7 +5229,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Blacksmith" de.name="Schmied" fr.name="Forgeron" icon="icons/blacksmith.png" type="node,closedway">
@@ -5248,7 +5248,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Bookbinder" de.name="Buchbinder" fr.name="Relieur" type="node,closedway">
@@ -5267,7 +5267,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Carpenter" de.name="Tischler" fr.name="Charpentier" type="node,closedway">
@@ -5286,7 +5286,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Clockmaker" de.name="Uhrmacher" fr.name="Horloger" type="node,closedway">
@@ -5305,7 +5305,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Key cutter" de.name="Schlüsselmacher" fr.name="Clef minute" type="node,closedway">
@@ -5324,7 +5324,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Pottery" de.name="Töpferei" fr.name="Potier" type="node,closedway">
@@ -5343,7 +5343,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Saddler" de.name="Sattler" fr.name="Sellier" type="node,closedway">
@@ -5362,7 +5362,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Shoemaker" de.name="Schuhmacher" fr.name="Cordonnier" icon="icons/shoemaker.png" type="node,closedway">
@@ -5381,7 +5381,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Stonemason" de.name="Steinmetz" fr.name="Maçon" type="node,closedway">
@@ -5400,7 +5400,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Upholsterer" de.name="Polsterer" fr.name="Tapissier" type="node,closedway">
@@ -5419,7 +5419,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -5739,7 +5739,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<separator/>
@@ -5770,7 +5770,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Telecommunication antenna" fr.name="Antenne de telecommunication" type="node,relation">
@@ -5801,7 +5801,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -5826,7 +5826,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 		</group>
@@ -5854,7 +5854,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<group name="Urban landuse" fr.name="Zones urbaines" en.name="Urban landuse" icon="styles/standard/misc/landmark/building.png">
@@ -5878,7 +5878,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Square" fr.name="Place" en.name="Square" type="closedway,relation">
@@ -5902,7 +5902,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Grass" fr.name="Pelouse" en.name="Grass" type="closedway,relation">
@@ -5927,7 +5927,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Leisure" fr.name="Loisirs" en.name="Leisure" type="closedway,relation">
@@ -5952,7 +5952,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Other non-built urban landuses" fr.name="Autres zones non-baties urbaines" en.name="Other non-built urban landuses" type="closedway,relation">
@@ -5977,7 +5977,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -6004,7 +6004,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -6027,7 +6027,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Wood" icon="presets/landuse.png" type="closedway,relation">
@@ -6047,7 +6047,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Forest" icon="presets/landuse.png" type="closedway,relation">
@@ -6068,7 +6068,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Nature Reserve" icon="styles/standard/leisure/nature_reserve.png" type="closedway,relation">
@@ -6085,7 +6085,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -6103,7 +6103,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Fell" icon="presets/empty.png" type="closedway,relation">
@@ -6121,7 +6121,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Scrub" icon="presets/empty.png" type="closedway,relation">
@@ -6138,7 +6138,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Heath" icon="presets/empty.png" type="closedway,relation">
@@ -6156,7 +6156,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -6177,7 +6177,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="River" icon="presets/river.png" type="way">
@@ -6198,7 +6198,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Stream" icon="presets/waterway.png" type="way">
@@ -6217,7 +6217,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Spring" icon="presets/spring.png" type="node,closedway">
@@ -6235,7 +6235,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Waterfall" icon="presets/waterfall.png" type="node,way">
@@ -6254,7 +6254,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<separator/>
@@ -6274,7 +6274,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Mud" icon="presets/mud.png" type="node,closedway,relation">
@@ -6291,7 +6291,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Beach" icon="presets/beach.png" type="node,closedway,relation">
@@ -6309,7 +6309,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Bay" icon="presets/bay.png" type="node,closedway,relation">
@@ -6326,7 +6326,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Cliff" icon="presets/cliff.png" type="node,way,closedway,relation">
@@ -6344,7 +6344,7 @@
 					<space/>
 					<label text="________________________________________"/>
 					<space/>
-					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 			</group>
@@ -6366,7 +6366,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Landslide prone" fr.name="Menace de glissements de terrain" en.name="Landslide prone">
@@ -6383,7 +6383,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 			<item name="Windstorm prone" fr.name="Menace de tempetes de vent" en.name="Windstorm prone">
@@ -6400,7 +6400,7 @@
 				<space/>
 				<label text="________________________________________"/>
 				<space/>
-				<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
 		</group>
