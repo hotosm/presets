@@ -396,72 +396,70 @@
 			<!-- Roads -->
 			<group name="Other road objects" fr.name="Autres objets de voirie" en.name="Other road objects" con="presets/waypoints.png">
 				<group name="Parking" icon="presets/parking.png">
-					<group name="Car Park" fr.name="Parking pour automobiles" en.name="Car Park" icon="presets/parking.png">
-						<item name="Car Park" fr.name="Parking pour automobiles" icon="presets/parking.png" type="node,closedway,relation">
-							<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=parking" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=parking" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=parking" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=parking" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=parking" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=parking" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=parking"/>
-							<label text="Edit Parking"/>
-							<label text="________________________________________"/>
-							<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
-							<key key="amenity" value="parking"/>
-							<text key="name" text="Name" default="" delete_if_empty="true"/>
-							<space/>
-							<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
-							<combo key="parking" text="Type" values="multi-storey,surface,underground" default="surface" delete_if_empty="true"/>
-							<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
-							<combo key="park_ride" text="Park and Ride" values="yes,no" default="" delete_if_empty="true"/>
-							<combo key="fee" text="Fee" values="yes,no" default="" delete_if_empty="true"/>
-							<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-							<space/>
-							<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
-							<combo key="capacity:disabled" text="Spaces for Disabled" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
-							<combo key="capacity:women" text="Spaces for Women" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
-							<combo key="capacity:parent" text="Spaces for Parents" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
-							<label text="See the Wiki for other capacity:[types]=*."/>
-							<label text="________________________________________"/>
-							<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-							<space/>
-							<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-							<space/>
-							<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-							<space/>
-							<label text="________________________________________"/>
-							<space/>
-							<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-							<space/>
-						</item>
-						<item name="Parking entrance" fr.name="Entree de parking" icon="presets/parking.png" type="node,relation">
-							<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking_entrance"/>
-							<label text="Edit Parking entrance"/>
-							<label text="________________________________________"/>
-							<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
-							<key key="amenity" value="parking_entrance"/>
-							<text key="name" text="Name" default="" delete_if_empty="true"/>
-							<space/>
-							<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
-							<space/>
-							<combo key="parking" text="Type" values="multi-storey,surface,underground,rooftop" delete_if_empty="true"/>
-							<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
-							<combo key="fee" text="Fee" values="yes,no,interval" default="" delete_if_empty="true"/>
-							<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-							<combo key="surface" text="Surface" values="paved,unpaved,asphalt,concrete,metal,wood,paving_stones,cobblestone,gravel,pebblestone,compacted,grass_paver,grass,sand,ground" default="" delete_if_empty="true"/>
-							<combo key="covered" text="Covered (with roof)" values="yes,no" default="" delete_if_empty="true"/>
-							<combo key="stay" text="Time Limit (minutes)" values="0,30-60,30-180,30+" default="" delete_if_empty="true"/>
-							<combo key="supervised" text="Supervised" values="yes,no,interval" default="" delete_if_empty="true"/>
-							<combo key="lit" text="Lit" values="yes,no,interval" default="" delete_if_empty="true"/>
-							<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-							<label text="________________________________________"/>
-							<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-							<space/>
-							<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-							<space/>
-							<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-							<space/>
-							<label text="________________________________________"/>
-							<space/>
-							<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-							<space/>
-						</item>
-					</group>
+					<item name="Car Park" fr.name="Parking pour automobiles" icon="presets/parking.png" type="node,closedway,relation">
+						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=parking" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=parking" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=parking" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=parking" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=parking" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=parking" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=parking"/>
+						<label text="Edit Parking"/>
+						<label text="________________________________________"/>
+						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
+						<key key="amenity" value="parking"/>
+						<text key="name" text="Name" default="" delete_if_empty="true"/>
+						<space/>
+						<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
+						<combo key="parking" text="Type" values="multi-storey,surface,underground" default="surface" delete_if_empty="true"/>
+						<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
+						<combo key="park_ride" text="Park and Ride" values="yes,no" default="" delete_if_empty="true"/>
+						<combo key="fee" text="Fee" values="yes,no" default="" delete_if_empty="true"/>
+						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
+						<space/>
+						<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
+						<combo key="capacity:disabled" text="Spaces for Disabled" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
+						<combo key="capacity:women" text="Spaces for Women" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
+						<combo key="capacity:parent" text="Spaces for Parents" values="yes,no,unknown,1,2,3" default="" delete_if_empty="true"/>
+						<label text="See the Wiki for other capacity:[types]=*."/>
+						<label text="________________________________________"/>
+						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+						<space/>
+						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+						<space/>
+						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+						<space/>
+						<label text="________________________________________"/>
+						<space/>
+						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<space/>
+					</item>
+					<item name="Parking entrance" fr.name="Entree de parking" icon="presets/parking.png" type="node,relation">
+						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking_entrance"/>
+						<label text="Edit Parking entrance"/>
+						<label text="________________________________________"/>
+						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
+						<key key="amenity" value="parking_entrance"/>
+						<text key="name" text="Name" default="" delete_if_empty="true"/>
+						<space/>
+						<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
+						<space/>
+						<combo key="parking" text="Type" values="multi-storey,surface,underground,rooftop" delete_if_empty="true"/>
+						<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
+						<combo key="fee" text="Fee" values="yes,no,interval" default="" delete_if_empty="true"/>
+						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
+						<combo key="surface" text="Surface" values="paved,unpaved,asphalt,concrete,metal,wood,paving_stones,cobblestone,gravel,pebblestone,compacted,grass_paver,grass,sand,ground" default="" delete_if_empty="true"/>
+						<combo key="covered" text="Covered (with roof)" values="yes,no" default="" delete_if_empty="true"/>
+						<combo key="stay" text="Time Limit (minutes)" values="0,30-60,30-180,30+" default="" delete_if_empty="true"/>
+						<combo key="supervised" text="Supervised" values="yes,no,interval" default="" delete_if_empty="true"/>
+						<combo key="lit" text="Lit" values="yes,no,interval" default="" delete_if_empty="true"/>
+						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+						<label text="________________________________________"/>
+						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+						<space/>
+						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+						<space/>
+						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+						<space/>
+						<label text="________________________________________"/>
+						<space/>
+						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+						<space/>
+					</item>
 					<item name="Motorcycle Parking" fr.name="Parking pour motos" icon="styles/standard/vehicle/parking/motorbike.png" type="node,relation">
 						<label text="Edit Motorcycle Parking"/>
 						<label text="________________________________________"/>
@@ -1464,30 +1462,30 @@
 					<space/>
 				</item>
 				<item name="Water Storage" icon="presets/gasometer.png" type="node,closedway">
-						<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=storage_tank"/>
-						<label text="** Edit/modify water storage **" fr.text="** Éditer/modifier le réservoir d'eau **"/>
-						<key key="man_made" value="storage_tank"/>
-						<key key="contents" value="water"/>
-						<text key="name" text="Name"/>
-						<space/>
-						<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
-						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
-						<space/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<space/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<space/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<space/>
-						<label text="________________________________________"/>
-						<space/>
-						<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
-						<space/>
-					</item>
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=storage_tank"/>
+					<label text="** Edit/modify water storage **" fr.text="** Éditer/modifier le réservoir d'eau **"/>
+					<key key="man_made" value="storage_tank"/>
+					<key key="contents" value="water"/>
+					<text key="name" text="Name"/>
+					<space/>
+					<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
+					<space/>
+					<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
+					<space/>
+					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE"/>
+					<space/>
+				</item>
 				<item name="Water Tower" icon="presets/water_tower.png" type="node,closedway">
 					<label text="Edit Water Tower"/>
 					<key key="man_made" value="water_tower"/>
