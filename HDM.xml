@@ -1465,7 +1465,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=storage_tank"/>
 					<label text="** Edit/modify water storage **" fr.text="** Éditer/modifier le réservoir d'eau **"/>
 					<key key="man_made" value="storage_tank"/>
-					<key key="contents" value="water"/>
+					<key key="content" value="water"/>
 					<text key="name" text="Name"/>
 					<space/>
 					<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
