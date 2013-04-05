@@ -6016,7 +6016,8 @@
 					<space/>
 					<text key="type" text="Type" default="" delete_if_empty="true"/>
 					<text key="height" text="Height" default="" delete_if_empty="true"/>
-					<text key="name:botanical" text="Botanical Name" default="" delete_if_empty="true"/>
+					<text key="species:en" text="Species name in english" default="" delete_if_empty="true"/>
+					<text key="species:fr" text="Species name in french" default="" delete_if_empty="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
