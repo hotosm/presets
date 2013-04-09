@@ -344,7 +344,7 @@
 <text key="note" text="Note" fr.text="Notes"/>
 <space/>
 </item>-->
-				<item name="Corridors and pathes" fr.name="Corridors ou chemins ruraux" en.name="Corridors and pathes" icon="presets/path.png" type="way">
+				<item name="Paths" fr.name="Corridors ou chemins ruraux" en.name="Paths" icon="presets/path.png" type="way">
 					<key key="highway" value="path"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dpath" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dpath" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dpath"/>
 					<label text="** Edit/modify a corridor or a rural path **" fr.text="** Creer/mettre a jour un corridor ou un chemin rural **" en.text="** Edit/modify a corridor or a rural path **"/>
