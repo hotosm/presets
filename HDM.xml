@@ -5808,7 +5808,7 @@
 			<!-- telecommunication -->
 			<separator/>
 			<item name="Works" fr.nqme="Usine et manufactures" en.name="Works" icon="presets/works.png" type="node">
-				<key="man_made" value="works"/>
+				<key key="man_made" value="works"/>
 				<label text="Edit Works"/>
 				<label text="** Edit/modify works or factories **" fr.text="** Creer/mettre a jour une usine ou une fabrique **" en.text="** Edit/modify works or factorie **"/>
 				<combo key="works:type" text="Type" fr.text="Type" en.text="Type" values="brewery,dairy,furniture_manufacture,ice_manufacture,other" display_values="brewery,dairy,furniture manufacture,ice manufacture,other" fr.display_values="brasserie,laiterie,manufacture de meuble,fabrique de glace,autre" en.display_values="brewery,dairy,furniture manufacture,ice manufacture,other" required="true"/>
