@@ -2000,9 +2000,6 @@
 					<label text="GRAVEYARD" fr.text="CIMETIERE APPARTENANT A UN LIEU DE CULTE" en.text="GRAVEYARD"/>
 					<key key="amenity" value="grave_yard"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<combo key="religion" text="Religion" values="bahai,buddhist,christian,hindu,jain,jewish,muslim,sikh,spiritualist,taoist,unitarian,zoroastrian" default="" delete_if_empty="true"/>
-					<combo key="denomination" text="Denomination" values="anglican,baptist,catholic,evangelical,jehovahs_witness,lutheran,methodist,mormon,orthodox,pentecostal,presbyterian,protestant,quaker,shia,sunni" default="" delete_if_empty="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
