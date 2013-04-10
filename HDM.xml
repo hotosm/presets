@@ -572,7 +572,7 @@
 					<label text="________________________________________"/>
 					<label text="BRIDGE" fr.text="PONT" en.text="BRIDGE"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:bridge" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:bridge" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:bridge" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:bridge" it.href="http://wiki.openstreetmap.org/wiki/IT:Key:bridge" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:bridge" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:bridge" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:bridge" uk.href="http://wiki.openstreetmap.org/wiki/Uk:Key:bridge"/>
-					<combo key="bridge" text="Bridge type" fr.text="Type de pont" en.text="Bridge type" values="yes,viaduct,swing,aqueduct" display.values="pont,viaduct,swing,aqueduct" fr.display.values="pont,viaduc,tournant,aqueduc" en.display.values="pont,viaduct,swing,aqueduct" default="yes" required="true"/>
+					<combo key="bridge" text="Bridge type" fr.text="Type de pont" en.text="Bridge type" values="yes,culvert,arch,beam,truss,pontoon,suspension,viaduct,swing,aqueduct" display.values="yes,culvert,arch,beam,truss,pontoon,suspension,viaduct,swing,aqueduct" fr.display.values="yes,culvert,arch,beam,truss,pontoon,suspension,viaduct,swing,aqueduct" default="yes" required="true"/>
 					<key key="layer" value="1"/>
 					<optional>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
