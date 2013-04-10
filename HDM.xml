@@ -845,6 +845,7 @@
 						<label text="Edit Airport Ground"/>
 						<key key="aeroway" value="aerodrome"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
+						<combo key="aerodrome:type" text="Airport type" fr.text="Airport type" values="international,domestic,private,military" display_values="international,domestic,private,military" fr.display_values="international,domestic,private,military"/>
 						<space/>
 						<optional>
 							<text key="iata" text="IATA" default="" delete_if_empty="true"/>
