@@ -251,6 +251,7 @@
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 						<check key="narrow" text="Narrow" default="off" delete_if_empty="true"/>
+						<check key="construction" text="Minor construction" value_on="minor" default="off" delete_if_empty="true"/>
 					</optional>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
