@@ -367,7 +367,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Footways" fr.name="Chemins pieton" icon="presets/footway.png" type="way">
+				<!--<item name="Footways" fr.name="Chemins pieton" icon="presets/footway.png" type="way">
 					<key key="highway" value="footway"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dfootway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dfootway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dfootway"/>
 					<label text="** Edit/modify a footway **" fr.text="** Creer/mettre a jour un Chemins pieton **"/>
@@ -390,7 +390,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
-				</item>
+				</item>-->
 			</group>
 			<!-- Roads -->
 			<group name="Other road objects" fr.name="Autres objets de voirie" en.name="Other road objects" con="presets/waypoints.png">
