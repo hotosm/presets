@@ -871,6 +871,7 @@
 						<key key="aeroway" value="helipad"/>
 						<optional>
 							<text key="ref" text="Reference" default="" delete_if_empty="true"/>
+							<check key="emergency" text="emergency" fr.text="urgence" default="off"/>
 						</optional>
 						<space/>
 						<label text="________________________________________"/>
