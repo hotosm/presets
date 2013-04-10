@@ -244,7 +244,7 @@
 					<combo key="highway" text="Road type" fr.text="Type de route" en.text="Road type" values="primary,secondary,tertiary,unclassified,residential,service,track,living_street" display_values="primary,secondary,tertiary,unclassified,residential,service,track,living street" fr.display_values="primaire,secondaire,tertiaire,non classe,residentiel,service,piste,voie pietonne" delete_if_empty="true"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" required="true"/>
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 					<space/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
@@ -273,7 +273,7 @@
 					<key key="highway" value="construction"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
 					<space/>
 					<label text="________________________________________"/>
@@ -351,7 +351,7 @@
 					<label text="CORRIDOR OR PATH" fr.text="CORRIDOR OU CHEMIN" en.text="CORRIDOR OR PATH"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
@@ -375,7 +375,7 @@
 					<label text="FOOTWAY" fr.text="Chemins pieton"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
@@ -441,7 +441,7 @@
 						<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
 						<combo key="fee" text="Fee" values="yes,no,interval" default="" delete_if_empty="true"/>
 						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
-						<combo key="surface" text="Surface" values="paved,unpaved,asphalt,concrete,metal,wood,paving_stones,cobblestone,gravel,pebblestone,compacted,grass_paver,grass,sand,ground" default="" delete_if_empty="true"/>
+						<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
 						<combo key="covered" text="Covered (with roof)" values="yes,no" default="" delete_if_empty="true"/>
 						<combo key="stay" text="Time Limit (minutes)" values="0,30-60,30-180,30+" default="" delete_if_empty="true"/>
 						<combo key="supervised" text="Supervised" values="yes,no,interval" default="" delete_if_empty="true"/>
