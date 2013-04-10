@@ -245,7 +245,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<space/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" required="true"/>
-					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
+					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
 					<space/>
 					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
 					<optional>
@@ -274,7 +274,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Key:highway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:highway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:highway"/>
 					<space/>
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
-					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
+					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -299,7 +299,7 @@
 <text key="name" text="Name" default="" delete_if_empty="true"/>
 <space/>
 <combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
-<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
+<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
 <space/>
 <optional>
 <check key="lit" text="Lit" default="off" delete_if_empty="true"/>
@@ -325,7 +325,7 @@
 <text key="name" text="Name" default="" delete_if_empty="true"/>
 <space/>
 <combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
-<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" fr.display_values="excellent,good,intermediate,bad,very_bad,horrible,very_horrible,impassable" required="true"/>
+<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
 <space/>
 <text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
 <optional>
