@@ -5303,6 +5303,25 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
+				<item name="Brewery" fr.name="Brasserie" type="node">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbrewery"/>
+					<label text="Edit Brewery" fr.text="Modifier un vannier"/>
+					<space/>
+					<key key="craft" value="brewery"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
 				<item name="Carpenter" de.name="Tischler" fr.name="Charpentier" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dcarpenter"/>
 					<label text="Edit Carpenter" de.text="bearbeite Tischler"/>
@@ -5327,6 +5346,25 @@
 					<label text="Edit Clockmaker" de.text="bearbeite Uhrmacher" fr.text="Modifier un horloger"/>
 					<space/>
 					<key key="craft" value="clockmaker"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
+				<item name="Distillery" fr.name="Distillerie" type="node">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Ddistillery"/>
+					<label text="Edit Distillery" fr.text="Modifier un distillerie"/>
+					<space/>
+					<key key="craft" value="distillery"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
 					<label text="________________________________________"/>
