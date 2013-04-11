@@ -825,7 +825,7 @@
 					<space/>
 					<check key="motorcar" text="Motorcar" value_on="yes" default="on" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" value_on="yes" default="off" delete_if_empty="true"/>
-					<check key="horse" text="Motorcycle" value_on="yes" default="off" delete_if_empty="true"/>
+					<check key="horse" text="Horse" value_on="yes" default="off" delete_if_empty="true"/>
 					<check key="rickshaw" text="Rickshaw" value_on="yes" default="off" delete_if_empty="true"/>
 					<space/>
 					<text key="capacity" text="Capacity" default="" delete_if_empty="true"/>
