@@ -2225,7 +2225,7 @@
 			</group>
 			<!-- Historic Places -->
 			<group name="Sport Facilities" icon="presets/soccer.png">
-				<item name="Pitch" icon="presets/pitch.png" type="closedway">
+				<item name="Pitch" icon="presets/pitch.png" type="node,closedway">
 					<label text="Edit Pitch"/>
 					<key key="leisure" value="pitch"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
