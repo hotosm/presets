@@ -5891,6 +5891,29 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
+			<item name="Salt Pond" fr.name="Marais salant" type="closedway,relation" icon="presets/landuse.png">
+				<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse%3Dsalt_pond"/>
+				<label text="** Edit/modify a salt pond **" fr.text="** Creer/mettre a jour une marais salant **"/>
+				<label text="________________________________________"/>
+				<key key="landuse" value="salt_pond"/>
+				<optional>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<combo key="barrier" text="Outline type" fr.text="Type de contour" en.text="Outline type" values="hedge,fence,wall" display_values="hedge,fence,wall" fr.display_values="haie vegetale,cloture,mur" en.display_values="hedge,fence,wall" delete_if_empty="true"/>
+				</optional>
+				<space/>
+				<label text="________________________________________"/>
+				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+				<space/>
+				<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+				<space/>
+				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+				<space/>
+				<label text="________________________________________"/>
+				<space/>
+				<text key="note" text="Note" fr.text="Notes"/>
+				<space/>
+			</item>
 			<group name="Urban landuse" fr.name="Zones urbaines" en.name="Urban landuse" icon="styles/standard/misc/landmark/building.png">
 				<item name="Built urban landuses" fr.name="Zones baties urbaines" en.name="Built urban landuses" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Landuse"/>
