@@ -822,11 +822,12 @@
 					<key key="amenity" value="taxi"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<space/>
-					<check key="motorcar" text="Motorcar" value_on="yes" default="off" delete_if_empty="true"/>
+					<check key="motorcar" text="Motorcar" value_on="yes" default="on" delete_if_empty="true"/>
 					<check key="motorcycle" text="Motorcycle" value_on="yes" default="off" delete_if_empty="true"/>
-					<text key="capacity" text="Capacity" default="" delete_if_empty="true"/>
+					<check key="horse" text="Motorcycle" value_on="yes" default="off" delete_if_empty="true"/>
+					<check key="rickshaw" text="Rickshaw" value_on="yes" default="off" delete_if_empty="true"/>
 					<space/>
+					<text key="capacity" text="Capacity" default="" delete_if_empty="true"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
