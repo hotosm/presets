@@ -2232,7 +2232,7 @@
 					<space/>
 					<label text="select sport:"/>
 					<space/>
-					<combo key="sport" text="sport" values="multi,archery,athletics,american_football,australian_football,baseball,basketball,boules,bowls,canadian_football,canoe,climbing,cockfighting,cricket,cricket_nets,croquet,cycling,dog_racing,equestrian,gaelic_football,golf,gymnastics,hockey,horse_racing,motor,pelota,racquet,rugby_league,rugby_union,shooting,skateboard,skating,skiing,soccer,table_tennis,tennis" default="" delete_if_empty="true"/>
+					<combo key="sport" text="sport" values="multi,american_football,baseball,basketball,climbing,cockfighting,golf,gymnastics,hockey,motor,skating,soccer,tennis" default="" delete_if_empty="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
