@@ -1362,7 +1362,7 @@
 				<key key="barrier" value="block"/>
 				<label text="** Edit/modify obstacles **" fr.text="** Creer/mettre a jour des obstacles **" en.text="** Edit/modify obstacless **"/>
 				<space/>
-				<combo key="barrier:obstacle_type" text="Obstacle type" fr.text="Type d'obstacle" en.text="Obstacle type" values="bridge_damage,road_damage,landslide,debris,checkpoint,roadblock" display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock" fr.display_values="pont endommage,route endommagee,glissement de terrain,debris,checkpoint,route barree,non specifie" en.display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock" required="true"/>
+				<combo key="barrier:obstacle_type" text="Obstacle type" fr.text="Type d'obstacle" values="bridge_damage,road_damage,landslide,debris,checkpoint,roadblock" display_values="damaged bridge,damaged road,landslide,debris,checkpoint,roadblock" fr.display_values="pont endommage,route endommagee,glissement de terrain,debris,checkpoint,route barree,non specifie" required="true"/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
@@ -2391,7 +2391,7 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
-					<combo key="school:HT" text="Haiti school level" ft.text="Haiti niveaux scolaires" values="primaire,secondaire,college" display_values="primaire,secondaire,college" fr.display_values="primaire,secondaire,college"/>
+					<multiselect key="school:HT" text="Select school levels (hold ctrl for multiple)" fr.text="Sélectionner les niveaux scolaires (appuyer sur Ctrl pour en sélectionner plusieurs)" values="kindergarten;primaire;secondaire" display_values="kindergarten;primaire;secondaire" fr.display_values="kindergarten;primaire;secondaire" delimiter=";"/> 
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
