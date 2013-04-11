@@ -1477,6 +1477,7 @@
 					<label text="** Edit/modify water storage **" fr.text="** Éditer/modifier le réservoir d'eau **"/>
 					<key key="man_made" value="storage_tank"/>
 					<key key="content" value="water"/>
+					<combo key="content:source" values="truck,pipeline" display_values="truck,pipeline" fr.display_values="camion,tuyau de canalisation"/>
 					<text key="name" text="Name"/>
 					<space/>
 					<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="bladder" display_values="bladder" fr.display_values="bladder (réservoir souple)"/>
@@ -1543,7 +1544,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Showers" fr.name="Douche" en.name="Showers" type="node,relation" icon="presets/shower.png">
+				<item name="Showers" fr.name="Douche" en.name="Showers" type="node,relation" icon="http://commons.wikimedia.org/wiki/File:OCHA_shower_icon.png">
 					<label text="** Edit/modify showers **" fr.text="** Creer/mettre a jour des douches **" en.text="** Edit/modify showers **"/>
 					<label text="________________________________________"/>
 					<label text="SHOWERS" fr.text="DOUCHES" en.text="SHOWERS"/>
