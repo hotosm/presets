@@ -2923,6 +2923,46 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
+				<item name="Customs" type="node,relation">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=customs"/>
+					<label text="Edit Customs"/>
+					<key key="amenity" value="customs"/>
+					<key key="office" value="government"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<combo key="country" text="Country" values="HT,DO" display_values="Haiti,Dominican Republic" required="true"/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
+				<item name="Embassy" icon="presets/embassy.png" type="node,relation">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=embassy"/>
+					<label text="Edit Embassy"/>
+					<key key="amenity" value="embassy"/>
+					<key key="office" value="government"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="country" text="Country"/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
 				<item name="Prison" icon="presets/prison.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=prison" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=prison" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=prison"/>
 					<label text="Edit Prison"/>
