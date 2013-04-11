@@ -32,11 +32,12 @@
 			<space/>
 			<combo key="building:levels" text="Building levels" fr.text="Nombre de niveaux" values="1,2,3,4,5" display_values="1,2,3,4,5"/>
 			<space/>
-			<combo key="building:material" text="Building Material" fr.text="Matériaux du Bâtiment" values="plaster,brick,wood,concrete,glass,stone,metal,tent,timber_framing" display_values="plaster,brick,wood,concrete,glass,stone,metal,tent,timber_framing" fr.display_values="plâtre,brique,bois,béton,verre,pierre,métal,tent,ossature bois"/>
-			<combo key="building:roof" text="Roof Material" fr.text="Matériaux du toit" values="tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" display_values="tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" fr.display_values="tuiles,béton,papier goudronné,métal,bois,plastique,pierre,toile,PVC"/>
-			<space/>
-			<check key="historic" text="Historic interest" fr.text="Intérêt historique" en.text="Historic interest" default="off"/>
-			<space/>
+			<optional>
+				<combo key="building:material" text="Building Material" fr.text="Matériaux du Bâtiment" values="plaster,brick,wood,concrete,glass,stone,metal,tent,timber_framing" display_values="plaster,brick,wood,concrete,glass,stone,metal,tent,timber_framing" fr.display_values="plâtre,brique,bois,béton,verre,pierre,métal,tent,ossature bois"/>
+				<combo key="building:roof" text="Roof Material" fr.text="Matériaux du toit" values="tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" display_values="tiles,concrete,tar_paper,metal,wood,plastic,stone,canvas,PVC" fr.display_values="tuiles,béton,papier goudronné,métal,bois,plastique,pierre,toile,PVC"/>
+				<space/>
+				<check key="historic" text="Historic interest" fr.text="Intérêt historique" en.text="Historic interest" default="off"/>
+			</optional>
 			<label text="________________________________________"/>
 			<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (géométrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 			<space/>
