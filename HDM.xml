@@ -1414,7 +1414,7 @@
 						<space/>
 						<combo key="pump" text="Pumped or not" fr.text="Pumped or not" values="powered,manual,no" display_values="powered,manual,no" fr.display_values="powered,manual,no"/>
 						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau courante" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
 						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
