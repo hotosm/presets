@@ -4322,6 +4322,34 @@
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
 					</item>
+					<item name="Car parts" icon="presets/car_repair.png" type="node">
+						<label text="Edit Car parts"/>
+						<label text="________________________________________"/>
+						<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
+						<key key="shop" value="car_parts"/>
+						<text key="name" text="Name" default="" delete_if_empty="true"/>
+						<space/>
+						<text key="brand" text="Brand" default="" delete_if_empty="true"/>
+						<text key="operator" text="Operator" default="" delete_if_empty="true"/>
+						<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+						<label text="Contact:"/>
+						<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
+						<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
+						<text key="website" text="Website" default="" delete_if_empty="true"/>
+						<text key="email" text="Email Address" default="" delete_if_empty="true"/>
+						<space/>
+						<label text="________________________________________"/>
+						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+						<space/>
+						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+						<space/>
+						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+						<space/>
+						<label text="________________________________________"/>
+						<space/>
+						<text key="note" text="Note" fr.text="Notes"/>
+						<space/>
+					</item>
 					<item name="Tyres" icon="presets/tyres.png" type="node">
 						<label text="Edit Tyres"/>
 						<label text="________________________________________"/>
