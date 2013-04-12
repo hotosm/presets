@@ -1050,6 +1050,28 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
+			<item name="Road Practicability" type="node,way">
+				<label text="** Edit/modify road practicability **" fr.text="** Creer/mettre a jour des praticabilite de voirie **"/>
+				<label text="________________________________________"/>
+				<label text="ROAD PRACTICABILITY" fr.text="Praticabilite DE VOIRIE"/>
+				<link href="http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags/practicability"/>
+				<combo key="practicability:truck+trailer" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:heavy_truck" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:light_truck" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:motorcar" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:motorcycle" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<label text="________________________________________"/>
+				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+				<space/>
+				<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+				<space/>
+				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+				<space/>
+				<label text="________________________________________"/>
+				<space/>
+				<text key="note" text="Note" fr.text="Notes"/>
+				<space/>
+			</item>
 			<group name="Barriers" icon="presets/barrier.png">
 				<item name="Toll Booth" icon="presets/toll_station.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:barrier=toll_booth" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:barrier=toll_booth" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:barrier=toll_booth" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:barrier=toll_booth" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:barrier=toll_booth" zh-hans.href="http://wiki.openstreetmap.org/wiki/Zh-hans:Tag:barrier=toll_booth"/>
@@ -2405,7 +2427,7 @@
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 					<space/>
-					<multiselect key="school:HT" text="Select school levels (hold ctrl for multiple)" fr.text="Sélectionner les niveaux scolaires (appuyer sur Ctrl pour en sélectionner plusieurs)" values="kindergarten;primaire;secondaire" display_values="kindergarten;primaire;secondaire" fr.display_values="kindergarten;primaire;secondaire" delimiter=";"/> 
+					<multiselect key="school:HT" text="Select school levels (hold ctrl for multiple)" fr.text="Sélectionner les niveaux scolaires (appuyer sur Ctrl pour en sélectionner plusieurs)" values="kindergarten;primaire;secondaire" display_values="kindergarten;primaire;secondaire" fr.display_values="kindergarten;primaire;secondaire" delimiter=";"/>
 					<space/>
 					<text key="capacity" text="Capacity (overall)" default="" delete_if_empty="true"/>
 					<space/>
