@@ -1389,10 +1389,9 @@
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 						<space/>
+						<check key="fee" text="For sale?" fr.text="A vendre?" default="off" delete_if_empty="true"/>
 						<optional>
-							<label text="Is there a fee to use" fr.text="Is there a fee to use" en.text="Is there a fee to use"/>
-							<check key="fee" text="yes" fr.text="wi" default="off" delete_if_empty="true"/>
-							<check key="emergency" text="emergency" fr.text="urgence" default="off"/>
+							<check key="emergency" text="emergency?" fr.text="urgence?" default="off"/>
 						</optional>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
