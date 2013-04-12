@@ -1058,7 +1058,7 @@
 				<combo key="practicability:truck+trailer" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
 				<combo key="practicability:heavy_truck" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
 				<combo key="practicability:light_truck" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
-				<combo key="practicability:motorcar" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:4x4" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
 				<combo key="practicability:motorcycle" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
