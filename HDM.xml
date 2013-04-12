@@ -6065,32 +6065,8 @@
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
 						<combo key="barrier" text="Outline type" fr.text="Type de contour" en.text="Outline type" values="hedge,fence,wall" display_values="hedge,fence,wall" fr.display_values="haie vegetale,cloture,mur" en.display_values="hedge,fence,wall" delete_if_empty="true"/>
-						<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
-					</optional>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="Note" fr.text="Notes"/>
-					<space/>
-				</item>
-				<item name="Grass" fr.name="Pelouse" en.name="Grass" type="closedway,relation">
-					<link href="http://wiki.openstreetmap.org/wiki/Tag:surface%3Dgrass"/>
-					<link href="http://wiki.openstreetmap.org/wiki/FR:Key:surface"/>
-					<key key="surface" value="grass"/>
-					<label text="** Edit/modify a grass(not for pasture) **" fr.text="** Creer/mettre a jour une pelouse (pas pour le pâturage) **" en.text="** Edit/modify a grass(not for pasture) **"/>
-					<label text="________________________________________"/>
-					<optional>
-						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
-						<combo key="barrier" text="Outline type" fr.text="Type de contour" en.text="Outline type" values="hedge,fence,wall" display_values="hedge,fence,wall" fr.display_values="haie vegetale,cloture,mur" en.display_values="hedge,fence,wall" delete_if_empty="true"/>
-						<combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
+						<check key="surface" text="Grass?" fr.text="Herbe?" value_on="grass" default="off" delete_if_empty="true"/><combo key="access" text="Access" values="yes,private,customers,permissive,no" default="" delete_if_empty="true"/>
 					</optional>
 					<space/>
 					<label text="________________________________________"/>
