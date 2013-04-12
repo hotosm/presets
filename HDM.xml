@@ -6056,7 +6056,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Square" fr.name="Place" en.name="Square" type="closedway,relation">
+				<item name="Fenced/walled area" fr.name="Place avek mur/cloteure" en.name="Square" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Key:area"/>
 					<key key="area" value="yes"/>
 					<label text="** Edit/modify a square **" fr.text="** Creer/mettre a jour une place **" en.text="** Edit/modify a square **"/>
