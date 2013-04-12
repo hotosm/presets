@@ -6038,7 +6038,7 @@
 					<label text="** Edit/modify a built urban landuse **" fr.text="** Creer/mettre a jour une occupation du sol batie urbaine **" en.text="** Edit/modify a built urban landuse **"/>
 					<label text="________________________________________"/>
 					<label text="LANDUSE" fr.text="OCCUPATION DU SOL" en.text="LANDUSE"/>
-					<combo key="landuse" text="Build urban landuse type" fr.text="Type d'occupation du sol batie urbaine" en.text="Build urban landuse type" values="cemetery,commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation_ground,reservoir,residential,retail" display_values="cemetery,commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation ground,reservoir,residential,retail" fr.display_values="cimetiere,commercial,chantier,education,garages,hopital,industriel,militaire,carriere,chemin de fer,aire de recreation,reservoir,residentiel,zone de vente au detail" en.display_values="cemetery,commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation ground,reservoir,residential,retail" required="true"/>
+					<combo key="landuse" text="Build urban landuse type" fr.text="Type d'occupation du sol batie urbaine" en.text="Build urban landuse type" values="commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation_ground,residential,retail" display_values="commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation ground,residential,retail" fr.display_values="commercial,chantier,education,garages,hopital,industriel,militaire,carriere,chemin de fer,aire de recreation,residentiel,zone de vente au detail" required="true"/>
 					<optional>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
@@ -6056,7 +6056,51 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Fenced/walled area" fr.name="Place avek mur/cloteure" en.name="Square" type="closedway,relation">
+				<item name="Cemetery" fr.name="Cimetiere" icon="presets/cemetery.png" type="closedway,relation">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=cemetery"/>
+					<label text="** Edit/modify a cemetery **" fr.text="** Creer/mettre a jour une cimetiere **"/>
+					<label text="________________________________________"/>
+					<key key="landuse" value="cemetary"/>
+					<optional>
+						<text key="name" text="Name" default="" delete_if_empty="true"/>
+						<space/>
+						<combo key="barrier" text="Outline type" fr.text="Type de contour" en.text="Outline type" values="hedge,fence,wall" display_values="hedge,fence,wall" fr.display_values="haie vegetale,cloture,mur" en.display_values="hedge,fence,wall" delete_if_empty="true"/>
+					</optional>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
+				<item name="Reservoir" fr.name="Reservoir" icon="presets/reservoir.png" type="closedway,relation">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=reservoir"/>
+					<label text="** Edit/modify a reservoir **" fr.text="** Creer/mettre a jour une reservoir **"/>
+					<label text="________________________________________"/>
+					<key key="landuse" value="reservoir"/>
+					<optional>
+						<text key="name" text="Name" default="" delete_if_empty="true"/>
+						<space/>
+						<combo key="barrier" text="Outline type" fr.text="Type de contour" en.text="Outline type" values="hedge,fence,wall" display_values="hedge,fence,wall" fr.display_values="haie vegetale,cloture,mur" en.display_values="hedge,fence,wall" delete_if_empty="true"/>
+					</optional>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
+				<item name="Fenced/walled area" fr.name="Place avek mur/cloteure" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Key:area"/>
 					<key key="area" value="yes"/>
 					<label text="** Edit/modify a square **" fr.text="** Creer/mettre a jour une place **" en.text="** Edit/modify a square **"/>
