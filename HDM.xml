@@ -1503,7 +1503,7 @@
 					<space/>
 					<combo key="storage_tank:type" text="Tank type" fr.text="Type de réservoir" values="tank,bladder" display_values="tank,bladder" fr.display_values="tank,bladder (réservoir souple)"/>
 					<space/>
-					<combo key="content:source" text="Water supply" fr.text"Approvisionnement d'eau" values="truck,pipeline" display_values="truck,pipeline" fr.display_values="camion,tuyau de canalisation"/>
+					<combo key="content:source" text="Water supply" fr.text="Approvisionnement d'eau" values="truck,pipeline" display_values="truck,pipeline" fr.display_values="camion,tuyau de canalisation"/>
 					</space>
 					<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
 					<space/>
