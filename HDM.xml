@@ -2346,6 +2346,20 @@
 				</item>
 			</group>
 			<!-- Sport facilities -->
+			<item name="Bench" icon="presets/bench.png" type="node">
+				<label text="Edit Bench"/>
+				<key key="amenity" value="bench"/>
+				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+				<space/>
+				<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+				<space/>
+				<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+				<space/>
+				<label text="________________________________________"/>
+				<space/>
+				<text key="note" text="Note" fr.text="Notes"/>
+				<space/>
+			</item>
 		</group>
 		<!-- Cultural and social -->
 		<group name="Public services" fr.name="Services d'interet public" icon="presets/townhall.png">
