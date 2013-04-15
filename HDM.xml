@@ -1583,7 +1583,7 @@
 					<check key="female" text="female" fr.text="femmes" default="off"/>
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
 					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
-					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private" display_values="public,private" fr.display_values="publique,prive"/>
+					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 					<space/>
 					<check key="emergency" text="emergency" fr.text="urgence" default="off"/>
 					<label text="Status" fr.text="Statut"/>
@@ -1621,7 +1621,7 @@
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
 					<space/>
 					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
-					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private" display_values="public,private" fr.display_values="publique,prive"/>
+					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 					<space/>
 					<check key="emergency" text="emergency" fr.text="urgence" default="off"/>
 					<combo key="toilets:type" text="Toilet type" fr.text="Toilet type" values="flush,pit,chemical,bucket" display_values="flush,pit,chemical,bucket" fr.display_values="humide,latrine,chimique,seau"/>
