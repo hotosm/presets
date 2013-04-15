@@ -1571,25 +1571,28 @@
 					<label text="** Edit/modify showers **" fr.text="** Creer/mettre a jour des douches **" en.text="** Edit/modify showers **"/>
 					<label text="________________________________________"/>
 					<label text="SHOWERS" fr.text="DOUCHES" en.text="SHOWERS"/>
-					<space/>
-					<label text="TYPE" fr.text="TYPE" en.text="TYPE"/>
 					<key key="amenity" value="shower"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dshower" text="More info about showers" fr.text="Plus d'infos sur les douches" en.text="More info about showers"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<space/>
+					<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
+					<space/>
 					<label text="Gender Access:" fr.text="Genre:"/>
 					<check key="male" text="male" fr.text="hommes" default="off"/>
 					<check key="female" text="female" fr.text="femmes" default="off"/>
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
-					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
-					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 					<space/>
-					<check key="emergency" text="emergency" fr.text="urgence" default="off"/>
+					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
+					<space/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<space/>
 					<label text="Status" fr.text="Statut"/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<space/>
+					<check key="emergency" text="emergency?" fr.text="urgence?" default="off"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
@@ -1609,11 +1612,13 @@
 					<label text="TOILETS" fr.text="TOILETTES" en.text="TOILETS"/>
 					<space/>
 					<link href="http://wiki.openstreetmap.org/wiki/Toilets" text="More info about toilets" fr.text="Plus d'infos sur les toilettes" en.text="More info about toilets"/>
-					<check key="pitlatrine" text="Pit latrine" fr.text="Latrines" en.text="Pit latrine" default="off"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:pitlatrine" text="More info about latrines" fr.text="Plus d'infos sur les latrines" en.text="More info about latrines"/>
+					<combo key="toilets:type" text="Toilet type" fr.text="Toilet type" values="flush,pit,chemical,bucket" display_values="flush,pit,chemical,bucket" fr.display_values="humide,latrine,chimique,seau"/>
 					<space/>
 					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<space/>
+					<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 					<space/>
 					<label text="Gender Access:" fr.text="Genre:"/>
 					<check key="male" text="male" fr.text="hommes" default="off"/>
@@ -1621,14 +1626,14 @@
 					<check key="unisex" text="unisex" fr.text="mixte" default="off"/>
 					<space/>
 					<combo key="wheelchair" text="Disability (wheelchair) access" fr.text="Accessibilite aux handicapes (wheelchair)" values="yes,no,limited" display_values="yes,no,limited" fr.display_values="oui,non,limite"/>
-					<combo key="access" text="Public or private" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 					<space/>
-					<check key="emergency" text="emergency" fr.text="urgence" default="off"/>
-					<combo key="toilets:type" text="Toilet type" fr.text="Toilet type" values="flush,pit,chemical,bucket" display_values="flush,pit,chemical,bucket" fr.display_values="humide,latrine,chimique,seau"/>
-					<label text="Status" fr.text="Statut"/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<space/>
+					<label text="Status:" fr.text="Statut"/>
 					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<space/>
+					<check key="emergency" text="emergency?" fr.text="urgence?" default="off"/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 					<space/>
