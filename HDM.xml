@@ -6617,10 +6617,16 @@
 			</item>
 		</group>
 		<!-- Hazards -->
-		<item name="Add an address" fr.name="+ Adresse">
+		<item name="Add an address and contact" fr.name="+ Adresse et contact">
 			<space/>
 			<text key="addr:housenumber" text="building number" fR.text="numero du batiment " eN.text="building number"/>
 			<text key="addr:street" text="street name" use_last_as_default="force" delete_if_empty="true"/>
+			<label text="________________________________________"/>
+			<label text="Contact:"/>
+			<text key="phone" text="Phone Number" default="" delete_if_empty="true"/>
+			<text key="fax" text="Fax Number" default="" delete_if_empty="true"/>
+			<text key="website" text="Website" default="" delete_if_empty="true"/>
+			<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 			<space/>
 		</item>
 		<item name="Add more Names" fr.name="+ Nom">
