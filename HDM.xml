@@ -1333,8 +1333,14 @@
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 						<space/>
 						<check key="fee" text="For sale?" fr.text="A vendre?" default="off" delete_if_empty="true"/>
+						<space/>
+						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+						<space/>
+						<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 						<optional>
-							<check key="emergency" text="emergency?" fr.text="urgence?" default="off"/>
+							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
 						</optional>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -1360,6 +1366,10 @@
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
 						<space/>
 						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+						<space/>
+						<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
 						<optional>
 							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
 						</optional>
@@ -1381,7 +1391,14 @@
 						<key key="natural" value="spring"/>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
-						<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non" en.display_values="yes,no"/>
+						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+						<space/>
+						<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
+						<optional>
+							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
+						</optional>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
