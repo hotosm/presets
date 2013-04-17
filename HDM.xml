@@ -248,11 +248,11 @@
 					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" required="true"/>
 					<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
 					<space/>
-					<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
 					<optional>
-						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-						<check key="narrow" text="Narrow" default="off" delete_if_empty="true"/>
+						<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
 						<check key="construction" text="Minor construction" value_on="minor" default="off" delete_if_empty="true"/>
+						<check key="narrow" text="Narrow" default="off" delete_if_empty="true"/>
+						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 						<check key="embankment" text="Embanked" fr.text="Remblai" default="off" delete_if_empty="true"/>
 					</optional>
 					<label text="________________________________________"/>
@@ -291,61 +291,6 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<!--<item name="Service roads" fr.name="Voies de service" en.name="Service roads" icon="presets/way_unclassified.png" type="way">
-<key key="highway" value="service"/>
-<link href="http://wiki.openstreetmap.org/wiki/Key:service" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:service"/>
-<label text="** Edit/modify a service road **" fr.text="** Creer/mettre a jour une voie de service **" en.text="** Edit/modify a service road **"/>
-<label text="________________________________________"/>
-<label text="SERVICE ROAD" fr.text="VOIE DE SERVICE" en.text="SERVICE ROAD"/>
-<combo key="service" text="Service road type" fr.text="Type de voie de service" en.text="Service road type" values="alley,driveway,parking_aisle" display_values="alley,driveway,parking aisle" fr.display_values="voie automobile de service entre proprietes,voie automobile menant a une seule propriete,voie automobile dans un parking" en.display_values="alley,driveway,parking aisle" required="true"/>
-<space/>
-<text key="name" text="Name" default="" delete_if_empty="true"/>
-<space/>
-<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
-<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
-<space/>
-<optional>
-<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-</optional>
-<label text="________________________________________"/>
-<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-<space/>
-<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-<space/>
-<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-<space/>
-<label text="________________________________________"/>
-<space/>
-<text key="note" text="Note" fr.text="Notes"/>
-<space/>
-</item>
-<item name="Tracks" fr.name="Pistes" en.name="Tracks" icon="presets/track1.png" type="way">
-<key key="highway" value="track"/>
-<link href="http://wiki.openstreetmap.org/wiki/Track" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dtrack" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dtrack"/>
-<label text="** Edit/modify a track **" fr.text="** Creer/mettre a jour une piste **" en.text="** Edit/modify a track **"/>
-<label text="________________________________________"/>
-<label text="TRACK" fr.text="PISTE" en.text="TRACK"/>
-<text key="name" text="Name" default="" delete_if_empty="true"/>
-<space/>
-<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel" display_values="paved,unpaved,gravel" fr.display_values="revetement dur,sans revetement,graviers" en.display_values="paved,unpaved,gravel" required="true"/>
-<combo key="smoothness" text="Smoothness" fr.text="Qualité (smoothness)" values="intermediate,bad" display_values="intermediate (above 40km/h),bad (below 40km/h)" fr.display_values="moyenne(au-dessus de 40 km/h),mauvaise(moins de 40 km/h)" required="true"/>
-<space/>
-<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
-<optional>
-<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-</optional>
-<label text="________________________________________"/>
-<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-<space/>
-<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-<space/>
-<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-<space/>
-<label text="________________________________________"/>
-<space/>
-<text key="note" text="Note" fr.text="Notes"/>
-<space/>
-</item>-->
 				<item name="Paths" fr.name="Corridors ou chemins ruraux" en.name="Paths" icon="presets/path.png" type="way">
 					<key key="highway" value="path"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dpath" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dpath" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dpath"/>
@@ -354,7 +299,7 @@
 					<label text="CORRIDOR OR PATH" fr.text="CORRIDOR OU CHEMIN" en.text="CORRIDOR OR PATH"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
+					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" required="true"/>
 					<optional>
 						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
 					</optional>
@@ -370,30 +315,6 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<!--<item name="Footways" fr.name="Chemins pieton" icon="presets/footway.png" type="way">
-					<key key="highway" value="footway"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway%3Dfootway" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway%3Dfootway" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway%3Dfootway"/>
-					<label text="** Edit/modify a footway **" fr.text="** Creer/mettre a jour un Chemins pieton **"/>
-					<label text="________________________________________"/>
-					<label text="FOOTWAY" fr.text="Chemins pieton"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<combo key="surface" text="Surface" fr.text="Revetement de surface" en.text="Surface" values="paved,unpaved,gravel,ground" display_values="paved,unpaved,gravel,ground" fr.display_values="revetement dur,sans revetement,graviers,terre" en.display_values="paved,unpaved,gravel" required="true"/>
-					<optional>
-						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
-					</optional>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="Note" fr.text="Notes"/>
-					<space/>
-				</item>-->
 			</group>
 			<!-- Roads -->
 			<group name="Other road objects" fr.name="Autres objets de voirie" en.name="Other road objects" con="presets/waypoints.png">
@@ -1437,6 +1358,8 @@
 						<space/>
 						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
 						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+						<space/>
+						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
 						<optional>
 							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
 						</optional>
