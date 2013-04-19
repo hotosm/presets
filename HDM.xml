@@ -1412,7 +1412,7 @@
 						<space/>
 					</item>
 				</group>
-				<item name="Pipeline" fr.name="Pipeline" en.name="Pipeline" type="way,relation" icon="presets/path.png">
+				<item name="Pipeline" fr.name="Pipeline" type="way,relation" icon="presets/path.png">
 					<label text="** Edit/modify a pipeline **" fr.text="** Creer/mettre a jour un pipeline**" en.text="** Edit/modify a pipeline **"/>
 					<space/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=pipeline" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:man_made=pipeline" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=pipeline" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:man_made=pipeline"/>
@@ -1485,7 +1485,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Water Works" icon="presets/water_works.png" type="node,closedway">
+				<item name="Water Works" fr.name="Usine d'eau potable (usine importante)" icon="presets/water_works.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=water_works" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:man_made=water_works" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=water_works"/>
 					<label text="Edit Water Works"/>
 					<space/>
@@ -4955,7 +4955,7 @@
 					<key key="shop" value="trade" />
 					<text key="name" text="Name" default="" delete_if_empty="true" />            
 					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true" />
-					<combo key="trade" text="Trade" fr.text="Grossiste" de.text="Warengruppe" ru.text="Строительные материалы" values="agricultural_supplies,building_supplies,cement,plastics,plumbing,timber_yard,wood" fr.display_values="produits agricoles,produits de construction de bâtiments,ciment,plastique,plomberie,timber_yard,bois" default="" delete_if_empty="true" />
+					<combo key="trade" text="Trade" fr.text="Grossiste" values="agricultural_supplies,building_supplies,cement,plastics,plumbing,timber_yard,wood" fr.display_values="produits agricoles,produits de construction de bâtiments,ciment,plastique,plomberie,timber_yard,bois" default="" delete_if_empty="true" />
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
