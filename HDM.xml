@@ -4752,6 +4752,25 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
+				<item name="Beauty" de.name="Kosmetiksalon / Nagelstudio" fr.name="Salon de beauté" ru.name="Салон красоты" icon="icons/beauty.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbeauty"/>
+					<label text="Edit Beauty" de.text="bearbeite Kosmetiksalon / Nagelstudio" fr.text="Modifier un salon de beauté" />
+					<space />
+					<key key="shop" value="beauty" />
+					<text key="name" text="Name" default="" delete_if_empty="true" />
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
 				<item name="Optician" icon="styles/standard/shop/optician.png" type="node">
 					<label text="Edit Optician"/>
 					<label text="________________________________________"/>
@@ -4864,7 +4883,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Funeral directors" fr.name="Pompes funebres" type="node">
+				<item name="Funeral directors" fr.name="Pompes funebres" icon="icons/funeral_directors.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dfuneral_directors" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop%3Dfuneral_directors"/>
 					<label text="Edit funeral directors" fr.text="Creer ou mettre un jour un office de pompes funebres"/>
 					<label text="________________________________________"/>
@@ -4930,7 +4949,25 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
-				</item>    
+				</item>
+				<item name="Glaziery" de.name="Glaserei" fr.name="Vitrier" ru.name="Магазин стёкол" icon="icons/glaziery.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dglaziery"/>
+					<label text="Edit Glaziery" de.text="bearbeite Glaserei" fr.text="Modifier un vitrier" />
+					<space />
+					<key key="shop" value="glaziery" />
+					<text key="name" text="Name" default="" delete_if_empty="true" />
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+				</item>  
 				<item name="Paint" icon="presets/paint.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=paint" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=paint"/>
 					<label text="Edit Paint"/>
