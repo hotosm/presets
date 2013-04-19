@@ -5992,7 +5992,7 @@
 				<label text="** Edit/modify a built urban landuse **" fr.text="** Creer/mettre a jour une occupation du sol batie urbaine **" en.text="** Edit/modify a built urban landuse **"/>
 				<label text="________________________________________"/>
 				<label text="LANDUSE" fr.text="OCCUPATION DU SOL" en.text="LANDUSE"/>
-				<combo key="landuse" text="Build urban landuse type" fr.text="Type d'occupation du sol batie urbaine" en.text="Build urban landuse type" values="commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation_ground,residential,retail" display_values="commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation ground,residential,retail" fr.display_values="commercial,chantier,education,garages,hopital,industriel,militaire,carriere,chemin de fer,aire de recreation,residentiel,zone de vente au detail" required="true"/>
+				<combo key="landuse" text="Build urban landuse type" fr.text="Type d'occupation du sol batie urbaine" en.text="Build urban landuse type" values="commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation_ground,residential,retail,religion" display_values="commercial,construction,education,garages,hospital,industrial,military,quarry,railway,recreation ground,residential,retail,religion" fr.display_values="commercial,chantier,education,garages,hopital,industriel,militaire,carriere,chemin de fer,aire de recreation,residentiel,zone de vente au detail,religion" required="true"/>
 				<optional>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
