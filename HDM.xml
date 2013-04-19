@@ -4909,6 +4909,28 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
+				<item name="Trade" de.name="Baustoffhandel" ru.name="Стройматериалы" fr.name="Grossiste" icon="icons/trade.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtrade"/>
+					<label text="Edit Trade" de.text="bearbeite Baustoffhandel" fr.text="Modifier un grossiste"/>
+					<space />            
+					<key key="shop" value="trade" />
+					<text key="name" text="Name" default="" delete_if_empty="true" />            
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true" />
+					<combo key="trade" text="Trade" fr.text="Grossiste" de.text="Warengruppe" ru.text="Строительные материалы" values="agricultural_supplies,building_supplies,cement,plastics,plumbing,timber_yard,wood" fr.display_values="produits agricoles,produits de construction de bâtiments,ciment,plastique,plomberie,timber_yard,bois" default="" delete_if_empty="true" />
+					<space/>
+					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+				</item>    
 				<item name="Paint" icon="presets/paint.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=paint" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=paint"/>
 					<label text="Edit Paint"/>
