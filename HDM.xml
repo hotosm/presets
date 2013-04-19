@@ -4887,28 +4887,6 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Do-it-yourself-store" icon="presets/diy_store.png" type="node">
-					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=doityourself" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:shop=doityourself" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=doityourself" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=doityourself"/>
-					<label text="Edit Do-it-yourself-store"/>
-					<label text="________________________________________"/>
-					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
-					<key key="shop" value="doityourself"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="Note" fr.text="Notes"/>
-					<space/>
-				</item>
 				<item name="Hardware" fr.name="Quincaillerie ou materiaux de construction" icon="presets/hardware.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=hardware" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=hardware"/>
 					<label text="Edit Hardware Store"/>
