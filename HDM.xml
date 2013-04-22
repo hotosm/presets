@@ -18,6 +18,7 @@
 			<space/>
 			<text key="note" text="Note" fr.text="Notes"/>
 			<space/>
+			<key key="source:project" value="cap103"/>
 		</item>
 		<item name="Building features" fr.name="Caractéristiques du bâtiment" en.name="Building features" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
 			<label text="** Edit/modify a building **" fr.text="** Créer/mettre à jour un bâtiment **" en.text="** Edit/modify a building **"/>
@@ -49,6 +50,7 @@
 			<space/>
 			<text key="note" text="Note" fr.text="Notes"/>
 			<space/>
+			<key key="source:project" value="cap103"/>
 		</item>
 		<group name="Places" fr.name="Lieux" icon="presets/places.png">
 			<item name="City" icon="presets/places.png" type="node">
@@ -73,6 +75,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Town" icon="presets/places.png" type="node">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:place=town" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:place=town" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:place=town"/>
@@ -97,6 +100,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Suburb" icon="presets/places.png" type="node">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:place=suburb" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:place=suburb"/>
@@ -120,6 +124,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Neighborhood" fr.name="Quartier" icon="presets/places.png" type="node">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:place%3Dneighbourhood"/>
@@ -143,6 +148,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<separator/>
 			<item name="Village" icon="presets/places.png" type="node">
@@ -166,6 +172,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Hamlet" icon="presets/places.png" type="node">
 				<label text="Edit Hamlet"/>
@@ -188,6 +195,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Isolated Dwelling" icon="presets/places.png" type="node">
 				<label text="Edit Isolated Dwelling"/>
@@ -210,6 +218,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<separator/>
 			<item name="Locality" icon="presets/locality.png" type="node">
@@ -231,6 +240,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 		</group>
 		<!-- Places -->
@@ -266,6 +276,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Roads under construction" fr.name="Voies en construction" en.name="Roads under construction" icon="presets/construction.png" type="way">
 					<label text="** Edit/modify a road under construction **" fr.text="** Creer/mettre a jour une voie en construction **" en.text="** Edit/modify a road under construction **"/>
@@ -290,6 +301,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Paths" fr.name="Corridors ou chemins ruraux" en.name="Paths" icon="presets/path.png" type="way">
 					<key key="highway" value="path"/>
@@ -314,6 +326,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Roads -->
@@ -350,6 +363,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Parking entrance" fr.name="Entree de parking" icon="presets/parking.png" type="node,relation">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=parking_entrance"/>
@@ -382,6 +396,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Motorcycle Parking" fr.name="Parking pour motos" icon="styles/standard/vehicle/parking/motorbike.png" type="node,relation">
 						<label text="Edit Motorcycle Parking"/>
@@ -404,6 +419,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Bicycle Parking" fr.name="Parking pour velos" icon="styles/standard/vehicle/parking/bicycle.png" type="node,relation">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_parking" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=bicycle_parking" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=bicycle_parking" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bicycle_parking" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bicycle_parking"/>
@@ -427,6 +443,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 				</group>
 				<item name="Roundabout" icon="presets/roundabout.png" type="closedway">
@@ -453,6 +470,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Mini-roundabout" icon="presets/roundabout_left.png" type="node">
 					<label text="** Edit/modify a mini roundabout **" fr.text="** Creer/mettre a jour un mini rond-point **" en.text="** Edit/modify a mini roundabout **"/>
@@ -472,6 +490,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Turning Circle" icon="presets/turning_circle.png" type="node">
 					<label text="** Edit/modify a turning circle **" fr.text="** Creer/mettre a jour un rond point interne **" en.text="** Edit/modify a turning circle **"/>
@@ -488,6 +507,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Bridge" icon="presets/bridge.png" type="way">
@@ -516,6 +536,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Tunnel" icon="presets/tunnel.png" type="way">
 					<label text="** Edit/modify a tunnel **" fr.text="** Creer/mettre a jour un tunnel **" en.text="** Edit/modify a tunnel **"/>
@@ -542,6 +563,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Ford" fr.name="Gue (labou an kreyol)" icon="presets/ford.png" type="node,way">
 					<label text="** Edit/modify a ford **" fr.text="** Creer/mettre a jour un gue (labou an kreyol) **" en.text="** Edit/modify a ford **"/>
@@ -565,6 +587,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Fire Hydrant" fr.name="Borne incendie" en.name="Fire Hydrant" icon="presets/fire_hydrant.png" type="node">
@@ -583,6 +606,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Traffic Signal" icon="presets/traffic-light.png" type="node">
 					<label text="** Edit/modify a traffic signal **" fr.text="** Creer/mettre a jour un feu de circulation **" en.text="** Edit/modify a traffic signal **"/>
@@ -601,6 +625,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Stop" icon="presets/Stop.png" type="node">
 					<key key="highway" value="stop"/>
@@ -616,6 +641,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Pedestrian Crossing" icon="styles/standard/vehicle/zebra_crossing.png" type="node">
 					<label text="** Edit/modify a pedestrian crossing **" fr.text="** Creer/mettre a jour un passage pieton **" en.text="** Edit/modify a pedestrian crossing **"/>
@@ -632,6 +658,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Traffic Calming" icon="presets/chicane.png" type="node">
 					<label text="** Edit/modify a traffic calming **" fr.text="** Creer/mettre a jour un ralentisseur **" en.text="** Edit/modify a traffic calming **"/>
@@ -651,6 +678,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Passing Place" icon="presets/passingplace.png" type="node">
 					<label text="** Edit/modify a passing place **" fr.text="** Creer/mettre a jour une aire de croisement **" en.text="** Edit/modify a passing place **"/>
@@ -667,6 +695,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Other road objects -->
@@ -691,6 +720,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Bus Stop" icon="presets/bus_small.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=bus_stop" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=bus_stop" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:highway=bus_stop" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:highway=bus_stop" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=bus_stop" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=bus_stop" zh-hant.href="http://wiki.openstreetmap.org/wiki/Zh-hant:Tag:highway=bus_stop"/>
@@ -716,6 +746,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Bus Platform" icon="presets/platform_bus.png" type="node,closedway">
 					<label text="Edit Bus Platform"/>
@@ -736,6 +767,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Taxi" icon="presets/taxi.png" type="node,closedway">
@@ -761,6 +793,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<group name="Airport" icon="presets/plane.png">
@@ -788,6 +821,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Helipad" icon="styles/standard/transport/airport/helipad.png" type="node,closedway">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=helipad" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:aeroway=helipad" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=helipad" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:aeroway=helipad"/>
@@ -809,6 +843,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<separator/>
 					<item name="Runway" icon="presets/runway.png" type="way">
@@ -830,6 +865,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Taxiway" icon="presets/taxiway.png" type="way">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=taxiway" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:aeroway=taxiway" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=taxiway" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:aeroway=taxiway"/>
@@ -850,6 +886,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Apron" icon="presets/apron.png" type="closedway">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=apron" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:aeroway=apron" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=apron" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:aeroway=apron"/>
@@ -867,6 +904,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Hangar" icon="presets/hangar.png" type="node,closedway">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=hangar"/>
@@ -884,6 +922,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<separator/>
 					<item name="Terminal" icon="styles/standard/transport/airport/terminal.png" type="node,closedway">
@@ -904,6 +943,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Gate" name_context="airport" icon="presets/aeroway_gate.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:aeroway=gate" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:aeroway=gate" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:aeroway=gate"/>
@@ -922,6 +962,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 				</group>
 				<!-- Aeroway -->
@@ -970,6 +1011,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Road Practicability" type="node,way">
 				<label text="** Edit/modify road practicability **" fr.text="** Creer/mettre a jour des praticabilite de voirie **"/>
@@ -992,6 +1034,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<group name="Barriers" icon="presets/barrier.png">
 				<item name="Toll Booth" icon="presets/toll_station.png" type="node">
@@ -1015,6 +1058,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- toll_booth -->
 				<item name="Border Control" icon="presets/douane.png" type="node">
@@ -1039,6 +1083,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- border_control -->
 				<separator/>
@@ -1064,6 +1109,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- bollard -->
 				<item name="Spikes" icon="presets/empty.png" type="node">
@@ -1088,6 +1134,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- spikes -->
 				<item name="Hedge" icon="presets/hedge.png" type="way,closedway,relation">
@@ -1104,6 +1151,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- hedge -->
 				<item name="Fence" icon="presets/fence.png" type="way,closedway">
@@ -1123,6 +1171,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- fence -->
 				<item name="Wall" icon="presets/wall.png" type="way,closedway">
@@ -1138,6 +1187,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- wall -->
 				<item name="City Wall" icon="presets/city_wall.png" type="way,closedway">
@@ -1154,6 +1204,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- city_wall -->
 				<item name="Retaining Wall" icon="presets/retaining_wall.png" type="way,closedway">
@@ -1170,6 +1221,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- retaining_wall -->
 				<separator/>
@@ -1196,6 +1248,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- entrance -->
 				<item name="Gate" icon="presets/gate.png" type="node">
@@ -1221,6 +1274,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!-- gate -->
 				<!--<item name="Lift Gate" icon="presets/lift_gate.png" type="node">
@@ -1234,6 +1288,7 @@
 <check key="horse" text="Horse" default="off" delete_if_empty="true" />
 <check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true" />
 <check key="motorcar" text="Motorcar" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item> 
 <item name="Hampshire Gate" icon="presets/empty.png" type="node">
 <label text="Edit Hampshire Gate" />
@@ -1246,6 +1301,7 @@
 <check key="horse" text="Horse" default="off" delete_if_empty="true" />
 <check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true" />
 <check key="motorcar" text="Motorcar" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item> 
 <item name="Bump Gate" icon="presets/empty.png" type="node">
 <label text="Edit Bump Gate" />
@@ -1258,6 +1314,7 @@
 <check key="horse" text="Horse" default="off" delete_if_empty="true" />
 <check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true" />
 <check key="motorcar" text="Motorcar" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item> 
 <item name="Kissing Gate" icon="presets/empty.png" type="node">
 <label text="Edit Kissing Gate" />
@@ -1267,6 +1324,7 @@
 <space />
 <check key="foot" text="Foot" default="on" delete_if_empty="true" />
 <check key="bicycle" text="Bicycle" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item> 
 <item name="Stile" icon="presets/stile.png" type="node">
 <link href="http://wiki.openstreetmap.org/wiki/Tag:highway=stile" />
@@ -1277,6 +1335,7 @@
 <space />
 <check key="foot" text="Foot" default="on" delete_if_empty="true" />
 <check key="bicycle" text="Bicycle" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item>
 <item name="Turnstile" icon="styles/standard/vehicle/turnstile.png" type="node">
 <label text="Edit Turnstile" />
@@ -1286,6 +1345,7 @@
 <space />
 <check key="foot" text="Foot" default="on" delete_if_empty="true" />
 <check key="bicycle" text="Bicycle" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item> 
 <item name="Sally Port" icon="styles/standard/vehicle/sally_port.png" type="node">
 <label text="Edit Sally Port" />
@@ -1298,6 +1358,7 @@
 <check key="horse" text="Horse" default="off" delete_if_empty="true" />
 <check key="motorcycle" text="Motorcycle" default="off" delete_if_empty="true" />
 <check key="motorcar" text="Motorcar" default="off" delete_if_empty="true" />
+<key key="source:project" value="cap103"/>
 </item> -->
 			</group>
 			<!-- Barriers -->
@@ -1317,99 +1378,103 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 		</group>
 		<!-- Transportation -->
 		<group name="Utilities" fr.name="Equipements" icon="presets/water_works.png">
 			<group name="Water and sanitation" fr.name="Eau et assainissement" en.name="Water and sanitation" icon="presets/water_works.png">
-					<item name="Drinking Water" icon="presets/drinking_water.png" type="node">
-						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"/>
-						<label text="Edit Drinking Water"/>
-						<key key="amenity" value="drinking_water"/>
-						<text key="name" text="Name"/>
-						<space/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-						<space/>
-						<check key="fee" text="For sale?" fr.text="A vendre?" default="off" delete_if_empty="true"/>
-						<space/>
-						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
-						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
-						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-						<space/>
-						<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
-						<optional>
-							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
-						</optional>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<space/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<space/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<space/>
-						<label text="________________________________________"/>
-						<space/>
-						<text key="note" text="Note" fr.text="Notes"/>
-						<space/>
-					</item>
-					<item name="Water Well" icon="presets/water_well.png" type="node">
-						<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=water_well"/>
-						<label text="** Edit/modify a water well **" fr.text="** Creer/mettre a jour d'un puits d'eau **" en.text="** Edit/modify a water well **"/>
-						<key key="man_made" value="water_well"/>
-						<text key="name" text="Name"/>
-						<space/>
-						<combo key="pump" text="Pumped or not" fr.text="Pumped or not" values="powered,manual,no" display_values="powered,manual,no" fr.display_values="powered,manual,no"/>
-						<space/>
-						<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-						<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-						<space/>
-						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
-						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
-						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-						<space/>
-						<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
-						<optional>
-							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
-						</optional>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<space/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<space/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<space/>
-						<label text="________________________________________"/>
-						<space/>
-						<text key="note" text="Note" fr.text="Notes"/>
-						<space/>
-					</item>
-					<item name="Spring" icon="presets/spring.png" type="node,closedway">
-						<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=spring"/>
-						<label text="Edit Spring"/>
-						<key key="natural" value="spring"/>
-						<text key="name" text="Name" default="" delete_if_empty="true"/>
-						<space/>
-						<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
-						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
-						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-						<space/>
-						<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
-						<optional>
-							<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
-						</optional>
-						<label text="________________________________________"/>
-						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-						<space/>
-						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-						<space/>
-						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-						<space/>
-						<label text="________________________________________"/>
-						<space/>
-						<text key="note" text="Note" fr.text="Notes"/>
-						<space/>
-					</item>
+				<item name="Drinking Water" icon="presets/drinking_water.png" type="node">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"/>
+					<label text="Edit Drinking Water"/>
+					<key key="amenity" value="drinking_water"/>
+					<text key="name" text="Name"/>
+					<space/>
+					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<space/>
+					<check key="fee" text="For sale?" fr.text="A vendre?" default="off" delete_if_empty="true"/>
+					<space/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+					<space/>
+					<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
+					<optional>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
+					</optional>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+					<key key="source:project" value="cap103"/>
+				</item>
+				<item name="Water Well" icon="presets/water_well.png" type="node">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=water_well"/>
+					<label text="** Edit/modify a water well **" fr.text="** Creer/mettre a jour d'un puits d'eau **" en.text="** Edit/modify a water well **"/>
+					<key key="man_made" value="water_well"/>
+					<text key="name" text="Name"/>
+					<space/>
+					<combo key="pump" text="Pumped or not" fr.text="Pumped or not" values="powered,manual,no" display_values="powered,manual,no" fr.display_values="powered,manual,no"/>
+					<space/>
+					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<space/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+					<space/>
+					<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
+					<optional>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
+					</optional>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+					<key key="source:project" value="cap103"/>
+				</item>
+				<item name="Spring" icon="presets/spring.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=spring"/>
+					<label text="Edit Spring"/>
+					<key key="natural" value="spring"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<combo key="condition" text="Condition" fr.text="Condition" values="good,fair,deficient" display_values="good,fair,deficient" fr.display_values="bon,moyen,mauvais"/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+					<space/>
+					<combo key="access" text="Access" fr.text="Usage" values="yes,private,multifamily" display_values="public,private,multifamily" fr.display_values="publique,prive,plusieurs familles"/>
+					<optional>
+						<combo key="drinking_water" text="Drinking water" fr.text="Eau potable" en.text="Drinking water" values="yes,no" display_values="yes,no" fr.display_values="oui,non"/>
+					</optional>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+					<key key="source:project" value="cap103"/>
+				</item>
 				<separator/>
 				<item name="Pipeline" fr.name="Pipeline" type="way,relation" icon="presets/path.png">
 					<label text="** Edit/modify a pipeline **" fr.text="** Creer/mettre a jour un pipeline**" en.text="** Edit/modify a pipeline **"/>
@@ -1432,6 +1497,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Water Storage" icon="presets/gasometer.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=storage_tank"/>
@@ -1459,6 +1525,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Water Tower" icon="presets/water_tower.png" type="node,closedway">
 					<label text="Edit Water Tower"/>
@@ -1483,6 +1550,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Water Works" fr.name="Usine d'eau potable (usine importante)" icon="presets/water_works.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=water_works" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:man_made=water_works" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=water_works"/>
@@ -1504,6 +1572,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Showers" fr.name="Douche" en.name="Showers" type="node,relation" icon="http://commons.wikimedia.org/wiki/File:OCHA_shower_icon.png">
@@ -1543,6 +1612,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Toilets and latrines" fr.name="Toilettes et latrines" en.name="Toilets and latrines" type="node,relation" icon="presets/toilet.png">
 					<key key="amenity" value="toilets"/>
@@ -1584,6 +1654,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Wastewater Plant" icon="presets/wastewater_plant.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=wastewater_plant" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:man_made=wastewater_plant" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:man_made=wastewater_plant" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:man_made=wastewater_plant" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:man_made=wastewater_plant" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made=wastewater_plant"/>
@@ -1605,6 +1676,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Watermill" icon="styles/standard/misc/landmark/watermill.png" type="node">
@@ -1628,6 +1700,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<group name="Water Canals" fr.name="Canaux d'evacuation d'eau" icon="presets/waterway.png">
 					<item name="Wastewater canal" fr.name="Canal d'assainissement" type="way,relation" icon="presets/waterway.png">
@@ -1655,6 +1728,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Damage prone" fr.name="Dommages frequents" en.name="Damage prone">
 						<key key="damage_prone" value="yes"/>
@@ -1672,6 +1746,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 				</group>
 				<!-- Canals -->
@@ -1711,6 +1786,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Power Station" icon="presets/power.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:power=line" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:power=line" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:power=line" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:power=line" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:power=line" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:power=line"/>
@@ -1733,6 +1809,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Power Sub Station" icon="presets/power.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:power=sub_station" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:power=sub_station" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:power=sub_station" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:power=sub_station" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:power=sub_station"/>
@@ -1754,6 +1831,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Cable Distribution Cabinet" icon="presets/power.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:power=cable_distribution_cabinet" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:power=cable_distribution_cabinet" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:power=cable_distribution_cabinet"/>
@@ -1775,6 +1853,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Power Tower" icon="presets/power_tower.png" type="node">
@@ -1793,6 +1872,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Pole" icon="styles/standard/misc/landmark/power/pole.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:power=pole" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:power=pole" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:power=pole" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:power=pole" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:power=pole" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:power=pole"/>
@@ -1810,6 +1890,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Power Line" icon="presets/power.png" type="way">
@@ -1834,6 +1915,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Street Lamp" icon="styles/standard/misc/streetlamp.png" type="node">
@@ -1855,6 +1937,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Power -->
@@ -1879,6 +1962,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Recycling" icon="presets/recycling.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=recycling" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=recycling" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=recycling" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=recycling" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=recycling" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=recycling" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=recycling" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=recycling"/>
@@ -1906,6 +1990,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Waste Disposal" fr.name="Benne a ordures" icon="styles/standard/service/recycling/trash-bin.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dwaste_disposal" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity%3Dwaste_disposal"/>
@@ -1922,6 +2007,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Waste Basket" icon="styles/standard/service/recycling/trash-bin.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=waste_basket" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=waste_basket" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=waste_basket" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=waste_basket" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=waste_basket"/>
@@ -1938,6 +2024,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Solid waste management -->
@@ -1970,6 +2057,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Graveyard" fr.name="Cimetiere appartenant a un lieu de culte" en.name="Graveyard" icon="presets/graveyard.png" type="node,closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=grave_yard" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=grave_yard" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=grave_yard" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=grave_yard"/>
@@ -1990,6 +2078,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Place of worship -->
@@ -2014,6 +2103,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Social and communautary facilities" -->
@@ -2037,6 +2127,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Cinema" icon="presets/cinema.png" type="node,closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=cinema" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=cinema" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=cinema" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=cinema" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=cinema"/>
@@ -2056,6 +2147,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Theatre" icon="presets/theater.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=theatre" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=theatre" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=theatre" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=theatre"/>
@@ -2074,6 +2166,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Library" icon="styles/standard/shop/rental/library.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=library" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=library" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=library" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=library" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=library" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=library"/>
@@ -2094,6 +2187,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Arts Centre" icon="presets/arts_centre.png" type="node,closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=arts_centre" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=arts_centre" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=arts_centre" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=arts_centre"/>
@@ -2114,6 +2208,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Artwork" icon="presets/arts_centre.png" type="node,way,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=artwork" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:tourism=artwork" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:tourism=artwork" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:tourism=artwork" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:tourism=artwork"/>
@@ -2132,6 +2227,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Culture -->
@@ -2154,6 +2250,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Monument" icon="presets/monument.png" type="node,relation">
 					<label text="Edit Monument"/>
@@ -2171,6 +2268,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Memorial" icon="presets/memorial.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:historic=memorial" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:historic=memorial"/>
@@ -2189,6 +2287,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Historic Places -->
@@ -2213,6 +2312,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Stadium" icon="presets/stadium.png" type="closedway">
 					<label text="Edit Stadium"/>
@@ -2234,6 +2334,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Sports Centre" icon="presets/sports_centre.png" type="node">
 					<label text="Edit Sports Centre"/>
@@ -2255,6 +2356,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Racetrack" icon="presets/stadium.png" type="way,closedway,relation">
 					<label text="Edit Racetrack"/>
@@ -2272,6 +2374,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Golf Course" icon="presets/golf.png" type="node,closedway">
 					<label text="Edit Golf Course"/>
@@ -2291,6 +2394,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Miniature Golf" icon="presets/golf.png" type="node,closedway">
 					<label text="Edit Miniature Golf"/>
@@ -2310,6 +2414,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Sport facilities -->
@@ -2326,6 +2431,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 		</group>
 		<!-- Cultural and social -->
@@ -2359,6 +2465,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="School" fr.name="Ecole" en.name="School" type="node,relation" icon="presets/school.png">
 					<key key="amenity" value="school"/>
@@ -2390,6 +2497,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="College" fr.name="Enseignement superieure" en.name="College" type="node,relation" icon="styles/standard/education/college.png">
 					<key key="amenity" value="college"/>
@@ -2419,6 +2527,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="University" fr.name="Universite" en.name="University" type="node,relation" icon="styles/standard/education/university.png">
 					<key key="amenity" value="university"/>
@@ -2448,6 +2557,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Educational facilities -->
@@ -2486,6 +2596,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Clinic" icon="styles/standard/health/clinic.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=clinic" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=clinic" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=clinic"/>
@@ -2509,6 +2620,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Doctors" icon="styles/standard/health/doctor.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=doctors" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=doctors" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=doctors"/>
@@ -2529,6 +2641,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Dentist" icon="styles/standard/health/dentist.png" type="node">
 					<label text="Edit Dentist"/>
@@ -2548,6 +2661,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Pharmacy" icon="presets/pharmacy.png" type="node">
@@ -2570,6 +2684,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Hearing Aids" icon="presets/hearing_aids.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=hearing_aids" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=hearing_aids"/>
@@ -2592,6 +2707,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Baby Hatch" icon="presets/baby_hatch.png" type="node">
@@ -2613,6 +2729,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<!--<separator/>
 <item name="Emergency Access Point" icon="styles/standard/service/emergency_access_point.png" type="node,closedway">
@@ -2652,6 +2769,7 @@
 <label text=" " />
 <text key="NOTE" text="NOTE" fr.text="NOTES" en.text="NOTE" />
 <label text=" " />
+<key key="source:project" value="cap103"/>
 </item>-->
 				<separator/>
 				<item name="Veterinary" icon="styles/standard/health/veterinary.png" type="node">
@@ -2674,6 +2792,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<group name="Social Facility" de.name="Sozialeinrichtung" fr.name="Établissement de services sociaux" icon="icons/group_home.png">
@@ -2708,6 +2827,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Assisted Living" de.name="Betreutes Wohnen" icon="icons/social_living.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2730,6 +2850,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Workshop" de.name="Behindertenwerkstatt" icon="icons/sheltered_workshop.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2752,6 +2873,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Food bank" de.name="Essenausgabe" fr.name="Banque alimentaire" icon="icons/foodbank.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2774,6 +2896,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Healthcare" de.name="Medizinische Versorgung" icon="icons/outpatient_care.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2796,6 +2919,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Shelter" de.name="Obdachlosenasyl" fr.name="Refuge" icon="icons/social_shelter.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2818,6 +2942,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Outreach" de.name="Tagesbetreuung" icon="icons/outreach.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2840,6 +2965,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Group Home" de.name="Wohngruppe" icon="icons/group_home.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Key:social_facility"/>
@@ -2862,6 +2988,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Health -->
@@ -2884,6 +3011,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Courthouse" icon="presets/JusticeScales.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=courthouse" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=courthouse" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=courthouse" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=courthouse"/>
@@ -2902,6 +3030,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Customs" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=customs"/>
@@ -2922,6 +3051,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Embassy" icon="presets/embassy.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=embassy"/>
@@ -2942,6 +3072,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Prison" icon="presets/prison.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=prison" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=prison" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=prison"/>
@@ -2961,6 +3092,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Police" icon="styles/standard/service/police.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=police" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=police" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=police" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=police" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=police" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=police" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=police"/>
@@ -2979,6 +3111,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Fire Station" icon="presets/firebrigade.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=fire_station" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=fire_station" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=fire_station" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=fire_station" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=fire_station" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=fire_station" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=fire_station"/>
@@ -2997,6 +3130,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Post Office" icon="styles/standard/service/post_office.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=post_office" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=post_office" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=post_office" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=post_office" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=post_office"/>
@@ -3017,6 +3151,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Post Box" icon="styles/standard/service/post_box.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=post_box" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=post_box" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=post_box"/>
@@ -3036,6 +3171,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Public and governmental facilities -->
@@ -3070,6 +3206,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Motel" icon="styles/standard/accommodation/motel.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=motel" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:tourism=motel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=motel"/>
@@ -3098,6 +3235,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Guest House" icon="styles/standard/accommodation/guest_house.png" type="node,relation">
 					<label text="Edit Guest House"/>
@@ -3124,6 +3262,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Hostel" icon="presets/hostel.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=hostel" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=hostel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=hostel"/>
@@ -3152,6 +3291,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Alpine Hut" icon="styles/standard/accommodation/alpine_hut.png" type="node,relation">
 					<label text="Edit Alpine Hut"/>
@@ -3179,6 +3319,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Caravan Site" icon="presets/caravan2.png" type="node,relation">
@@ -3211,6 +3352,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Camping Site" icon="presets/tent.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=camp_site" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:tourism=camp_site" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:tourism=camp_site" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=camp_site"/>
@@ -3238,6 +3380,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Accomodation -->
@@ -3272,6 +3415,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Fast Food" icon="presets/fastfood.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=fast_food" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=fast_food" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=fast_food" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=fast_food" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=fast_food"/>
@@ -3301,6 +3445,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Food Court" icon="presets/fastfood.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=food_court" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=food_court" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=food_court"/>
@@ -3328,6 +3473,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Cafe" icon="presets/cafe.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=cafe" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=cafe" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=cafe" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=cafe" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=cafe"/>
@@ -3357,6 +3503,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Pub" icon="presets/pub.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=pub" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=pub" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=pub" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=pub"/>
@@ -3386,6 +3533,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Biergarten" icon="presets/biergarten.png" type="node,relation">
 					<label text="Edit Biergarten"/>
@@ -3412,6 +3560,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Bar" icon="presets/bar.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bar" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=bar" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=bar" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bar" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bar" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bar"/>
@@ -3439,6 +3588,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Nightclub" icon="presets/bar.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=nightclub" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=nightclub" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=nightclub" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=nightclub" ro.href="http://wiki.openstreetmap.org/wiki/Ro:Tag:amenity=nightclub" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=nightclub"/>
@@ -3467,6 +3617,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Brothel" fr.name="Bordel" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=brothel"/>
@@ -3485,6 +3636,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Food+Drinks -->
@@ -3511,6 +3663,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Attraction" icon="presets/sightseeing.png" type="node,closedway">
 					<label text="Edit Attraction"/>
@@ -3529,6 +3682,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Viewpoint" icon="presets/viewpoint.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=viewpoint" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:tourism=viewpoint" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=viewpoint" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=viewpoint"/>
@@ -3547,6 +3701,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Information Office" icon="presets/informationoffice.png" type="node,closedway">
@@ -3567,6 +3722,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Map" icon="presets/map.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Key:information"/>
@@ -3596,6 +3752,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Information Board" icon="presets/board.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:information=board" de.href="http://wiki.openstreetmap.org/wiki/DE:Proposed_features/information" it.href="http://wiki.openstreetmap.org/wiki/IT:Proposed_features/information"/>
@@ -3616,6 +3773,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Tourism -->
@@ -3640,6 +3798,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Convenience Store" icon="presets/convenience.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=convenience" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=convenience" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=convenience"/>
@@ -3662,6 +3821,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Kiosk" icon="presets/kiosk.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=kiosk" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=kiosk" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=kiosk" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=kiosk" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=kiosk"/>
@@ -3684,6 +3844,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Baker" icon="presets/baker.png" type="node">
@@ -3705,6 +3866,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Butcher" icon="presets/cow.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=butcher" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:shop=butcher" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:shop=butcher" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=butcher" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=butcher" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=butcher"/>
@@ -3727,6 +3889,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Seafood" icon="presets/seafood.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=seafood" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=seafood"/>
@@ -3750,6 +3913,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Deli (Fine Food)" icon="presets/deli.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=deli" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=deli"/>
@@ -3773,6 +3937,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Confectionery" icon="presets/confectionery.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=confectionery" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:shop=confectionery" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=confectionery" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=confectionery"/>
@@ -3795,6 +3960,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Marketplace" icon="styles/standard/place/marketplace.png" type="node,way">
@@ -3819,6 +3985,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Greengrocer" icon="presets/greengrocer.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=greengrocer" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=greengrocer" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:shop=greengrocer" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=greengrocer"/>
@@ -3842,6 +4009,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Alcohol" icon="styles/standard/shop/beverages.png" type="node">
@@ -3865,6 +4033,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Beverages" icon="styles/standard/shop/beverages.png" type="node">
 					<label text="Edit Beverages Shop"/>
@@ -3886,6 +4055,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Food -->
@@ -3910,6 +4080,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Boutique" icon="presets/boutique.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=boutique" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=boutique" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=boutique"/>
@@ -3933,6 +4104,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Shoes" icon="styles/standard/shop/shoes.png" type="node">
 					<label text="Edit Shoe Shop"/>
@@ -3954,6 +4126,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Outdoor" icon="presets/tent.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=outdoor" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=outdoor" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=outdoor"/>
@@ -3976,6 +4149,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Sports" icon="presets/rowing.png" type="node">
 					<label text="Edit Sports Shop"/>
@@ -3997,6 +4171,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Dry Cleaning" icon="presets/laundry.png" type="node">
@@ -4020,6 +4195,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Laundry" icon="presets/laundry.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/Laundry"/>
@@ -4042,6 +4218,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Tailor" icon="styles/standard/shop/tailor.png" type="node">
 					<label text="Edit Tailor"/>
@@ -4063,6 +4240,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Fabric" icon="presets/fabric.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=fabric" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=fabric"/>
@@ -4086,6 +4264,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Clothes -->
@@ -4110,6 +4289,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Internet cafe" fr.name="Internet cafe" type="node,relation">
 					<key key="amenity" value="cafe"/>
@@ -4133,6 +4313,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Electronics" icon="styles/standard/shop/electronics.png" type="node">
 					<label text="Edit Electronics Shop"/>
@@ -4154,6 +4335,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Mobile Phone" icon="presets/mobile_phone.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=mobile_phone" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=mobile_phone" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=mobile_phone"/>
@@ -4177,6 +4359,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Vacuum Cleaner" icon="presets/vacuum_cleaner.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=vacuum_cleaner" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=vacuum_cleaner"/>
@@ -4200,6 +4383,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Hifi" icon="styles/standard/shop/hifi.png" type="node">
 					<label text="Edit Hifi Shop"/>
@@ -4221,6 +4405,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Video" icon="styles/standard/shop/video.png" type="node">
 					<label text="Edit Video Shop"/>
@@ -4242,6 +4427,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Electronic -->
@@ -4274,6 +4460,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Wash" icon="presets/car_wash.png" type="node">
 						<label text="Edit Car Wash"/>
@@ -4297,6 +4484,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<separator/>
 					<item name="Car Dealer" icon="presets/car.png" type="node">
@@ -4320,6 +4508,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Repair" icon="presets/car_repair.png" type="node">
 						<label text="Edit Car Repair"/>
@@ -4343,6 +4532,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Car parts" icon="presets/car_repair.png" type="node">
 						<label text="Edit Car parts"/>
@@ -4371,6 +4561,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Tyres" icon="presets/tyres.png" type="node">
 						<label text="Edit Tyres"/>
@@ -4399,6 +4590,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<separator/>
 					<item name="Rental" icon="presets/car_rental.png" type="node">
@@ -4424,6 +4616,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Sharing" icon="presets/car_sharing.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=car_sharing" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=car_sharing" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=car_sharing" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=car_sharing" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=car_sharing" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=car_sharing" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=car_sharing"/>
@@ -4449,6 +4642,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 				</group>
 				<!-- Car -->
@@ -4489,6 +4683,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 				</group>
 				<!-- Motorcycle -->
@@ -4519,6 +4714,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 					<item name="Rental" icon="presets/bicycle_rental.png" type="node">
 						<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bicycle_rental" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=bicycle_rental" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=bicycle_rental" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=bicycle_rental" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=bicycle_rental" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bicycle_rental" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bicycle_rental" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bicycle_rental"/>
@@ -4539,6 +4735,7 @@
 						<space/>
 						<text key="note" text="Note" fr.text="Notes"/>
 						<space/>
+						<key key="source:project" value="cap103"/>
 					</item>
 				</group>
 				<!-- Bicycle -->
@@ -4568,6 +4765,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Money Transfer" icon="styles/standard/money/exchange.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/Money_transfer"/>
@@ -4590,6 +4788,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Money Exchange" icon="styles/standard/money/exchange.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bureau_de_change" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=bureau_de_change" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bureau_de_change" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bureau_de_change" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bureau_de_change"/>
@@ -4612,6 +4811,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Automated Teller Machine" icon="styles/standard/money/atm.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=atm" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=atm" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=atm" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=atm" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=atm" hr.href="http://wiki.openstreetmap.org/wiki/Hr:Tag:amenity=atm" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=atm" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=atm" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=atm" uk.href="http://wiki.openstreetmap.org/wiki/Uk:Tag:amenity=atm"/>
@@ -4632,6 +4832,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Lottery kiosk" fr.name="Kiosque de loterie" type="node">
@@ -4655,14 +4856,15 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Pawnbroker" de.name="Pfandhaus" fr.name="Prêteur sur gage" ru.name="Ломбард" icon="icons/pawnbroker.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dpawnbroker"/>
-					<label text="Edit Pawnbroker" de.text="bearbeite Pfandhaus" fr.text="Modifier un prêteur sur gage" />
-					<space />
-					<key key="shop" value="pawnbroker" />
-					<text key="name" text="Name" default="" delete_if_empty="true" />
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true" />
+					<label text="Edit Pawnbroker" de.text="bearbeite Pfandhaus" fr.text="Modifier un prêteur sur gage"/>
+					<space/>
+					<key key="shop" value="pawnbroker"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4675,6 +4877,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Cash -->
@@ -4701,6 +4904,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Mall" icon="styles/standard/shop/mall.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=mall" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=mall" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=mall"/>
@@ -4724,6 +4928,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Chemist" icon="styles/standard/shop/chemist.png" type="node">
@@ -4746,6 +4951,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Hairdresser" icon="styles/standard/shop/hairdresser.png" type="node">
 					<label text="Edit Hairdresser"/>
@@ -4767,13 +4973,14 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Beauty" de.name="Kosmetiksalon / Nagelstudio" fr.name="Salon de beauté" ru.name="Салон красоты" icon="icons/beauty.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbeauty"/>
-					<label text="Edit Beauty" de.text="bearbeite Kosmetiksalon / Nagelstudio" fr.text="Modifier un salon de beauté" />
-					<space />
-					<key key="shop" value="beauty" />
-					<text key="name" text="Name" default="" delete_if_empty="true" />
+					<label text="Edit Beauty" de.text="bearbeite Kosmetiksalon / Nagelstudio" fr.text="Modifier un salon de beauté"/>
+					<space/>
+					<key key="shop" value="beauty"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4786,6 +4993,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Optician" icon="styles/standard/shop/optician.png" type="node">
 					<label text="Edit Optician"/>
@@ -4807,6 +5015,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Jewelry" icon="styles/standard/shop/jewelry.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=jewelry" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=jewelry"/>
@@ -4830,6 +5039,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Erotic" icon="presets/erotic.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=erotic" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=erotic"/>
@@ -4852,6 +5062,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Florist" icon="styles/standard/shop/florist.png" type="node">
@@ -4875,6 +5086,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Garden Centre" icon="styles/standard/shop/garden_centre.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=garden_centre" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=garden_centre" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=garden_centre"/>
@@ -4897,6 +5109,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Funeral directors" fr.name="Pompes funebres" icon="icons/funeral_directors.png" type="node">
@@ -4920,6 +5133,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Hardware" fr.name="Quincaillerie ou materiaux de construction" icon="presets/hardware.png" type="node">
@@ -4943,15 +5157,16 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Trade" de.name="Baustoffhandel" ru.name="Стройматериалы" fr.name="Grossiste" icon="icons/trade.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtrade"/>
 					<label text="Edit Trade" de.text="bearbeite Baustoffhandel" fr.text="Modifier un grossiste"/>
-					<space />            
-					<key key="shop" value="trade" />
-					<text key="name" text="Name" default="" delete_if_empty="true" />            
-					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true" />
-					<combo key="trade" text="Trade" fr.text="Grossiste" values="agricultural_supplies,building_supplies,cement,plastics,plumbing,timber_yard,wood" fr.display_values="produits agricoles,produits de construction de bâtiments,ciment,plastique,plomberie,timber_yard,bois" default="" delete_if_empty="true" />
+					<space/>
+					<key key="shop" value="trade"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<combo key="trade" text="Trade" fr.text="Grossiste" values="agricultural_supplies,building_supplies,cement,plastics,plumbing,timber_yard,wood" fr.display_values="produits agricoles,produits de construction de bâtiments,ciment,plastique,plomberie,timber_yard,bois" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
@@ -4965,13 +5180,14 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Glaziery" de.name="Glaserei" fr.name="Vitrier" ru.name="Магазин стёкол" icon="icons/glaziery.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dglaziery"/>
-					<label text="Edit Glaziery" de.text="bearbeite Glaserei" fr.text="Modifier un vitrier" />
-					<space />
-					<key key="shop" value="glaziery" />
-					<text key="name" text="Name" default="" delete_if_empty="true" />
+					<label text="Edit Glaziery" de.text="bearbeite Glaserei" fr.text="Modifier un vitrier"/>
+					<space/>
+					<key key="shop" value="glaziery"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
 					<label text="________________________________________"/>
 					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
@@ -4983,7 +5199,8 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
-				</item>  
+					<key key="source:project" value="cap103"/>
+				</item>
 				<item name="Paint" icon="presets/paint.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=paint" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=paint"/>
 					<label text="Edit Paint"/>
@@ -5006,6 +5223,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Furniture" icon="styles/standard/shop/furniture.png" type="node">
@@ -5028,6 +5246,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Kitchen" icon="presets/kitchen.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=kitchen" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=kitchen"/>
@@ -5052,6 +5271,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Curtain" icon="presets/curtain.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=curtain" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=curtain"/>
@@ -5075,6 +5295,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Frame" icon="presets/frame.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=frame" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=frame"/>
@@ -5098,6 +5319,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Stationery" icon="presets/stationery.png" type="node">
@@ -5120,6 +5342,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Copyshop" icon="presets/copyshop.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=copyshop" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=copyshop"/>
@@ -5143,6 +5366,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Book Store" icon="presets/book.png" type="node">
 					<label text="Edit Book Store"/>
@@ -5164,6 +5388,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Photo Shop" fr.name="Studio de photo" en.name="Photo Shop" type="node">
 					<label text="Edit Photo Shop" fr.text="Creer ou mettre a jour un studio de photo"/>
@@ -5186,6 +5411,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Recording Studio" icon="presets/studio.png" type="node">
@@ -5211,6 +5437,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Travel Agency" icon="presets/travel.png" type="node">
@@ -5233,6 +5460,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Musical Instrument" icon="presets/musical_instrument.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=musical_instrument" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=musical_instrument"/>
@@ -5256,6 +5484,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Toys" icon="styles/standard/shop/toys.png" type="node">
 					<label text="Edit Toy Shop"/>
@@ -5277,6 +5506,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Variety Store" icon="presets/variety_store.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=variety_store" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=variety_store"/>
@@ -5301,6 +5531,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Other -->
@@ -5324,6 +5555,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Beekeeper" de.name="Imker" fr.name="Apiculteur" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbeekeeper"/>
@@ -5343,6 +5575,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Blacksmith" de.name="Schmied" fr.name="Forgeron" icon="icons/blacksmith.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dblacksmith"/>
@@ -5362,6 +5595,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Bookbinder" de.name="Buchbinder" fr.name="Relieur" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbookbinder"/>
@@ -5381,6 +5615,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Brewery" fr.name="Brasserie" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dbrewery"/>
@@ -5400,6 +5635,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Carpenter" de.name="Tischler" fr.name="Charpentier" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dcarpenter"/>
@@ -5419,6 +5655,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Clockmaker" de.name="Uhrmacher" fr.name="Horloger" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dclockmaker"/>
@@ -5438,6 +5675,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Distillery" fr.name="Distillerie" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Ddistillery"/>
@@ -5457,6 +5695,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Key cutter" de.name="Schlüsselmacher" fr.name="Clef minute" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dkey_cutter"/>
@@ -5476,6 +5715,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Pottery" de.name="Töpferei" fr.name="Potier" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dpottery"/>
@@ -5495,6 +5735,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Saddler" de.name="Sattler" fr.name="Sellier" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dsaddler"/>
@@ -5514,6 +5755,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Shoemaker" de.name="Schuhmacher" fr.name="Cordonnier" icon="icons/shoemaker.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dshoemaker"/>
@@ -5533,6 +5775,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Stonemason" de.name="Steinmetz" fr.name="Maçon" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dstonemason"/>
@@ -5552,6 +5795,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Upholsterer" de.name="Polsterer" fr.name="Tapissier" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:craft%3Dupholsterer"/>
@@ -5571,6 +5815,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<separator/>
@@ -5593,6 +5838,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Architect" de.name="Architekturbüro" fr.name="Cabinet d'architecte" ru.name="Архитектор" icon="icons/architect.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Darchitect"/>
@@ -5612,6 +5858,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Government" de.name="Behörde / Regierung" fr.name="Bureau gouvernemental" ru.name="Госучреждение" icon="icons/government.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dgovernment"/>
@@ -5631,6 +5878,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Research" de.name="Forschungsunternehmen" fr.name="Laboratoire de recherche" icon="icons/research.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dresearch"/>
@@ -5650,6 +5898,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Estate Agent" de.name="Immobilienmakler" fr.name="Agence immobilière" ru.name="Риелторское агенство" icon="icons/estate_agent.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Destate_agent"/>
@@ -5669,6 +5918,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="IT Specialist" de.name="IT-Unternehmen" fr.name="Spécialiste IT" ru.name="IT-специалист" icon="icons/it.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dit"/>
@@ -5688,6 +5938,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Non Government Organisation" de.name="Organisation, nichtstaatlich" fr.name="Organisation non gouvernementale" ru.name="Неправительственное учреждение" icon="icons/ngo.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dngo"/>
@@ -5707,6 +5958,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Quango" de.name="Organisation, halbstaatlich" fr.name="Autorité administrative indépendante" icon="icons/quango.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dquango"/>
@@ -5726,6 +5978,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Private Company" de.name="Privatunternehmer" fr.name="Entreprise privée" ru.name="Частная компания" icon="icons/company.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dcompany"/>
@@ -5745,6 +5998,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Lawyer" de.name="Rechtsanwalt" fr.name="Juriste" ru.name="Адвокат" icon="icons/lawyer.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dlawyer"/>
@@ -5765,6 +6019,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Travel Agent" de.name="Reiseunternehmen" fr.name="Agence de voyage" ru.name="Туристическое агенство" icon="icons/travel_agent.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dtravel_agent"/>
@@ -5784,6 +6039,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Accountant" de.name="Steuerberater" fr.name="Cabinet comptable" ru.name="Бухгалтер" icon="icons/accountant.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/DE:Tag:office%3Daccountant"/>
@@ -5803,6 +6059,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Telecommunication" de.name="Telekommunikationsfirma" fr.name="Entreprise de Télécommunications" ru.name="Телекоммуникационная компания" icon="icons/telecommunication.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dtelecommunication"/>
@@ -5824,6 +6081,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Insurance" de.name="Versicherung" fr.name="Cabinet d'assurance" ru.name="Страховая компания" icon="icons/insurance.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dinsurance"/>
@@ -5843,6 +6101,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Newspaper" de.name="Zeitungsredaktion" fr.name="Rédaction de magazines" ru.name="Редакция газеты" icon="icons/newspaper.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dnewspaper"/>
@@ -5862,6 +6121,7 @@
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<separator/>
@@ -5891,6 +6151,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<separator/>
 			<group name="Telecommunication">
@@ -5922,6 +6183,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Telecommunication antenna" fr.name="Antenne de telecommunication" type="node,relation">
 					<key key="man_made" value="tower"/>
@@ -5953,6 +6215,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- telecommunication -->
@@ -5979,6 +6242,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 		</group>
 		<!-- Commercial and economical -->
@@ -6005,6 +6269,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Marketplace" icon="styles/standard/place/marketplace.png" type="node,way">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=marketplace" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=marketplace" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=marketplace" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=marketplace" pt.href="http://wiki.openstreetmap.org/wiki/Pt:Tag:amenity=marketplace" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=marketplace" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=marketplace"/>
@@ -6028,6 +6293,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Agricultural landuse" fr.name="Zones agricoles" en.name="Agricultural landuse" type="closedway,relation" icon="presets/landuse.png">
 				<link href="http://wiki.openstreetmap.org/wiki/Landuse"/>
@@ -6053,6 +6319,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Salt Pond" fr.name="Marais salant" type="closedway,relation" icon="presets/landuse.png">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse%3Dsalt_pond"/>
@@ -6076,6 +6343,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Reservoir" fr.name="Reservoir" icon="presets/reservoir.png" type="closedway,relation">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=reservoir"/>
@@ -6098,6 +6366,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Cemetery" fr.name="Cimetiere" icon="presets/cemetery.png" type="closedway,relation">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=cemetery"/>
@@ -6120,6 +6389,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Fenced/walled area" fr.name="Place avek mur/cloteure" type="closedway,relation">
 				<link href="http://wiki.openstreetmap.org/wiki/Key:area"/>
@@ -6146,6 +6416,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<group name="Leisure" fr.name="Loisirs" icon="presets/empty.png">
 				<item name="Park" fr.name="Parc" icon="presets/empty.png">
@@ -6167,6 +6438,7 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Garden" fr.name="Jardin public amenage" icon="presets/empty.png">
 					<key key="leisure" value="garden"/>
@@ -6187,6 +6459,7 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Playground" fr.name="Aire de jeux" icon="styles/standard/leisure/playground.png">
 					<key key="leisure" value="playground"/>
@@ -6207,6 +6480,7 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 		</group>
@@ -6233,6 +6507,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Tree" icon="presets/tree.png" type="node">
@@ -6257,6 +6532,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Wood" icon="presets/landuse.png" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=wood" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:natural=wood" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:natural=wood" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=wood"/>
@@ -6277,6 +6553,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Forest" icon="presets/landuse.png" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=forest" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:landuse=forest" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:landuse=forest" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:landuse=forest" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:landuse=forest"/>
@@ -6298,6 +6575,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Nature Reserve" icon="styles/standard/leisure/nature_reserve.png" type="closedway,relation">
 					<label text="Edit Nature Reserve"/>
@@ -6315,6 +6593,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Scree" icon="presets/empty.png" type="closedway,relation">
@@ -6333,6 +6612,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Fell" icon="presets/empty.png" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=fell" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:natural=fell" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=fell"/>
@@ -6351,6 +6631,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Scrub" icon="presets/empty.png" type="closedway,relation">
 					<label text="Edit Scrub"/>
@@ -6368,6 +6649,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Heath" icon="presets/empty.png" type="closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=heath" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:natural=heath" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=heath"/>
@@ -6386,6 +6668,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- urban landuse -->
@@ -6407,6 +6690,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="River" icon="presets/river.png" type="way">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:waterway=river" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:waterway=river" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:waterway=river" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:waterway=river" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:waterway=river" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:waterway=river"/>
@@ -6428,6 +6712,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Stream" icon="presets/waterway.png" type="way">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:waterway=stream" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:waterway=stream" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:waterway=stream" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:waterway=stream" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:waterway=stream" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:waterway=stream"/>
@@ -6447,6 +6732,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Spring" icon="presets/spring.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=spring" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:natural=spring" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=spring"/>
@@ -6465,6 +6751,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Waterfall" icon="presets/waterfall.png" type="node,way">
 					<label text="Edit Waterfall"/>
@@ -6484,6 +6771,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
 				<item name="Wetland" icon="presets/empty.png" type="node,closedway,relation">
@@ -6504,6 +6792,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Mud" icon="presets/mud.png" type="node,closedway,relation">
 					<label text="Edit Mud"/>
@@ -6521,6 +6810,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Beach" icon="presets/beach.png" type="node,closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=beach" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:natural=beach" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=beach" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=beach"/>
@@ -6539,6 +6829,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Bay" icon="presets/bay.png" type="node,closedway,relation">
 					<label text="Edit Bay"/>
@@ -6556,6 +6847,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 				<item name="Cliff" icon="presets/cliff.png" type="node,way,closedway,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=cliff" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:natural=cliff" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:natural=cliff" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=cliff" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=cliff"/>
@@ -6574,6 +6866,7 @@
 					<space/>
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
+					<key key="source:project" value="cap103"/>
 				</item>
 			</group>
 			<!-- Water -->
@@ -6596,6 +6889,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Landslide prone" fr.name="Menace de glissements de terrain" en.name="Landslide prone">
 				<key key="hazard_prone" value="yes"/>
@@ -6613,6 +6907,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 			<item name="Windstorm prone" fr.name="Menace de tempetes de vent" en.name="Windstorm prone">
 				<key key="hazard_prone" value="yes"/>
@@ -6630,6 +6925,7 @@
 				<space/>
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
+				<key key="source:project" value="cap103"/>
 			</item>
 		</group>
 		<!-- Hazards -->
@@ -6644,6 +6940,7 @@
 			<text key="website" text="Website" default="" delete_if_empty="true"/>
 			<text key="email" text="Email Address" default="" delete_if_empty="true"/>
 			<space/>
+			<key key="source:project" value="cap103"/>
 		</item>
 		<item name="Add more Names" fr.name="+ Nom">
 			<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -6652,6 +6949,7 @@
 			<text key="alt_name" text="Alternative name" fr.text="Nom populaire alternatif" en.text="Alternative name"/>
 			<text key="short_name" text="Abbreviation name" fr.text="Abreviation du nom" en.text="Abbreviation name"/>
 			<text key="old_name" text="Old name" fr.text="Ancien nom" en.text="Old name"/>
+			<key key="source:project" value="cap103"/>
 		</item>
 	</group>
 	<!-- General group -->
