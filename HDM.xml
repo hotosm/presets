@@ -5880,6 +5880,26 @@
 					<space/>
 					<key key="source:project" value="cap103"/>
 				</item>
+				<item name="Foundation" fr.name="Fondation" icon="icons/government.png" type="node,closedway">
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dfoundation"/>
+					<label text="Edit Foundation"/>
+					<space/>
+					<key key="office" value="foundation"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<label text="________________________________________"/>
+					<label text="source (geometry and/or attributes)" fr.text="source (geometrique et/ou attributaire)" en.text="source (geometry and/or attributes)"/>
+					<space/>
+					<label text="if one is already existing, add new after a comma. ex: bing;survey" fr.text="si une source existe deja, ajouter la nouvelle apres une virgule. ex: bing;survey" en.text="if one is already existing, add new one after a comma. ex: bing;survey"/>
+					<space/>
+					<text key="source" text="source name" fr.text="nom de la source" en.text="source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+					<key key="source:project" value="cap103"/>
+				</item>
 				<item name="Research" de.name="Forschungsunternehmen" fr.name="Laboratoire de recherche" icon="icons/research.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:office%3Dresearch"/>
 					<label text="Edit Research" de.text="bearbeite Forschungsunternehmen" fr.text="Modifier un Laboratoire de recherche"/>
@@ -6300,7 +6320,7 @@
 				<label text="** Edit/modify an agricultural landuse **" fr.text="** Creer/mettre a jour une zone d'occupation agricole **" en.text="** Edit/modify an agricultural landuse **"/>
 				<label text="________________________________________"/>
 				<label text="LANDUSE" fr.text="OCCUPATION DU SOL" en.text="LANDUSE"/>
-				<combo key="landuse" text="Agricultural landuse type" fr.text="Type d'occupation du sol agricole" en.text="Agricultural landuse type" values="allotments,farm,farmyard,meadow,greenhouse_horticulture,orchard,plant_nursery,vineyard" display_values="allotments,farmland,farmyard,meadow,greenhouse horticulture,orchard,plant nursery,vineyard" fr.display_values="lotissement de parcelles agricoles,terrain agricole,ferme et ses dependances,prairie,horticulture de serre,verger,pepiniere,vignoble" en.display_values="allotments,farm,farmyard,meadow,greenhouse horticulture,orchard,plant nursery,vineyard" required="true"/>
+				<combo key="landuse" text="Agricultural landuse type" fr.text="Type d'occupation du sol agricole" en.text="Agricultural landuse type" values="allotments,farm,farmyard,meadow,greenhouse_horticulture,orchard,plant_nursery,vineyard,aquaculture" display_values="allotments,farmland,farmyard,meadow,greenhouse horticulture,orchard,plant nursery,vineyard,aquaculture" fr.display_values="lotissement de parcelles agricoles,terrain agricole,ferme et ses dependances,prairie,horticulture de serre,verger,pepiniere,vignoble,aquaculture" required="true"/>
 				<text key="crop" text="Crops" fr.text="Recoltes" en.text="Crops"/>
 				<optional>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
