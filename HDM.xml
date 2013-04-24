@@ -5136,7 +5136,7 @@
 					<key key="source:project" value="cap103"/>
 				</item>
 				<separator/>
-				<item name="Hardware" fr.name="Quincaillerie ou materiaux de construction" icon="presets/hardware.png" type="node">
+				<item name="Hardware" fr.name="Magasin d'outillage" icon="presets/hardware.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=hardware" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=hardware"/>
 					<label text="Edit Hardware Store"/>
 					<label text="________________________________________"/>
@@ -5159,14 +5159,14 @@
 					<space/>
 					<key key="source:project" value="cap103"/>
 				</item>
-				<item name="Trade" de.name="Baustoffhandel" ru.name="Стройматериалы" fr.name="Grossiste" icon="icons/trade.png" type="node,closedway">
+				<item name="Trade" fr.name="Grossiste (materiaux de construction)" icon="icons/trade.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dtrade"/>
 					<label text="Edit Trade" de.text="bearbeite Baustoffhandel" fr.text="Modifier un grossiste"/>
 					<space/>
 					<key key="shop" value="trade"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
-					<combo key="trade" text="Trade" fr.text="Grossiste" values="agricultural_supplies,building_supplies,cement,plastics,plumbing,wood" fr.display_values="produits agricoles,produits de construction de bâtiments,ciment,plastique,plomberie,bois" default="" delete_if_empty="true"/>
+					<combo key="trade" text="Trade" fr.text="Grossiste" values="agricultural_supplies,building_supplies,cement,plumbing,wood" fr.display_values="produits agricoles,materiaux de construction,ciment,plomberie,bois" default="" delete_if_empty="true"/>
 					<space/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
