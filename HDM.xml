@@ -5201,7 +5201,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<key key="source:project" value="cap103"/>
 				</item>
-				<item name="Paint" icon="presets/paint.png" type="node">
+				<item name="Paint" fr.name="Magasin de peinture" icon="presets/paint.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=paint" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=paint"/>
 					<label text="Edit Paint"/>
 					<label text="________________________________________"/>
