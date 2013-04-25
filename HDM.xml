@@ -2026,6 +2026,71 @@
 				</item>
 			</group>
 			<!-- Solid waste management -->
+			<group name="Telecommunication">
+				<item name="Radio or TV studio" fr.name="Studio et station de radio ou television" type="node,relation">
+					<key key="amenity" value="studio"/>
+					<combo key="type" text="Type" fr.text="Type" en.text="Type" values="audio,video" display_values="audio,video" fr.display_values="audio,video" en.display_values="audio,video" required="true"/>
+					<label text="** Edit/modify a radio or television studio **" fr.text="** Creer/mettre a jour un studio de radio ou de television **" en.text="** Edit/modify a radio or television studio **"/>
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dstudio" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity%3Dstudio"/>
+					<label text="________________________________________"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<space/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+					<space/>
+					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
+					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+					<key key="source:project" value="cap103"/>
+				</item>
+				<item name="Telecommunication antenna" fr.name="Antenne de telecommunication" type="node,relation">
+					<key key="man_made" value="tower"/>
+					<key key="tower:type" value="communication"/>
+					<label text="** Edit/modify a telecommunication antenna **" fr.text="** Creer/mettre a jour d'une antenne de telecommunication **" en.text="** Edit/modify a telecommunication antenna **"/>
+					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made%3Dtower#Tower_types" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made%3Dtower"/>
+					<label text="________________________________________"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
+					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
+					<space/>
+					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
+					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
+					<space/>
+					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
+					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+					<key key="source:project" value="cap103"/>
+				</item>
+			</group>
+			<!-- telecommunication -->
 		</group>
 		<!-- Utilities -->
 		<group name="Cultural and social" fr.name="Culturel et social" icon="presets/theater.png">
@@ -6191,72 +6256,6 @@
 				<space/>
 				<key key="source:project" value="cap103"/>
 			</item>
-			<separator/>
-			<group name="Telecommunication">
-				<item name="Radio or TV studio" fr.name="Studio et station de radio ou television" type="node,relation">
-					<key key="amenity" value="studio"/>
-					<combo key="type" text="Type" fr.text="Type" en.text="Type" values="audio,video" display_values="audio,video" fr.display_values="audio,video" en.display_values="audio,video" required="true"/>
-					<label text="** Edit/modify a radio or television studio **" fr.text="** Creer/mettre a jour un studio de radio ou de television **" en.text="** Edit/modify a radio or television studio **"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity%3Dstudio" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity%3Dstudio"/>
-					<label text="________________________________________"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-					<space/>
-					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
-					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<space/>
-					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="Note" fr.text="Notes"/>
-					<space/>
-					<key key="source:project" value="cap103"/>
-				</item>
-				<item name="Telecommunication antenna" fr.name="Antenne de telecommunication" type="node,relation">
-					<key key="man_made" value="tower"/>
-					<key key="tower:type" value="communication"/>
-					<label text="** Edit/modify a telecommunication antenna **" fr.text="** Creer/mettre a jour d'une antenne de telecommunication **" en.text="** Edit/modify a telecommunication antenna **"/>
-					<link href="http://wiki.openstreetmap.org/wiki/Tag:man_made%3Dtower#Tower_types" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:man_made%3Dtower"/>
-					<label text="________________________________________"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="ref" text="Reference number" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="operator" text="Operator name" fr.text="Nom de l'operateur" en.text="Operator name"/>
-					<combo key="operator:type" text="Operator type" fr.text="Type d'operateur" values="public,private,government,ngo,community" display_values="public,private,government,NGO,community" fr.display_values="publique,prive,gouvernement,ONG,communaute" required="true"/>
-					<space/>
-					<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
-					<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
-					<space/>
-					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="Note" fr.text="Notes"/>
-					<space/>
-					<key key="source:project" value="cap103"/>
-				</item>
-			</group>
-			<!-- telecommunication -->
 			<separator/>
 			<item name="Works" fr.nqme="Usine et manufactures" en.name="Works" icon="presets/works.png" type="node">
 				<key key="man_made" value="works"/>
