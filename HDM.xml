@@ -260,9 +260,9 @@
 					<space/>
 					<optional>
 						<text key="maxspeed" text="Max. speed (km/h)" default="" delete_if_empty="true"/>
-						<check key="construction" text="Minor construction" value_on="minor" default="off" delete_if_empty="true"/>
-						<check key="narrow" text="Narrow" default="off" delete_if_empty="true"/>
-						<check key="lit" text="Lit" default="off" delete_if_empty="true"/>
+						<check key="construction" text="Minor construction" fr.text="Route en Travaux" value_on="minor" default="off" delete_if_empty="true"/>
+						<check key="narrow" text="Narrow" fr.text="Etroite" default="off" delete_if_empty="true"/>
+						<check key="lit" text="Lit" fr.text="Eclaire" default="off" delete_if_empty="true"/>
 						<check key="embankment" text="Embanked" fr.text="Remblai" default="off" delete_if_empty="true"/>
 					</optional>
 					<label text="________________________________________"/>
