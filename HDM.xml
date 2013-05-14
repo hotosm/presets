@@ -1175,7 +1175,7 @@
 				<item name="Entrance" icon="styles/standard/vehicle/entrance.png" type="node">
 					<label text="Edit Entrance"/>
 					<space/>
-					<key key="barrier" value="entrance"/>
+					<key key="entrance" value="yes"/>
 					<label text="Allowed traffic:"/>
 					<space/>
 					<check key="foot" text="Foot" default="on" delete_if_empty="true"/>
@@ -6140,7 +6140,7 @@
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=cemetery"/>
 				<label text="** Edit/modify a cemetery **" fr.text="** Creer/mettre a jour une cimetiere **"/>
 				<label text="________________________________________"/>
-				<key key="landuse" value="cemetary"/>
+				<key key="landuse" value="cemetery"/>
 				<optional>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
