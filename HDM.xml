@@ -3883,6 +3883,29 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
+				<item name="Depot - Wholesale" fr.name="Depot" icon="styles/standard/shop/beverages.png" type="node">
+					<link href="http://wiki.openstreetmap.org/wiki/Proposed_features/wholesale"/>
+					<label text="Edit Depot/Wholesale"/>
+					<label text="________________________________________"/>
+					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
+					<key key="shop" value="wholesale"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="operator" text="Operator" default="" delete_if_empty="true"/>
+					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
 				<item name="Greengrocer" icon="presets/greengrocer.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=greengrocer" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=greengrocer" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:shop=greengrocer" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=greengrocer"/>
 					<label text="Edit Greengrocer"/>
