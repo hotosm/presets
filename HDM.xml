@@ -5299,27 +5299,6 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Travel Agency" icon="presets/travel.png" type="node">
-					<label text="Edit Travel Agency"/>
-					<label text="________________________________________"/>
-					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
-					<key key="shop" value="travel_agency"/>
-					<text key="name" text="Name" default="" delete_if_empty="true"/>
-					<space/>
-					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
-					<space/>
-					<label text="________________________________________"/>
-					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
-					<space/>
-					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
-					<space/>
-					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
-					<space/>
-					<label text="________________________________________"/>
-					<space/>
-					<text key="note" text="Note" fr.text="Notes"/>
-					<space/>
-				</item>
 				<item name="Musical Instrument" icon="presets/musical_instrument.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=musical_instrument" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=musical_instrument"/>
 					<label text="Edit Musical Instruments"/>
@@ -5811,6 +5790,28 @@
 					<label text="________________________________________"/>
 					<space/>
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
+					<space/>
+				</item>
+				<item name="Travel Agenct" icon="presets/travel.png" type="node">
+					<label text="Edit Travel Agency"/>
+					<label text="________________________________________"/>
+					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
+					<key key="office" value="travel_agenct"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
 				<item name="Non Government Organisation" de.name="Organisation, nichtstaatlich" fr.name="Organisation non gouvernementale" ru.name="Неправительственное учреждение" icon="icons/ngo.png" type="node,closedway">
