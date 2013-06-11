@@ -521,7 +521,8 @@
 					<label text="TUNNEL" fr.text="TUNNEL" en.text="TUNNEL"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:tunnel" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:tunnel" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:tunnel" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:tunnel" it.href="http://wiki.openstreetmap.org/wiki/IT:Key:tunnel" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:tunnel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:tunnel" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:tunnel"/>
 					<space/>
-					<key key="tunnel" value="yes"/>
+					<combo key="tunnel" text="Tunnel type" fr.text="Type de tunnel" values="yes,culvert" display.values="yes,culvert" fr.display.values="yes,culvert" default="yes" required="true"/>
+					<key key="layer" value="-1"/>
 					<optional>
 						<text key="name" text="Name" default="" delete_if_empty="true"/>
 						<space/>
@@ -1649,6 +1650,29 @@
 						<check key="disused" text="Disused" fr.text="Désaffecté" default="off"/>
 						<check key="abandoned" text="Abandoned" fr.text="Abandonné" default="off"/>
 						<space/>
+						<label text="________________________________________"/>
+						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+						<space/>
+						<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+						<space/>
+						<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+						<space/>
+						<label text="________________________________________"/>
+						<space/>
+						<text key="note" text="Note" fr.text="Notes"/>
+						<space/>
+					</item>
+					<item name="Tunnel" icon="presets/tunnel.png" type="way">
+						<label text="** Edit/modify a tunnel **" fr.text="** Creer/mettre a jour un tunnel **" en.text="** Edit/modify a tunnel **"/>
+						<label text="________________________________________"/>
+						<label text="TUNNEL" fr.text="TUNNEL" en.text="TUNNEL"/>
+						<link href="http://wiki.openstreetmap.org/wiki/Key:tunnel" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:tunnel" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:tunnel" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:tunnel" it.href="http://wiki.openstreetmap.org/wiki/IT:Key:tunnel" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:tunnel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:tunnel" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:tunnel"/>
+						<space/>
+						<combo key="tunnel" text="Tunnel type" fr.text="Type de tunnel" values="yes,culvert" display.values="yes,culvert" fr.display.values="yes,culvert" default="yes" required="true"/>
+						<key key="layer" value="-1"/>
+						<optional>
+							<text key="width" text="Width (meters)" default="" delete_if_empty="true"/>
+						</optional>
 						<label text="________________________________________"/>
 						<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 						<space/>
