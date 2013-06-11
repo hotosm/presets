@@ -4244,6 +4244,28 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
+				<item name="Video Arcade" fr.name="Salle de jeux vidéo d'arcade" type="node">
+					<key key="leisure" value="video_arcade"/>
+					<label text="** Edit/modify an Cyber Cafe **" fr.text="** Creer/mettre a jour d'un Salle de jeux vidéo d'arcade **"/>
+					<link href="http://wiki.openstreetmap.org/wiki/Tag%3Aleisure%3Dvideo_arcade"/>
+					<label text="________________________________________"/>
+					<text key="name" text="Name" default="" delete_if_empty="true"/>
+					<space/>
+					<text key="phone" text="Phone number" fr.text="Telephone" en.text="Phone number"/>
+					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
+					<space/>
+					<label text="________________________________________"/>
+					<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
+					<space/>
+					<label text="If one is already existing, add new after a comma. Ex: Bing;survey" fr.text="Si une source existe deja, ajouter la nouvelle apres une virgule. Ex: Bing;survey" en.text="If one is already existing, add new one after a comma. Ex: Bing;survey"/>
+					<space/>
+					<text key="source" text="Source name" fr.text="Nom de la source" en.text="Source name"/>
+					<space/>
+					<label text="________________________________________"/>
+					<space/>
+					<text key="note" text="Note" fr.text="Notes"/>
+					<space/>
+				</item>
 				<item name="Electronics" icon="styles/standard/shop/electronics.png" type="node">
 					<label text="Edit Electronics Shop"/>
 					<label text="________________________________________"/>
