@@ -976,10 +976,10 @@
 				<label text="ROAD PRACTICABILITY" fr.text="Praticabilite DE VOIRIE"/>
 				<link href="http://wiki.openstreetmap.org/wiki/Humanitarian_OSM_Tags/practicability"/>
 				<combo key="practicability:truck+trailer" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
-				<combo key="practicability:heavy_truck" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
-				<combo key="practicability:light_truck" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
-				<combo key="practicability:4x4" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
-				<combo key="practicability:motorcycle" text="truck+trailer" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:heavy_truck" text="heavy_truck" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:light_truck" text="light_truck" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:4x4" text="4x4" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
+				<combo key="practicability:motorcycle" text="motorcycle" values="yes,no,seasonal,limited" default="" delete_if_empty="true"/>
 				<label text="________________________________________"/>
 				<label text="SOURCE (geometry and/or attributes)" fr.text="SOURCE (geometrique et/ou attributaire)" en.text="SOURCE (geometry and/or attributes)"/>
 				<space/>
