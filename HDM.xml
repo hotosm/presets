@@ -3583,7 +3583,7 @@
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:leisure%3Dbeach_resort"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<space/>
-					<combo key="surface" text="Surface" fr.text="Surface" values="sand,gravel,cement,other,undefined" display_values="sand,gravel,cement,other,undefined" fr.display_values="sable,gravier,ciment,autre,non defini" delete_if_empty="true"/>
+					<combo key="surface" text="Surface" fr.text="Surface" values="sand,gravel,cement,other" display_values="sand,gravel,cement,other" fr.display_values="sable,gravier,ciment,autre" delete_if_empty="true"/>
 					<text key="opening_hours" text="Opening Hours" default="" delete_if_empty="true"/>
 					<space/>
 					<check key="supervised" text="Supervised" fr.text="Surveillance" default="off"/>
