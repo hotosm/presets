@@ -1,0 +1,13 @@
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+	author="Kate Chapman"
+	description="Building collection presets"
+	shortdescription="Buildings"
+	version="1.4_2013-01-30">
+	<item name="Building">
+		<key key="building" value="yes"/>
+		<combo key="building:use" text="Building Use" values="residential,commercial,government,ruko,education,shop,medical,accommodation,storage,industrial,place_of_worship,multipurpose" default="" delete_if_empty="true" />
+		<combo key="building:walls" text="Wall Type" values="brick,wood,bamboo,tin" />
+		<combo key="building:roof" text="Roof Type" values="tile,tin,asbestos,concrete,grass" />
+		<text key="building:levels" text="Number of Stories"/>
+	</item>
+</presets>
