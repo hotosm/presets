@@ -5838,11 +5838,11 @@
 					<text key="note" text="note" fr.text="notes" en.text="note"/>
 					<space/>
 				</item>
-				<item name="Travel Agenct" icon="presets/travel.png" type="node">
+				<item name="Travel Agent" icon="presets/travel.png" type="node">
 					<label text="Edit Travel Agency"/>
 					<label text="________________________________________"/>
 					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
-					<key key="office" value="travel_agenct"/>
+					<key key="office" value="travel_agent"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
 					<text key="operator" text="Operator" de.text="Betreiber" default="" delete_if_empty="true"/>
 					<space/>
