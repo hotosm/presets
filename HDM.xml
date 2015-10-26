@@ -50,8 +50,8 @@
 			<text key="note" text="Note" fr.text="Notes"/>
 			<space/>
 		</item>
-		<group name="Places" fr.name="Lieux" icon="presets/places.png">
-			<item name="City" icon="presets/places.png" type="node">
+		<group name="Places" fr.name="Lieux" icon="styles/standard/place/settlement/city.png">
+			<item name="City" icon="styles/standard/place/settlement/city.png" type="node">
 				<label text="Edit City"/>
 				<space/>
 				<key key="place" value="city"/>
@@ -74,7 +74,7 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
-			<item name="Town" icon="presets/places.png" type="node">
+			<item name="Town" icon="styles/standard/place/settlement/town.png" type="node">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:place=town" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:place=town" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:place=town"/>
 				<label text="Edit Town"/>
 				<space/>
@@ -98,7 +98,7 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
-			<item name="Suburb" icon="presets/places.png" type="node">
+			<item name="Suburb" icon="styles/standard/place/settlement/suburb.png" type="node">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:place=suburb" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:place=suburb"/>
 				<label text="Edit Suburb"/>
 				<space/>
@@ -121,7 +121,7 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
-			<item name="Neighborhood" fr.name="Quartier" icon="presets/places.png" type="node">
+			<item name="Neighborhood" fr.name="Quartier" icon="styles/standard/place/settlement/neighbourhood.png" type="node">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:place%3Dneighbourhood"/>
 				<label text="Edit neighbourhood" fr.text="Creer ou mettre a jour un quartier"/>
 				<space/>
@@ -145,7 +145,7 @@
 				<space/>
 			</item>
 			<separator/>
-			<item name="Village" icon="presets/places.png" type="node">
+			<item name="Village" icon="styles/standard/place/settlement/village.png" type="node">
 				<label text="Edit Village"/>
 				<space/>
 				<key key="place" value="village"/>
@@ -167,7 +167,7 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
-			<item name="Hamlet" icon="presets/places.png" type="node">
+			<item name="Hamlet" icon="styles/standard/place/settlement/hamlet.png" type="node">
 				<label text="Edit Hamlet"/>
 				<space/>
 				<key key="place" value="hamlet"/>
@@ -189,7 +189,7 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
-			<item name="Isolated Dwelling" icon="presets/places.png" type="node">
+			<item name="Isolated Dwelling" icon="styles/standard/place/settlement/isolated_dwelling.png" type="node">
 				<label text="Edit Isolated Dwelling"/>
 				<space/>
 				<key key="place" value="isolated_dwelling"/>
@@ -473,7 +473,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Turning Circle" icon="presets/turning_circle.png" type="node">
+				<item name="Turning Circle" icon="styles/standard/vehicle/turning_circle.png" type="node">
 					<label text="** Edit/modify a turning circle **" fr.text="** Creer/mettre a jour un rond point interne **" en.text="** Edit/modify a turning circle **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:highway=turning_circle" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:highway=turning_circle" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:highway=turning_circle" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:highway=turning_circle"/>
 					<key key="highway" value="turning_circle"/>
@@ -542,7 +542,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Ford" fr.name="Gue (labou an kreyol)" icon="presets/ford.png" type="node,way">
+				<item name="Ford" fr.name="Gue (labou an kreyol)" icon="styles/standard/misc/ford.svg" type="node,way">
 					<label text="** Edit/modify a ford **" fr.text="** Creer/mettre a jour un gue (labou an kreyol) **" en.text="** Edit/modify a ford **"/>
 					<label text="________________________________________"/>
 					<label text="FORD" fr.text="GUE" en.text="F"/>
@@ -583,7 +583,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Traffic Signal" icon="presets/traffic-light.png" type="node">
+				<item name="Traffic Signal" icon="styles/standard/vehicle/traffic_signals.svg" type="node">
 					<label text="** Edit/modify a traffic signal **" fr.text="** Creer/mettre a jour un feu de circulation **" en.text="** Edit/modify a traffic signal **"/>
 					<label text="________________________________________"/>
 					<label text="TRAFFIC SIGNAL" fr.text="FEU DE CIRCULATION" en.text="TRAFFIC SIGNAL"/>
@@ -616,7 +616,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Pedestrian Crossing" icon="styles/standard/vehicle/zebra_crossing.png" type="node">
+				<item name="Pedestrian Crossing" icon="styles/standard/vehicle/crossing.svg" type="node">
 					<label text="** Edit/modify a pedestrian crossing **" fr.text="** Creer/mettre a jour un passage pieton **" en.text="** Edit/modify a pedestrian crossing **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:crossing" de.href="http://wiki.openstreetmap.org/wiki/DE:Key:crossing" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:crossing" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:crossing" ja.href="http://wiki.openstreetmap.org/wiki/JA:Key:crossing" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:crossing" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:crossing"/>
 					<key key="highway" value="crossing"/>
@@ -632,7 +632,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Traffic Calming" icon="presets/chicane.png" type="node">
+				<item name="Traffic Calming" icon="styles/standard/vehicle/traffic_calming_blue.png" type="node">
 					<label text="** Edit/modify a traffic calming **" fr.text="** Creer/mettre a jour un ralentisseur **" en.text="** Edit/modify a traffic calming **"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Key:traffic_calming" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Key:traffic_calming" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:traffic_calming" it.href="http://wiki.openstreetmap.org/wiki/IT:Key:traffic_calming" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:traffic_calming" ru.href="http://wiki.openstreetmap.org/wiki/RU:Key:traffic_calming"/>
 					<!--<label text="________________________________________" />
@@ -1197,7 +1197,7 @@
 					<space/>
 				</item>
 				<!-- entrance -->
-				<item name="Gate" icon="presets/gate.png" type="node">
+				<item name="Gate" icon="styles/standard/vehicle/gate.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:barrier=gate" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:barrier=gate" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:barrier=gate" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:barrier=gate" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:barrier=gate"/>
 					<label text="Edit Gate"/>
 					<space/>
@@ -1307,7 +1307,7 @@
 </item> -->
 			</group>
 			<!-- Barriers -->
-			<item name="Obstacles" icon="presets/block.png" type="node,way,closedway,relation">
+			<item name="Obstacles" icon="styles/standard/vehicle/block.svg" type="node,way,closedway,relation">
 				<key key="barrier" value="block"/>
 				<label text="** Edit/modify obstacles **" fr.text="** Creer/mettre a jour des obstacles **" en.text="** Edit/modify obstacless **"/>
 				<space/>
@@ -1328,7 +1328,7 @@
 		<!-- Transportation -->
 		<group name="Utilities" fr.name="Equipements" icon="presets/water_works.png">
 			<group name="Water and sanitation" fr.name="Eau et assainissement" en.name="Water and sanitation" icon="presets/water_works.png">
-				<item name="Drinking Water" icon="presets/drinking_water.png" type="node">
+				<item name="Drinking Water" icon="styles/standard/food/drinking_water.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=drinking_water"/>
 					<label text="Edit Drinking Water"/>
 					<key key="amenity" value="drinking_water"/>
@@ -1466,7 +1466,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Water Tower" icon="presets/water_tower.png" type="node,closedway">
+				<item name="Water Tower" icon="styles/standard/misc/landmark/water_tower.svg" type="node,closedway">
 					<label text="Edit Water Tower"/>
 					<key key="man_made" value="water_tower"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -1512,7 +1512,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Showers" fr.name="Douche" en.name="Showers" type="node,relation" icon="http://commons.wikimedia.org/wiki/File:OCHA_shower_icon.png">
+				<item name="Showers" fr.name="Douche" en.name="Showers" type="node,relation" icon="styles/standard/service/shower.svg">
 					<label text="** Edit/modify showers **" fr.text="** Creer/mettre a jour des douches **" en.text="** Edit/modify showers **"/>
 					<label text="________________________________________"/>
 					<label text="SHOWERS" fr.text="DOUCHES" en.text="SHOWERS"/>
@@ -1806,7 +1806,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Power Tower" icon="presets/power_tower.png" type="node">
+				<item name="Power Tower" icon="styles/standard/misc/landmark/power/tower_small.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:power=tower" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:power=tower" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:power=tower" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:power=tower" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:power=tower" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:power=tower" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:power=tower"/>
 					<label text="Edit Power Tower"/>
 					<key key="power" value="tower"/>
@@ -1909,7 +1909,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Recycling" icon="presets/recycling.png" type="node">
+				<item name="Recycling" icon="styles/standard/service/recycling/recycling_container.svg" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=recycling" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=recycling" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=recycling" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=recycling" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=recycling" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=recycling" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=recycling" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=recycling"/>
 					<label text="Edit Recycling station"/>
 					<key key="amenity" value="recycling"/>
@@ -2030,8 +2030,8 @@
 		</group>
 		<!-- Utilities -->
 		<group name="Cultural and social" fr.name="Culturel et social" icon="presets/theater.png">
-			<group name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" icon="presets/church.png">
-				<item name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" type="node,relation" icon="presets/church.png">
+			<group name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" icon="styles/standard/religion.png">
+				<item name="Place of worship" fr.name="Lieu de culte" en.name="Place of worship" type="node,relation" icon="styles/standard/religion.png">
 					<key key="amenity" value="place_of_worship"/>
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=place_of_worship" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=place_of_worship" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=place_of_worship" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=place_of_worship" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=place_of_worship" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=place_of_worship" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=place_of_worship" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=place_of_worship" sv.href="http://wiki.openstreetmap.org/wiki/Sv:Tag:amenity=place_of_worship"/>
 					<label text="** Edit/modify a place of worship **" fr.text="** Creer/mettre a jour un lieu de culte **" en.text="** Edit/modify a place of worship **"/>
@@ -2104,7 +2104,7 @@
 			</group>
 			<!-- Social and communautary facilities" -->
 			<group name="Culture" icon="presets/theater.png">
-				<item name="Museum" icon="presets/State_Public.png" type="node,relation">
+				<item name="Museum" icon="styles/standard/sightseeing/museum.svg" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=museum" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=museum"/>
 					<label text="Edit Museum"/>
 					<key key="tourism" value="museum"/>
@@ -2161,7 +2161,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Library" icon="styles/standard/shop/rental/library.png" type="node,relation">
+				<item name="Library" icon="styles/standard/shop/library.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=library" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=library" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=library" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=library" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=library" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=library"/>
 					<label text="Edit Library"/>
 					<key key="amenity" value="library"/>
@@ -2221,8 +2221,8 @@
 				</item>
 			</group>
 			<!-- Culture -->
-			<group name="Historic Places" icon="presets/State_Tourist.png">
-				<item name="Castle" fr.name="Fort" icon="presets/State_Tourist.png" type="node,relation">
+			<group name="Historic Places" icon="styles/standard/sightseeing/castle.svg">
+				<item name="Castle" fr.name="Fort" icon="styles/standard/sightseeing/castle.svg" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:historic=castle" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:historic=castle"/>
 					<label text="Edit Castle" fr.text="Creer ou mettre a jour un fort"/>
 					<key key="historic" value="castle"/>
@@ -2278,8 +2278,8 @@
 				</item>
 			</group>
 			<!-- Historic Places -->
-			<group name="Sport Facilities" icon="presets/soccer.png">
-				<item name="Pitch" icon="presets/pitch.png" type="node,closedway">
+			<group name="Sport Facilities" icon="presets/stadium.png">
+				<item name="Pitch" icon="styles/standard/sport/pitch.png" type="node,closedway">
 					<label text="Edit Pitch"/>
 					<key key="leisure" value="pitch"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -2321,7 +2321,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Sports Centre" icon="presets/sports_centre.png" type="node">
+				<item name="Sports Centre" icon="styles/standard/sport/centre.png" type="node">
 					<label text="Edit Sports Centre"/>
 					<key key="leisure" value="sports_centre"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -2359,7 +2359,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Golf Course" icon="presets/golf.png" type="node,closedway">
+				<item name="Golf Course" icon="styles/standard/sport/golf.svg" type="node,closedway">
 					<label text="Edit Golf Course"/>
 					<key key="leisure" value="golf_course"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -2378,7 +2378,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Miniature Golf" icon="presets/golf.png" type="node,closedway">
+				<item name="Miniature Golf" icon="styles/standard/sport/miniature_golf.svg" type="node,closedway">
 					<label text="Edit Miniature Golf"/>
 					<key key="leisure" value="miniature_golf"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -2573,7 +2573,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Clinic" icon="styles/standard/health/clinic.png" type="node">
+				<item name="Clinic" icon="styles/standard/health/hospital.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=clinic" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=clinic" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=clinic"/>
 					<label text="Edit Clinic"/>
 					<key key="amenity" value="clinic"/>
@@ -2636,7 +2636,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Pharmacy" icon="presets/pharmacy.png" type="node">
+				<item name="Pharmacy" icon="styles/standard/health/pharmacy.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=pharmacy" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=pharmacy" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:amenity=pharmacy" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=pharmacy" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=pharmacy" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=pharmacy" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=pharmacy"/>
 					<label text="Edit Pharmacy"/>
 					<key key="amenity" value="pharmacy"/>
@@ -3030,7 +3030,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Prison" icon="presets/prison.png" type="node,relation">
+				<item name="Prison" icon="styles/standard/service/administration/prison.svg" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=prison" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=prison" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=prison"/>
 					<label text="Edit Prison"/>
 					<key key="amenity" value="prison"/>
@@ -3158,7 +3158,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Motel" icon="styles/standard/accommodation/motel.png" type="node,relation">
+				<item name="Motel" icon="styles/standard/accommodation/motel.svg" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=motel" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:tourism=motel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=motel"/>
 					<label text="Edit Motel"/>
 					<key key="tourism" value="motel"/>
@@ -3212,7 +3212,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Hostel" icon="presets/hostel.png" type="node,relation">
+				<item name="Hostel" icon="styles/standard/accommodation/hostel.svg" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=hostel" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=hostel" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=hostel"/>
 					<label text="Edit Hostel"/>
 					<key key="tourism" value="hostel"/>
@@ -3268,7 +3268,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Caravan Site" icon="presets/caravan2.png" type="node,relation">
+				<item name="Caravan Site" icon="styles/standard/accommodation/camping/caravan.png" type="node,relation">
 					<label text="Edit Caravan Site"/>
 					<key key="tourism" value="caravan_site"/>
 					<text key="name" text="Name" default="" delete_if_empty="true"/>
@@ -3299,7 +3299,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Camping Site" icon="presets/tent.png" type="node,relation">
+				<item name="Camping Site" icon="styles/standard/accommodation/camping.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=camp_site" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:tourism=camp_site" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:tourism=camp_site" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=camp_site"/>
 					<label text="Edit Camping Site"/>
 					<key key="tourism" value="camp_site"/>
@@ -3500,7 +3500,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Bar" icon="presets/bar.png" type="node,relation">
+				<item name="Bar" icon="styles/standard/food/bar.png" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bar" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:amenity=bar" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:amenity=bar" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bar" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bar" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bar"/>
 					<label text="Edit Bar"/>
 					<key key="amenity" value="bar"/>
@@ -3527,7 +3527,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Nightclub" icon="presets/bar.png" type="node,relation">
+				<item name="Nightclub" icon="styles/standard/leisure/discoball.svg" type="node,relation">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=nightclub" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=nightclub" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=nightclub" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=nightclub" ro.href="http://wiki.openstreetmap.org/wiki/Ro:Tag:amenity=nightclub" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=nightclub"/>
 					<label text="Edit Nightclub"/>
 					<key key="amenity" value="nightclub"/>
@@ -3617,7 +3617,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Viewpoint" icon="presets/viewpoint.png" type="node,closedway">
+				<item name="Viewpoint" icon="styles/standard/sightseeing/viewpoint.png" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=viewpoint" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:tourism=viewpoint" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:tourism=viewpoint" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:tourism=viewpoint"/>
 					<label text="Edit Viewpoint"/>
 					<key key="tourism" value="viewpoint"/>
@@ -3706,8 +3706,8 @@
 				</item>
 			</group>
 			<!-- Tourism -->
-			<group name="Food" icon="styles/standard/shop/supermarket.png">
-				<item name="Supermarket" icon="styles/standard/shop/supermarket.png" type="node">
+			<group name="Food" icon="styles/standard/shop/supermarket.svg">
+				<item name="Supermarket" icon="styles/standard/shop/supermarket.svg" type="node">
 					<label text="Edit Supermarket"/>
 					<label text="________________________________________"/>
 					<label text="SHOP" fr.text="COMMERCE" en.text="SHOP"/>
@@ -3793,7 +3793,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Butcher" icon="presets/cow.png" type="node">
+				<item name="Butcher" icon="styles/standard/shop/groceries/butcher.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=butcher" es.href="http://wiki.openstreetmap.org/wiki/ES:Tag:shop=butcher" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:shop=butcher" it.href="http://wiki.openstreetmap.org/wiki/IT:Tag:shop=butcher" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=butcher" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:shop=butcher"/>
 					<label text="Edit Butcher"/>
 					<label text="________________________________________"/>
@@ -4065,7 +4065,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Outdoor" icon="presets/tent.png" type="node">
+				<item name="Outdoor" icon="styles/standard/shop/outdoor.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop=outdoor" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:shop=outdoor" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop=outdoor"/>
 					<label text="Edit Outdoor Shop"/>
 					<label text="________________________________________"/>
@@ -4676,7 +4676,7 @@
 				<!-- Bicycle -->
 			</group>
 			<!--Vehicles -->
-			<group name="Cash" icon="presets/dollar.png">
+			<group name="Cash" icon="styles/standard/money/dollar.svg">
 				<item name="Bank" icon="styles/standard/money/bank.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=bank" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:amenity=bank" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:amenity=bank" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:amenity=bank" nl.href="http://wiki.openstreetmap.org/wiki/NL:Tag:amenity=bank" no.href="http://wiki.openstreetmap.org/wiki/No:Tag:amenity=bank" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:amenity=bank" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:amenity=bank"/>
 					<label text="Edit Bank"/>
@@ -4788,7 +4788,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Pawnbroker" de.name="Pfandhaus" fr.name="Prêteur sur gage" ru.name="Ломбард" icon="icons/pawnbroker.png" type="node,closedway">
+				<item name="Pawnbroker" de.name="Pfandhaus" fr.name="Prêteur sur gage" ru.name="Ломбард" icon="presets/pawnbroker.svg" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dpawnbroker"/>
 					<label text="Edit Pawnbroker" de.text="bearbeite Pfandhaus" fr.text="Modifier un prêteur sur gage"/>
 					<space/>
@@ -4900,7 +4900,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Beauty" de.name="Kosmetiksalon / Nagelstudio" fr.name="Salon de beauté" ru.name="Салон красоты" icon="icons/beauty.png" type="node,closedway">
+				<item name="Beauty" de.name="Kosmetiksalon / Nagelstudio" fr.name="Salon de beauté" ru.name="Салон красоты" icon="styles/standard/shop/beauty.svg" type="node,closedway">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dbeauty"/>
 					<label text="Edit Beauty" de.text="bearbeite Kosmetiksalon / Nagelstudio" fr.text="Modifier un salon de beauté"/>
 					<space/>
@@ -4919,7 +4919,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Optician" icon="styles/standard/shop/optician.png" type="node">
+				<item name="Optician" icon="styles/standard/shop/optician.svg" type="node">
 					<label text="Edit Optician"/>
 					<label text="________________________________________"/>
 					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
@@ -5031,7 +5031,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Funeral directors" fr.name="Pompes funebres" icon="icons/funeral_directors.png" type="node">
+				<item name="Funeral directors" fr.name="Pompes funebres" icon="styles/standard/shop/funeral_directors.svg" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:shop%3Dfuneral_directors" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:shop%3Dfuneral_directors"/>
 					<label text="Edit funeral directors" fr.text="Creer ou mettre un jour un office de pompes funebres"/>
 					<label text="________________________________________"/>
@@ -5276,7 +5276,7 @@
 					<text key="note" text="Note" fr.text="Notes"/>
 					<space/>
 				</item>
-				<item name="Book Store" icon="presets/book.png" type="node">
+				<item name="Book Store" icon="styles/standard/shop/book.svg" type="node">
 					<label text="Edit Book Store"/>
 					<label text="________________________________________"/>
 					<label text="ATTRIBUTES" fr.text="ATTRIBUTS" en.text="ATTRIBUTES"/>
@@ -6184,7 +6184,7 @@
 				<text key="note" text="Note" fr.text="Notes"/>
 				<space/>
 			</item>
-			<item name="Reservoir" fr.name="Reservoir" icon="presets/reservoir.png" type="closedway,relation">
+			<item name="Reservoir" fr.name="Reservoir" icon="presets/landuse_water.png" type="closedway,relation">
 				<link href="http://wiki.openstreetmap.org/wiki/Tag:landuse=reservoir"/>
 				<label text="** Edit/modify a reservoir **" fr.text="** Creer/mettre a jour une reservoir **"/>
 				<label text="________________________________________"/>
@@ -6318,9 +6318,9 @@
 			</group>
 		</group>
 		<!-- Landuse -->
-		<group name="Physical environment" fr.name="Environnement naturel" icon="presets/tree.png">
-			<group name="Nature" icon="presets/tree.png">
-				<item name="Peak" icon="presets/peak.png" type="node">
+		<group name="Physical environment" fr.name="Environnement naturel" icon="styles/standard/misc/landmark/trees.png">
+			<group name="Nature" icon="styles/standard/misc/landmark/trees.png">
+				<item name="Peak" icon="presets/peak.svg" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=peak" pt_BR.href="http://wiki.openstreetmap.org/wiki/Pt-br:Tag:natural=peak"/>
 					<label text="Edit Peak"/>
 					<key key="natural" value="peak"/>
@@ -6342,7 +6342,7 @@
 					<space/>
 				</item>
 				<separator/>
-				<item name="Tree" icon="presets/tree.png" type="node">
+				<item name="Tree" icon="styles/standard/misc/landmark/trees.png" type="node">
 					<link href="http://wiki.openstreetmap.org/wiki/Tag:natural=tree" de.href="http://wiki.openstreetmap.org/wiki/DE:Tag:natural=tree" fi.href="http://wiki.openstreetmap.org/wiki/Fi:Tag:natural=tree" fr.href="http://wiki.openstreetmap.org/wiki/FR:Tag:natural=tree" ja.href="http://wiki.openstreetmap.org/wiki/JA:Tag:natural=tree" ru.href="http://wiki.openstreetmap.org/wiki/RU:Tag:natural=tree"/>
 					<label text="Edit Tree"/>
 					<key key="natural" value="tree"/>
