@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="2.2_2013-03-25" author="HOT (Humanitarian OpenStreetMap Team)" shortdescription="HDM Data Model for HOT field surveys" description="HDM Data Model adapted for Eurosha from OTI STM020 program in Haiti">
 	<group name="HOT" fr.name="HOT" en.name="HOT">
+		<group name="Tasks" en.name="Tasks" es.name="Ecuador">
+			<group name="Equador" en.name="Equador" es.name="Ecuador">
+			<item name="Building digitizing" fr.name="Digitalisation de batiment" en.name="Building digitizing" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
+				
+				</item>
+			</group>	
+		</group>
 		<!-- -->
 		<item name="Building digitizing" fr.name="Digitalisation de batiment" en.name="Building digitizing" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
 			<label text="** Edit a building based on imagery **" fr.text="** Creer/mettre a jour un batiment a partir d'une imagerie **" en.text="** Edit/modify a building based on imagery **"/>
