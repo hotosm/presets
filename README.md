@@ -49,4 +49,5 @@ To not create a new file run:
 
 ```
 $ xmllint --format [FILE_NAME] > temp; mv temp [FILE_NAME]
+
 ```
