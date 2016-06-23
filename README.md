@@ -1,4 +1,7 @@
+(important note, this is am unofficial fork, there is not relation with HOT , this fork have been done to make tests, you can take these files, test it,do with it whatever your want... etc.)
+
 # JOSM presets maintained by HOT team
+
 
 See the https://github.com/hotosm/scripts for tools to help process these.
 
