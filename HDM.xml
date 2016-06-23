@@ -1,6 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" version="2.2_2013-03-25" author="HOT (Humanitarian OpenStreetMap Team)" shortdescription="HDM Data Model for HOT field surveys" description="HDM Data Model adapted for Eurosha from OTI STM020 program in Haiti">
 	<group name="HOT" fr.name="HOT" en.name="HOT">
+		<group name="Tasks" ca.name="Tasques" en.name="Tasks" es.name="Tareas">
+			<group name="#1924 - M7,8 Earthquake in Ecuador" ca.name="#1924 - Terratrèmol a l'Equador de 7,8" en.name="#1924 - M7,8 Earthquake in Ecuador" es.name="#1924 - Terremoto en Ecuador de 7,8">
+			
+			<item name="Event" ca.name="Event" en.name="Event" es.name="Evento" icon="" type="node,way,closedway,relation">
+			<key key="damage:event" value="2016EcuadorEarthquake" />
+			</item>
+			
+			<item name="Highway damages avaluation (impassable)" ca.name="Avaluació de danys a les vies (impassable)" en.name="Highway damages avaluation" es.name="Evaluación de daños viales (impasable)" icon="" type="node,way,closedway,relation">
+			<key key="status" value="impassable" />
+			</item>
+				
+						<item name="Building digitizing" ca.name="Edificis" en.name="Building digitizing" es.name="Edificios" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
+						<label text="** Edit a building based on imagery **" ca.text="** Edita/modifica un edifici basat en imagineria **" fr.text="** Creer/mettre a jour un batiment a partir d'une imagerie **" en.text="** Edit/modify a building based on imagery **" es.text="** Edita/modifica un edificio basado en imaginería **"/>
+						<link href="http://wiki.openstreetmap.org/wiki/Key:building" fr.href="http://wiki.openstreetmap.org/wiki/FR:Key:building" pt_br.href="http://wiki.openstreetmap.org/wiki/Pt-br:Key:building"/>
+						<space/>
+						<key key="building" value="yes"/>
+				<label text="____AERIAL IMAGES____" ca.text="____IMATGES ÀERIES____" es.text="____IMÁGENES AÉREAS____"/>
+				<label text="SOURCE (geometry and/or attributes)" ca.text="FONT (geometria o atributs)" en.text="SOURCE (geometry and/or attributes)" es.text="FUENTE(geometría o atributos)" />
+				<space/>
+				<label text="If one is already existing, add new after a comma. Ex: Ex: UAV - Universidad de Cuenca; Satellite - Pleiades; Ortho - IGM;..." ca.text="Si una font ja existeix, afegeix una nova després d'un punt i coma. Ex: UAV - Universidad de Cuenca; Satellite - Pleiades; Ortho - IGM;..." en.text="If one is already existing, add new one after a comma. Ex: UAV - Universidad de Cuenca; Satellite - Pleiades; Ortho - IGM;..." es.text="Si una fuente ya existe añádela después de un punto y coma. Ej: UAV - Universidad de Cuenca; Satellite - Pleiades; Ortho - IGM;..."/>
+				<space/>
+				<text key="source:damage:imagery" text="Source name" ca.text="Nom de la font" es.text="Nombre de la fuente"/>
+				<space/>
+				<text key="damage:evaluation_date:imagery" text="Date of the evaluation" ca.text="Data de l'avaluació" es.text="Fecha de la evaluación"/>
+				<space/>
+				<combo key="damage:evaluation_step:imagery" text="level of the damage" ca.text="Nivell de dany" es.text="Nivel de daño" values="damaged,destroyed" ca.display_values="danyat,destruit" es.display_values="dañado,destruido" default="" />
+				<space/>
+								<label text="____FIELD IMAGES____" ca.text="____IMATGES DE CAMP____" es.text="____IMÁGENES EN CAMPO____"/>
+				<label text="SOURCE (geometry and/or attributes)" ca.text="FONT (geometria o atributs)" en.text="SOURCE (geometry and/or attributes)" es.text="FUENTE(geometría o atributos)" />
+				<space/>
+				<label text="If one is already existing, add new after a comma. Ex: Miduvi, yoveoveo, EPN..." ca.text="Si una font ja existeix, afegeix una nova després d'un punt i coma. Ex: Miduvi, yoveoveo, EPN..." es.text="Si una fuente ya existe añádela después de un punto y coma... Ex: Miduvi; yoveoveo; EPN..."/>
+				<space/>
+				<text key="source:damage:field" text="Source name" ca.text="Nom de la font" es.text="Nombre de la fuente"/>
+				<space/>
+				<text key="damage:evaluation_date:field" text="Date of the evaluation" ca.text="Data de l'avaluació" es.text="Fecha de la evaluación"/>
+				<space/>
+				<combo key="damage:evaluation_step:field" text="level of the damage" ca.text="Nivell de dany" es.text="Nivel de daño" values="damaged,destroyed" ca.display_values="danyat,destruit" es.display_values="dañado,destruido" default="" />
+				<space/>
+				
+		</item>
+				
+							
+				<item name="Temporal Camps" ca.name="Campaments temporals" es.name="Albergues Temporales" icon="" type="node,closedway">
+						
+						<key key="tourism" value="camp_site"/>
+						
+				<combo key="idp:camp_site" text="Organized camp" ca.text="Campament organitzat" es.text="Campamento organizado" values="organized_camp,spontaneus_camp" ca.display_values="organitzat,espontani" es.display_values="organizado,espontaneo" default="" />
+				<optional>
+				<text key="name" text="Name" ca.text="Nom" es.text="Nombre" en.text="Name"/>
+				<text key="capacity" text="Capacity" ca.text="Capacitat" es.text="Capacidad" en.text="Capacity"/>
+				<text key="operator" text="Operator" ca.text="Organització que el gestiona" es.text="Organización que lo gestiona" en.text="Organization that manages it."/>
+				
+				<combo key="amenity" text="Services" ca.text="Serveis" es.text="Servicios" values="toilets,drinking_water,waste_disposal,toilets;drinking_water;waste_disposal,toilets;drinking_water,toilets;waste_disposal,drinking_water;waste_disposal" ca.display_values="Lavabos,Aigua potable,Recollida d'escombraries,Lavabos; aigua potable i recollida d'escombraries,Lavabos i aigua potable,Lavabos i recollida d'escombraries,Aigua potable i recollida d'escombraries" es.display_values="Lavabos,Agua potable,Basuras,Lavabos; agua potable y basuras,Lavabos y agua potable,Lavabos y basuras,Agua potable y basuras" default="" />
+								
+		</optional>
+				
+		</item>
+		
+			
+			</group>
+			
+		</group>
 		<!-- -->
 		<item name="Building digitizing" fr.name="Digitalisation de batiment" en.name="Building digitizing" icon="styles/standard/misc/landmark/building.png" type="closedway,relation">
 			<label text="** Edit a building based on imagery **" fr.text="** Creer/mettre a jour un batiment a partir d'une imagerie **" en.text="** Edit/modify a building based on imagery **"/>
