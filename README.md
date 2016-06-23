@@ -1,6 +1,5 @@
 # JOSM presets maintained by HOT team
 
-
 See the https://github.com/hotosm/scripts for tools to help process these.
 
 ## HOWTO-XMLLINT (on ubuntu)
